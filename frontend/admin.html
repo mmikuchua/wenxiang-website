@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>统计报告 · 文享智配</title>
+    <style>
+        /* 全局样式 - 字体多元化 + 灰色调 */
+        body {
+            margin: 0;
+            padding: 0;
+            /* 正文使用经典无衬线组合，清晰现代 */
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: url('/static/images/report.jpg') no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* 半透明遮罩，保证文字清晰 */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.75);
+            z-index: -1;
+        }
+
+        /* 主容器 - 半透明毛玻璃，动画，紧凑 */
+        .container {
+            max-width: 1100px;
+            margin: 10px auto;
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(6px);
+            padding: 12px 18px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(25px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* 一级标题：衬线字体，增加庄重感 */
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 600;
+            font-family: 'Georgia', 'Times New Roman', '宋体', serif;
+            letter-spacing: 0.5px;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 6px;
+            margin: 0 0 10px 0;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* 报告内容区域 - 所有元素间距压缩，颜色中性 */
+        .report-content {
+            animation: fadeIn 0.8s ease-out 0.2s both;
+            font-size: 15px;
+            line-height: 1.4;
+            color: #2c3e50;
+        }
+
+        /* 统一压缩所有常见元素的边距 */
+        .report-content h3,
+        .report-content h4,
+        .report-content h5,
+        .report-content p,
+        .report-content ul,
+        .report-content ol,
+        .report-content li,
+        .report-content div,
+        .report-content .stat-item,
+        .report-content .group-body p,
+        .report-content .conclusion-box p {
+            margin: 3px 0;
+        }
+
+        /* 二级标题 (h3) - 粗衬线体，加灰色背景 */
+        .report-content h3 {
+            font-size: 1.3rem;
+            margin: 8px 0 3px 0;
+            background: #f0f0f0;
+            padding: 4px 12px;
+            border-radius: 30px;
+            font-weight: 700;
+            font-family: 'Merriweather', 'Georgia', 'Times New Roman', serif;
+            color: #1e2b3a;
+        }
+
+        /* 三级标题 (h4) - 中等线体，加粗 */
+        .report-content h4 {
+            font-size: 1.1rem;
+            margin: 5px 0 2px 0;
+            color: #2c3e50;
+            border-bottom: 2px dashed #aaa;
+            padding-bottom: 2px;
+            font-weight: 600;
+            font-family: 'Poppins', 'Segoe UI', sans-serif;
+            letter-spacing: 0.3px;
+        }
+
+        /* 列表项 - 保持无衬线，清晰 */
+        .report-content ul,
+        .report-content ol {
+            padding-left: 20px;
+            margin: 2px 0;
+            font-family: 'Segoe UI', Roboto, sans-serif;
+        }
+
+        .report-content li {
+            margin: 1px 0;
+        }
+
+        /* 卡片类 - 减少内外边距，无彩色边框 */
+        .report-content .section-card,
+        .report-content .stat-card,
+        .report-content .group-card,
+        .report-content .conclusion-box {
+            margin: 6px 0;
+            padding: 8px 12px;
+            background: rgba(245, 245, 245, 0.6);
+            border-radius: 12px;
+            border: 1px solid #ddd;
+            box-shadow: none;
+        }
+
+        /* 高亮文本 - 用柔和的米色背景，字体加粗且使用斜体增加变化 */
+        .report-content .highlight-text {
+            background: #f0e6d8;
+            color: #4a3e32;
+            font-weight: 700;
+            font-style: italic;
+            padding: 0 4px;
+            border-radius: 4px;
+            border-bottom: 2px solid #b0a28a;
+            font-family: 'Crimson Text', 'Georgia', serif;
+        }
+
+        /* 数据标签 - 中性色，使用等宽字体或半粗体 */
+        .report-content .tag,
+        .report-content .data-highlight,
+        .report-content .survey-data {
+            background: #e0e0e0;
+            color: #1e2b3a;
+            padding: 2px 8px;
+            border-radius: 16px;
+            font-size: 0.95em;
+            font-weight: 600;
+            font-family: 'Fira Code', 'Consolas', monospace; /* 等宽字体，凸显技术感 */
+            display: inline-block;
+            margin: 0 2px;
+            border: none;
+            letter-spacing: 0.2px;
+        }
+
+        /* 调研数据特别使用深灰背景，更醒目 */
+        .report-content .survey-data {
+            background: #d0d0d0;
+            font-weight: 500;
+            font-family: 'Montserrat', 'Segoe UI', sans-serif; /* 换用另一种无衬线，增加对比 */
+        }
+
+        /* 引用、结论部分 - 使用斜体+特殊字体 */
+        .report-content blockquote,
+        .report-content .conclusion-text {
+            font-family: 'Cormorant Garamond', 'Georgia', serif;
+            font-style: italic;
+            font-weight: 400;
+            color: #2b3e4f;
+            padding-left: 15px;
+            border-left: 3px solid #aaa;
+            margin: 8px 0;
+        }
+
+        /* 返回按钮 - 统一风格，保持简洁 */
+        .back-btn {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 6px 20px;
+            background: #555;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 500;
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            transition: background 0.2s, transform 0.2s;
+        }
+
+        .back-btn:hover {
+            background: #333;
+            transform: scale(1.05);
+        }
+
+        /* 移动端适配 */
+        @media (max-width: 768px) {
+            .container {
+                margin: 8px;
+                padding: 8px 12px;
+            }
+            h1 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>西安公共文化需求统计分析报告</h1>
+        <div class="report-content">
+            {{ report | safe }}
+        </div>
+        <a href="/" class="back-btn">返回首页</a>
+    </div>
+</body>
+</html>
