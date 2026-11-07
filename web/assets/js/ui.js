@@ -94,7 +94,7 @@ export function renderFooter(dataset) {
     <div class="footer-inner">
       <p><strong>文享智配</strong> · 西安公共文化需求匹配平台</p>
       <p class="muted">数据来源：${escapeHtml(sourceText)} · 活动 ${dataset?.count ?? '—'} 条 · 更新于 ${stamp}</p>
-      <p class="muted">活动数据由 GitHub Actions 定时抓取，并经 AI 语义标注写入；画像与问卷默认只保存在你的浏览器本地。</p>
+      <p class="muted">活动数据由采集与 AI 语义标注流水线生成，按需更新；画像与问卷默认只保存在你的浏览器本地。</p>
     </div>`;
 }
 

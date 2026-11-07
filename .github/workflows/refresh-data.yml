@@ -1,16 +1,12 @@
-name: Refresh activity data
+name: Refresh activity data (manual)
 
-# 每天北京时间 04:23 自动抓取 + 语义标注 + 发布；
-# 也可以在 Actions 页面手动触发，指定数据源和本次最多标注条数。
+# 不做定时任务：只有手动在 Actions 页面点「Run workflow」时才会抓取、标注并发布。
+# 需要更新数据时再手动触发，避免无人值守地消耗 API 额度、也避免抓到半成品数据。
 on:
-  schedule:
-    # 每天两次：北京时间 04:23 与 16:23
-    - cron: "23 20 * * *"
-    - cron: "23 8 * * *"
   workflow_dispatch:
     inputs:
       sources:
-        description: 数据源（all / douban / huodongxing / sxhm / sxlib）
+        description: 数据源（all / douban / huodongxing / bendibao_http / sxhm / sxlib）
         required: false
         default: all
       max_enrich:
