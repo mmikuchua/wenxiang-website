@@ -55,3 +55,15 @@ test('覆盖主要活动类型与多个数据来源', () => {
   const sources = new Set(activities.map((item) => item.source).filter(Boolean));
   assert.ok(sources.size >= 2, `来源过少: ${[...sources].join(',')}`);
 });
+
+test('活动库包含足够多的「当前/未来」活动', () => {
+  const now = Date.now();
+  const current = activities.filter((item) => {
+    if (!item.valid_end) return true;
+    const end = Date.parse(item.valid_end);
+    return !Number.isFinite(end) || end >= now;
+  });
+  assert.ok(current.length >= 80, `可用活动过少：${current.length}`);
+  const dated = activities.filter((item) => item.valid_start).length;
+  assert.ok(dated >= 20, `带档期的活动过少：${dated}`);
+});

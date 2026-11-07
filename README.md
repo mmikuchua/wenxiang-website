@@ -74,24 +74,42 @@
 4. **可解释 + 可学习**：每张卡片给出命中的具体理由；点赞/否掉写入标签亲和度
    （`computeAffinity`，带阻尼，避免一票锁死偏好），下次排序自动生效。
 
-对应实现：`web/assets/js/engine.js`（纯函数，17 个单元测试覆盖）。
+对应实现：`web/assets/js/engine.js`（纯函数，18 个单元测试覆盖）。
 
 ## 数据从哪来
 
-活动数据由数据仓库 [xian-activity-spider](https://github.com/mmikuchua/xian-activity-spider) 生成：
+活动数据由数据仓库 [xian-activity-spider](https://github.com/mmikuchua/xian-activity-spider) 采集与标注。
+
+| 数据源 | 类型 | 内容 | 定时抓取 |
+| --- | --- | --- | --- |
+| 豆瓣同城 · 西安 | 事件 | 演出/展览/脱口秀/活动，带档期、场馆、票价 | ✅ |
+| 活动行 · 西安 | 事件 | 同城文化活动（已过滤商业培训/行业会议） | ✅ |
+| 陕西省图书馆 | 活动 | 陕图讲坛讲座预告 | ✅ |
+| 陕西历史博物馆 | 展览 | 临时展览（含展期、展厅） | ✅ |
+| 西安本地宝 | 事件 | 活动日历（有拼图人机验证，HTTP 偶尔被拦） | ⚠️ 尽力而为 |
+| 陕西大剧院 | 演出 | 演出列表（SPA，需要浏览器） | 仅本机 |
+| 西安公共文化场馆目录 | 场馆 | 75 个常设文化场馆/空间 | 静态 |
+
+**每天北京时间 04:23**，仓库里的 `Refresh activity data` 工作流会：
+
+1. 抓取所有 HTTP 数据源；
+2. 与现有活动库**增量合并**（某源失败不会丢数据，过期的自动淘汰）；
+3. 只为新增/内容变更的活动调用 DeepSeek 打标（有内容哈希，不会重复烧钱）；
+4. 校验数据 → 提交 `web/data/activities.json` → 直接发布到 Pages。
+
+也可以在 Actions 页面手动触发，指定数据源和本次最多标注条数。
+
+本机手动刷新（数据源更全，含需要浏览器的大剧院）：
 
 ```bash
-git clone https://github.com/mmikuchua/xian-activity-spider
-cd xian-activity-spider
-python -m xian_activities.cli build
+cd ../xian-activity-spider
+python -m xian_activities.cli update --all-sources
 copy data\activities.json ..\wenxiang-website\web\data\activities.json
 ```
 
 每个活动包含：类型/需求/舒适物/关注因素/年龄段/时段等问卷编码、LLM 生成的主题与人群标签、
 文化含量/交通/环境/性价比/亲子友好等 0–1 评分，以及 40 字以内的客观简介。
-
-> 数据不是实时的：本地宝有拼图人机验证，CI 抓取不可靠，所以采用「本机抓取 → 提交 JSON → 自动部署」。
-> 页面底部会显示数据更新时间。
+页面底部会显示数据来源、条数与更新时间。
 
 ## 本地运行
 
@@ -133,11 +151,12 @@ node tools/browser-check.mjs http://127.0.0.1:8000
 
 | 方式 | 说明 |
 | --- | --- |
-| **GitHub Pages** | 已配置 `.github/workflows/pages.yml`，push 到 `main` 自动发布 `web/` |
+| **GitHub Pages** | `.github/workflows/pages.yml`：push 到 `main` 自动发布 `web/`；`.github/workflows/refresh-data.yml`：每天自动更新数据并发布 |
 | Render / Docker | `render.yaml` + `Dockerfile`，含可选的 FastAPI 后端 |
 | Vercel / Netlify | 仓库内已放 `vercel.json` / `netlify.toml`，导入仓库即可，无需构建命令 |
 
 Pages 首次启用：仓库 Settings → Pages → Source 选择 **GitHub Actions**。
+定时更新需要仓库 Secret `DEEPSEEK_API_KEY`（Settings → Secrets and variables → Actions）。
 
 ## 隐私
 
@@ -156,10 +175,13 @@ web/                     # 线上部署的静态站点
   assets/js/intent.js    # 一句话需求解析
   assets/js/cloud.js     # 可选后端探测与调用
   assets/css/app.css     # 设计系统（无外部字体/CDN）
-  data/activities.json   # 活动数据（流水线产物）
+  data/activities.json   # 活动数据（每天由工作流更新）
   data/pilot.json        # 试点问卷聚合基线
   tests/                 # Node 单元测试
+.github/workflows/
+  pages.yml              # push → 构建 → 发布
+  refresh-data.yml       # 每天抓取 → 合并 → AI 标注 → 发布
 backend/                 # 可选 FastAPI：汇总 + AI 顾问
-tools/                   # 数据导出、端到端浏览器自检
+tools/                   # 数据导出、排序调试、端到端浏览器自检
 docs/                    # 截图
 ```

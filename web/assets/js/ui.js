@@ -81,11 +81,20 @@ export function renderFooter(dataset) {
   const stamp = date && !Number.isNaN(date.getTime())
     ? `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
     : '—';
+  const counts = new Map();
+  for (const activity of dataset?.activities || []) {
+    if (!activity.source) continue;
+    counts.set(activity.source, (counts.get(activity.source) || 0) + 1);
+  }
+  const sources = [...counts.entries()].sort((a, b) => b[1] - a[1]).map(([name]) => name);
+  const sourceText = sources.length
+    ? `${sources.slice(0, 6).join(' / ')}${sources.length > 6 ? ' 等' : ''}`
+    : '—';
   host.innerHTML = `
     <div class="footer-inner">
       <p><strong>文享智配</strong> · 西安公共文化需求匹配平台</p>
-      <p class="muted">数据来源：西安本地宝 / 陕西大剧院 / 陕西省图书馆 / 西安公共文化场馆目录 · 活动 ${dataset?.count ?? '—'} 条 · 更新于 ${stamp}</p>
-      <p class="muted">画像与问卷数据默认只保存在你的浏览器本地；活动数据由 AI 语义标注流水线生成。</p>
+      <p class="muted">数据来源：${escapeHtml(sourceText)} · 活动 ${dataset?.count ?? '—'} 条 · 更新于 ${stamp}</p>
+      <p class="muted">活动数据由 GitHub Actions 定时抓取，并经 AI 语义标注写入；画像与问卷默认只保存在你的浏览器本地。</p>
     </div>`;
 }
 
@@ -163,6 +172,7 @@ export function activityCard(rec, options = {}) {
           <dt>时间</dt><dd>${escapeHtml(activity.time_text || '—')}</dd>
           <dt>费用</dt><dd>${escapeHtml(activity.price_text || PRICE_TEXT[activity.price_level] || '—')}</dd>
           <dt>适合</dt><dd>${escapeHtml((activity.tags?.audience || []).join(' / ') || '—')}</dd>
+          <dt>来源</dt><dd>${escapeHtml(activity.source || '—')}</dd>
         </dl>
       </details>
       <footer class="rec-foot">
