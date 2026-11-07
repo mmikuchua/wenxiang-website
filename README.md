@@ -78,10 +78,11 @@
 
 ## 数据从哪来
 
-活动数据由同目录的 [MyXianSpiderBot](../MyXianSpiderBot) 生成：
+活动数据由数据仓库 [xian-activity-spider](https://github.com/mmikuchua/xian-activity-spider) 生成：
 
 ```bash
-cd ../MyXianSpiderBot
+git clone https://github.com/mmikuchua/xian-activity-spider
+cd xian-activity-spider
 python -m xian_activities.cli build
 copy data\activities.json ..\wenxiang-website\web\data\activities.json
 ```
