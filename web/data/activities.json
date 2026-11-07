@@ -1,7 +1,7 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-07T21:08:14+08:00",
- "count": 139,
+ "generated_at": "2026-11-07T13:13:30+00:00",
+ "count": 155,
  "meta": {
   "pipeline": "xian-activities/update",
   "sources": [
@@ -19,43 +19,43 @@
      "source": "douban",
      "display": "豆瓣同城",
      "count": 16,
-     "duration_s": 6.7
+     "duration_s": 20.6
     },
     {
      "source": "huodongxing",
      "display": "活动行",
      "count": 5,
-     "duration_s": 0.4
+     "duration_s": 2.5
+    },
+    {
+     "source": "bendibao_http",
+     "display": "西安本地宝",
+     "count": 15,
+     "duration_s": 8.1
     },
     {
      "source": "sxhm",
      "display": "陕西历史博物馆",
      "count": 3,
-     "duration_s": 0.3
-    },
-    {
-     "source": "sxlib",
-     "display": "陕西省图书馆",
-     "count": 20,
-     "duration_s": 0.4
+     "duration_s": 1.6
     }
    ],
    "failed": [
     {
-     "source": "bendibao_http",
-     "display": "西安本地宝",
-     "error": "bendibao_http: 接口被拦截或返回异常（返回内容不是 JSON（可能触发了人机验证）：<!DOCTYPE html> <html lang=\"zh-CN\"> <head>     <meta charset=\"UTF-8\">     <meta name=\"viewport\" content=\"width=device-wi）"
+     "source": "sxlib",
+     "display": "陕西省图书馆",
+     "error": "网络异常: <urlopen error timed out> (https://www.sxlib.org.cn/hd/hdyg/stjt/)"
     }
    ],
-   "count": 44,
-   "duration_s": 8.5,
+   "count": 39,
+   "duration_s": 88.9,
    "skipped": []
   },
   "llm": {
-   "calls": 2,
-   "prompt_tokens": 2616,
-   "completion_tokens": 8097,
-   "reasoning_tokens": 6728
+   "calls": 3,
+   "prompt_tokens": 4681,
+   "completion_tokens": 7454,
+   "reasoning_tokens": 4251
   }
  },
  "activities": [
@@ -215,6 +215,462 @@
     "hash": "f3f909fbdc9853a0"
    },
    "seen_at": ""
+  },
+  {
+   "name": "2026TizzyT流行巡回演唱会-西安站",
+   "id": "act-29f4591819",
+   "source": "西安本地宝",
+   "source_id": "1120",
+   "category_text": "",
+   "summary": "TizzyT流行巡演西安站，以时间为轴打造沉浸式光影舞台，古城与流行音乐碰撞。",
+   "time_text": "11.07",
+   "address": "西安奥体中心体育馆（西安市灞桥区西滨路与向东路交叉口东北角）",
+   "district": "灞桥区",
+   "price_text": "",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "演唱会以“时间”为轴，打造沉浸式光影故事，结合古城西安的厚重底蕴与流行音乐的鲜活碰撞，为观众带来跨越时空的视听体验。",
+   "link": "https://xa.bendibao.com/xiuxian/2026108/154336.shtm",
+   "cover": "https://imgbdb3.bendibao.com/autoimg/202610/08/20261008121202_59292.png",
+   "tags": {
+    "factors": [
+     "A",
+     "B"
+    ],
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "themes": [
+     "流行音乐",
+     "现场演唱会",
+     "光影舞台"
+    ],
+    "moods": [
+     "热闹",
+     "沉浸"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "categories": [
+     "C"
+    ],
+    "audience": [
+     "年轻乐迷",
+     "情侣"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "culture": 0.6,
+    "transport": 0.6,
+    "environment": 0.7,
+    "cost": 0.4,
+    "family": 0.3,
+    "quiet": 0.1,
+    "social": 0.8,
+    "learning": 0.4,
+    "quality": 0.8
+   },
+   "valid_start": "2026-11-06T16:00",
+   "valid_end": "2026-11-07T15:59",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T13:13:29+00:00",
+    "version": "2026-11-tag-v1",
+    "cached": false,
+    "hash": "147d16de4ea45581"
+   },
+   "seen_at": "2026-11-07T13:13:15+00:00"
+  },
+  {
+   "name": "2026大型驻场观念演出 《无界·长安》",
+   "id": "act-8c9c62f447",
+   "source": "西安本地宝",
+   "source_id": "36",
+   "category_text": "",
+   "summary": "张艺谋总导演的大型驻场观念演出，用舞台科技呈现长安意象。",
+   "time_text": "01.30起",
+   "address": "长安乐·一带一路文化艺术中心（西安市灞桥区灞渭大道1号）",
+   "district": "灞桥区",
+   "price_text": "",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "张艺谋总导演创作，中国首部大型驻场观念演出",
+   "link": "https://xa.bendibao.com/xiuxian/2024419/127648.shtm",
+   "cover": "https://imgbdb4.bendibao.com/xabdb/20244/19/2024419162222_28873.jpg",
+   "tags": {
+    "factors": [
+     "A",
+     "C"
+    ],
+    "time_slots": [
+     "A",
+     "B"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "themes": [
+     "驻场演出",
+     "观念艺术",
+     "张艺谋",
+     "长安文化"
+    ],
+    "moods": [
+     "震撼",
+     "沉浸"
+    ],
+    "demand": [
+     "A"
+    ],
+    "categories": [
+     "C"
+    ],
+    "audience": [
+     "文艺爱好者",
+     "游客"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "culture": 0.9,
+    "transport": 0.5,
+    "environment": 0.8,
+    "cost": 0.5,
+    "family": 0.5,
+    "quiet": 0.6,
+    "social": 0.6,
+    "learning": 0.6,
+    "quality": 0.9
+   },
+   "valid_start": "2025-01-29T16:00",
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T13:13:30+00:00",
+    "version": "2026-11-tag-v1",
+    "cached": false,
+    "hash": "f44088f135333a88"
+   },
+   "seen_at": "2026-11-07T13:13:15+00:00"
+  },
+  {
+   "name": "2026张震岳《跟着感觉走》西安巡回演唱会",
+   "id": "act-b46f476217",
+   "source": "西安本地宝",
+   "source_id": "1079",
+   "category_text": "",
+   "summary": "张震岳巡演西安站，唱响《爱我别走》《小宇》等经典，重温平凡又特别的时刻。",
+   "time_text": "11.21",
+   "address": "西安奥体中心体育馆（西安市灞桥区西滨路与向东路交叉口东北角）",
+   "district": "灞桥区",
+   "price_text": "",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "《爱我别走》、《小宇》、《思念是一种病》、《再见》、《妈妈的眼睛》，张震岳用最直接的旋律和极具洞察力的歌词，陪伴几代人度过了暗恋、告白、思念、成长、启程、离别，将我们带回那些平凡又特别的时刻。",
+   "link": "https://xa.bendibao.com/xiuxian/202697/153728.shtm",
+   "cover": "https://imgbdb3.bendibao.com/autoimg/20269/07/2026907121202_50276.png",
+   "tags": {
+    "factors": [
+     "A",
+     "B"
+    ],
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "themes": [
+     "流行摇滚",
+     "经典金曲",
+     "青春记忆"
+    ],
+    "moods": [
+     "热闹",
+     "怀旧"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "categories": [
+     "C"
+    ],
+    "audience": [
+     "中年乐迷",
+     "年轻乐迷"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "culture": 0.65,
+    "transport": 0.6,
+    "environment": 0.7,
+    "cost": 0.4,
+    "family": 0.3,
+    "quiet": 0.1,
+    "social": 0.8,
+    "learning": 0.4,
+    "quality": 0.8
+   },
+   "valid_start": "2026-11-20T16:00",
+   "valid_end": "2026-11-21T15:59",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T13:13:29+00:00",
+    "version": "2026-11-tag-v1",
+    "cached": false,
+    "hash": "88d1f92c3f9a327d"
+   },
+   "seen_at": "2026-11-07T13:13:15+00:00"
+  },
+  {
+   "name": "2026苏见信「尽兴而活」巡回演唱会西安站",
+   "id": "act-c3ab0f8e77",
+   "source": "西安本地宝",
+   "source_id": "1086",
+   "category_text": "",
+   "summary": "苏见信巡回演唱会西安站，摇滚现场，城市运动公园体育馆夜间开唱。",
+   "time_text": "11.21",
+   "address": "西安城市运动公园体育馆（西安市未央区未央路168号）",
+   "district": "未央区",
+   "price_text": "",
+   "price_level": "high",
+   "price_from": 0.0,
+   "highlights": "2026年，苏见信（信）带着他的摇滚态度与炽热声浪回归，延续「尽兴而活」的主题，将以更洒脱的音乐表达、更热血的现场狂欢，开启新一轮的超燃摇滚音乐现场。",
+   "link": "https://xa.bendibao.com/xiuxian/2026917/153980.shtm",
+   "cover": "https://imgbdb3.bendibao.com/autoimg/20269/17/2026917101203_82942.png",
+   "tags": {
+    "factors": [
+     "A",
+     "B"
+    ],
+    "time_slots": [
+     "A",
+     "B"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "themes": [
+     "摇滚",
+     "流行音乐",
+     "现场演唱会"
+    ],
+    "moods": [
+     "热血",
+     "热闹"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "categories": [
+     "C"
+    ],
+    "audience": [
+     "乐迷",
+     "年轻人"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "culture": 0.6,
+    "transport": 0.65,
+    "environment": 0.5,
+    "cost": 0.2,
+    "family": 0.2,
+    "quiet": 0.1,
+    "social": 0.9,
+    "learning": 0.3,
+    "quality": 0.8
+   },
+   "valid_start": "2026-11-20T16:00",
+   "valid_end": "2026-11-21T15:59",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T13:13:25+00:00",
+    "version": "2026-11-tag-v1",
+    "cached": false,
+    "hash": "8eb05321d0dffcbb"
+   },
+   "seen_at": "2026-11-07T13:13:15+00:00"
+  },
+  {
+   "name": "2026西安植物园秋季花展",
+   "id": "act-fa56cbb40c",
+   "source": "西安本地宝",
+   "source_id": "1114",
+   "category_text": "",
+   "summary": "西安植物园秋季花展，以菊花为主角，布展约五千平方米，园林水景相伴。",
+   "time_text": "09.28 - 11.10",
+   "address": "西安植物园（雁塔区雁翔路与南三环交界处向南第一个路口向东1.4公里）",
+   "district": "雁塔区",
+   "price_text": "",
+   "price_level": "low",
+   "price_from": 20.0,
+   "highlights": "本次花展以菊花为核心主角，巧妙利用了植物园独特的园林地貌与水体景观。布展区域主要集中在西大门主要干道沿线、本草园以及水景园周边等核心地带，布展面积约5000余平方米。",
+   "link": "https://xa.bendibao.com/xiuxian/2026929/154264.shtm",
+   "cover": "https://imgbdb3.bendibao.com/xabdb/20269/29/2026929142642_84448.jpg",
+   "tags": {
+    "factors": [
+     "D",
+     "C"
+    ],
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "themes": [
+     "菊花展",
+     "秋景",
+     "园林水景"
+    ],
+    "moods": [
+     "静心",
+     "惬意"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "categories": [
+     "C",
+     "H"
+    ],
+    "audience": [
+     "亲子家庭",
+     "摄影爱好者",
+     "银发族"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "culture": 0.5,
+    "transport": 0.55,
+    "environment": 0.9,
+    "cost": 0.8,
+    "family": 0.8,
+    "quiet": 0.7,
+    "social": 0.4,
+    "learning": 0.5,
+    "quality": 0.8
+   },
+   "valid_start": "2026-09-27T16:00",
+   "valid_end": "2026-11-10T15:59",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T13:13:29+00:00",
+    "version": "2026-11-tag-v1",
+    "cached": false,
+    "hash": "9336bab4577c7050"
+   },
+   "seen_at": "2026-11-07T13:13:15+00:00"
+  },
+  {
+   "name": "2026西安酵醒面包节",
+   "id": "act-7bc6db81a9",
+   "source": "西安本地宝",
+   "source_id": "974",
+   "category_text": "",
+   "summary": "乐荟中心面包节2.0，规模与摊位升级，汇集面包烘焙与市集互动体验。",
+   "time_text": "04.17起",
+   "address": "南飞鸿·乐荟中心（陕西省西安市雁塔区朱雀南路1589号）",
+   "district": "雁塔区",
+   "price_text": "",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "酵醒面包节2.0版来啦，比去年更大的规模!更多美味~，现场更有趣，更好玩，礼物更多~",
+   "link": "https://xa.bendibao.com/xiuxian/2026317/148591.shtm",
+   "cover": "https://imgbdb4.bendibao.com/xabdb/xiuxian/20263/17/2026317094032_63817.png",
+   "tags": {
+    "factors": [
+     "C",
+     "B"
+    ],
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "comfort": [
+     "D"
+    ],
+    "themes": [
+     "面包烘焙",
+     "市集",
+     "美食体验"
+    ],
+    "moods": [
+     "热闹",
+     "烟火气"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "categories": [
+     "H"
+    ],
+    "audience": [
+     "年轻人",
+     "亲子家庭",
+     "美食爱好者"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "culture": 0.4,
+    "transport": 0.6,
+    "environment": 0.6,
+    "cost": 0.7,
+    "family": 0.8,
+    "quiet": 0.2,
+    "social": 0.8,
+    "learning": 0.3,
+    "quality": 0.72
+   },
+   "valid_start": "2026-04-16T16:00",
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T13:13:29+00:00",
+    "version": "2026-11-tag-v1",
+    "cached": false,
+    "hash": "b4b395ec6630ca5f"
+   },
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "24H color（叁伍壹壹店）",
@@ -975,7 +1431,7 @@
     "cached": true,
     "hash": "1232f724f82bca57"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "“面见唐人——陕西唐代面食文化展”正...",
@@ -1051,7 +1507,7 @@
     "cached": true,
     "hash": "a49cfdd0c78ac630"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "《剧强音》音乐剧明星音乐会 The Leading Voices of Musicals",
@@ -1661,7 +2117,236 @@
     "cached": true,
     "hash": "23e82d0220adbbb6"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
+  },
+  {
+   "name": "【英文遛娃 】掰玉米🌽手工脱粒🍹榨苞谷汁🥤老式爆米花🍿",
+   "id": "act-cb24fee137",
+   "source": "活动行",
+   "source_id": "828363103856",
+   "category_text": "同城活动",
+   "summary": "农场掰玉米、手工脱粒、榨苞谷汁与老式爆米花体验，边玩边学农事知识。",
+   "time_text": "10/21 周三 ~ 11/23 周一",
+   "address": "陕西西安",
+   "district": "长安区",
+   "price_text": "",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "315474***",
+   "link": "https://www.huodongxing.com/event/8883804693300?utm_source=%e5%8f%91%e7%8e%b0%e6%b4%bb%e5%8a%a8%e9%a1%b5&utm_medium=&utm_campaign=eventspage&qd=8828363103856",
+   "cover": "https://cdn.huodongxing.com/logo/202610/8883804693300/246137542727619_v2small.jpg",
+   "tags": {
+    "factors": [
+     "D",
+     "A"
+    ],
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "themes": [
+     "农事体验",
+     "掰玉米",
+     "手工脱粒",
+     "英文启蒙"
+    ],
+    "moods": [
+     "欢快",
+     "自然"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "categories": [
+     "E",
+     "F",
+     "A"
+    ],
+    "audience": [
+     "亲子家庭"
+    ],
+    "age_fit": [
+     "A",
+     "C"
+    ]
+   },
+   "scores": {
+    "culture": 0.4,
+    "transport": 0.45,
+    "environment": 0.7,
+    "cost": 0.6,
+    "family": 0.9,
+    "quiet": 0.5,
+    "social": 0.6,
+    "learning": 0.6,
+    "quality": 0.6
+   },
+   "valid_start": "2026-10-21T00:00",
+   "valid_end": "2026-11-23T00:00",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T13:13:30+00:00",
+    "version": "2026-11-tag-v1",
+    "cached": false,
+    "hash": "91de481b9884de9c"
+   },
+   "seen_at": "2026-11-07T13:13:15+00:00"
+  },
+  {
+   "name": "【西安】2026小柯来·把你唱给我听巡回演唱会-西安站",
+   "id": "act-0c1780a3c4",
+   "source": "西安本地宝",
+   "source_id": "1122",
+   "category_text": "",
+   "summary": "小柯巡演西安站，演绎三十年来创作的《因为爱情》等经典作品，全场大合唱。",
+   "time_text": "11.14",
+   "address": "西安城市运动公园体育馆（西安市未央区未央路168号）",
+   "district": "未央区",
+   "price_text": "",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "演唱会将演绎小柯三十年来创作的经典作品，如《因为爱情》《稳稳的幸福》《北京欢迎你》《等你爱我》等，这些歌曲承载了一代人的青春记忆，现场将引发全场大合唱，营造强烈的情感共鸣。",
+   "link": "https://xa.bendibao.com/xiuxian/20261010/154416.shtm",
+   "cover": "https://imgbdb3.bendibao.com/autoimg/202610/10/20261010101202_68580.png",
+   "tags": {
+    "factors": [
+     "A",
+     "B"
+    ],
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "themes": [
+     "经典金曲",
+     "流行音乐",
+     "全场合唱"
+    ],
+    "moods": [
+     "温情",
+     "热闹"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "categories": [
+     "C"
+    ],
+    "audience": [
+     "本地居民",
+     "中年乐迷",
+     "情侣"
+    ],
+    "age_fit": [
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "culture": 0.7,
+    "transport": 0.6,
+    "environment": 0.6,
+    "cost": 0.4,
+    "family": 0.4,
+    "quiet": 0.1,
+    "social": 0.8,
+    "learning": 0.4,
+    "quality": 0.8
+   },
+   "valid_start": "2026-11-13T16:00",
+   "valid_end": "2026-11-14T15:59",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T13:13:29+00:00",
+    "version": "2026-11-tag-v1",
+    "cached": false,
+    "hash": "3c227e99093a36de"
+   },
+   "seen_at": "2026-11-07T13:13:15+00:00"
+  },
+  {
+   "name": "【西安】在雨后醒来 艾志恒Asen 2026巡回演唱会-西安站",
+   "id": "act-c958ed6af4",
+   "source": "西安本地宝",
+   "source_id": "1123",
+   "category_text": "",
+   "summary": "艾志恒Asen巡演西安站，雨幕视觉与激光升降舞台营造沉浸式现场。",
+   "time_text": "11.14",
+   "address": "西安奥体中心体育馆（西安市灞桥区西滨路与向东路交叉口东北角）",
+   "district": "灞桥区",
+   "price_text": "",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "采用升级版舞台设计，包含雨幕视觉、激光特效、升降舞台等元素，结合灯光与音效，营造出沉浸式的视听体验，让观众仿佛置身于艾志恒的音乐世界。",
+   "link": "https://xa.bendibao.com/xiuxian/20261010/154417.shtm",
+   "cover": "https://imgbdb3.bendibao.com/autoimg/202610/10/20261010101202_25340.png",
+   "tags": {
+    "factors": [
+     "A",
+     "B"
+    ],
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "themes": [
+     "流行音乐",
+     "现场演唱会",
+     "雨幕视觉"
+    ],
+    "moods": [
+     "热闹",
+     "沉浸"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "categories": [
+     "C"
+    ],
+    "audience": [
+     "年轻乐迷",
+     "粉丝群体"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "culture": 0.6,
+    "transport": 0.6,
+    "environment": 0.7,
+    "cost": 0.4,
+    "family": 0.3,
+    "quiet": 0.1,
+    "social": 0.8,
+    "learning": 0.4,
+    "quality": 0.75
+   },
+   "valid_start": "2026-11-13T16:00",
+   "valid_end": "2026-11-14T15:59",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T13:13:29+00:00",
+    "version": "2026-11-tag-v1",
+    "cached": false,
+    "hash": "f6422fc4ad75332b"
+   },
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "【西安必看】钟楼|致敬经典民谣|LIVE现场|全场大合唱|流行 民谣 摇滚|告白祝福互动",
@@ -1738,7 +2423,7 @@
     "cached": true,
     "hash": "5b41098b00bd5198"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "【陕图讲坛】2026年11月14日（周六）下午：从跑车腾空到立体交通：飞行汽车的机遇与挑战",
@@ -3104,7 +3789,7 @@
     "cached": true,
     "hash": "c36905e1c00e7e00"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "万邦书店（中大国际店）",
@@ -4123,7 +4808,7 @@
    "address": "灞桥区 天恩剧院 招商城市主场(保税区地铁站D东北口步行410米)",
    "district": "灞桥区",
    "price_text": "220.0元",
-   "price_level": "high",
+   "price_level": "free",
    "price_from": 220.0,
    "highlights": "",
    "link": "https://www.douban.com/event/38143230/",
@@ -4186,7 +4871,7 @@
     "cached": true,
     "hash": "cc795d861abac255"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "史诗幻境演出《赳赳大秦》",
@@ -4199,7 +4884,7 @@
    "address": "未央区 赳赳大秦 天台路与沣东大道十字东北角",
    "district": "未央区",
    "price_text": "239.0元起",
-   "price_level": "high",
+   "price_level": "free",
    "price_from": 239.0,
    "highlights": "",
    "link": "https://www.douban.com/event/37756342/",
@@ -4262,7 +4947,7 @@
     "cached": false,
     "hash": "423903a5006f7901"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "吴优互动秀|精品个人专场|烦恼say goodbye|交友破圈|开心互动|即兴之夜",
@@ -4336,7 +5021,7 @@
     "cached": false,
     "hash": "b5986093d80f7e72"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "唐蒜铺子3F｜西安必看喜剧现场｜年度超10万观众口碑认证｜普通话、陕西话脱口秀",
@@ -4412,7 +5097,7 @@
     "cached": true,
     "hash": "2ceff28fc12929bd"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "唐蒜铺子5F｜毒舌小杨互动秀｜五楼爆笑互动专场！五楼检票！五楼观演！",
@@ -4487,7 +5172,7 @@
     "cached": true,
     "hash": "cd1b2d39e0bb4a5b"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "嘉汇汉唐书城（长安中路店）",
@@ -4576,7 +5261,7 @@
    "address": "新城区 西安MARS艺术展演空间 韩森寨街道幸福林带乐之谷E2段下沉广场(新城区图书馆对面)",
    "district": "新城区",
    "price_text": "88.0元起",
-   "price_level": "medium",
+   "price_level": "free",
    "price_from": 88.0,
    "highlights": "",
    "link": "https://www.douban.com/event/38140388/",
@@ -4636,7 +5321,7 @@
     "cached": false,
     "hash": "6f42cd654a0cca1c"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "圣彼得堡国立模范芭蕾舞团 芭蕾舞《天鹅湖》",
@@ -4793,6 +5478,84 @@
     "hash": "55301d8254c92b3a"
    },
    "seen_at": ""
+  },
+  {
+   "name": "大唐芙蓉园音乐喷泉水舞光影秀",
+   "id": "act-1d5161a79f",
+   "source": "西安本地宝",
+   "source_id": "9",
+   "category_text": "",
+   "summary": "大唐芙蓉园内水舞光影秀，喷泉、雾森与激光配合音乐演出。",
+   "time_text": "08.02起",
+   "address": "大唐芙蓉园（西安市雁塔区芙蓉西路99号）",
+   "district": "雁塔区",
+   "price_text": "",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "有沉浸式环绕音响、大型多维水喷泉设备、雾森系统与炫目激光等新型演绎设备",
+   "link": "https://xa.bendibao.com/xiuxian/2024412/127326.shtm",
+   "cover": "https://imgbdb4.bendibao.com/xabdb/20244/12/2024412143933_30009.jpg",
+   "tags": {
+    "factors": [
+     "D",
+     "A"
+    ],
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "themes": [
+     "水舞光影",
+     "音乐喷泉",
+     "唐文化",
+     "夜游"
+    ],
+    "moods": [
+     "绚丽",
+     "热闹"
+    ],
+    "demand": [
+     "A"
+    ],
+    "categories": [
+     "C"
+    ],
+    "audience": [
+     "游客",
+     "亲子家庭",
+     "情侣"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "culture": 0.7,
+    "transport": 0.55,
+    "environment": 0.9,
+    "cost": 0.5,
+    "family": 0.8,
+    "quiet": 0.3,
+    "social": 0.7,
+    "learning": 0.4,
+    "quality": 0.8
+   },
+   "valid_start": "2024-08-01T16:00",
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T13:13:30+00:00",
+    "version": "2026-11-tag-v1",
+    "cached": false,
+    "hash": "50d5e32919f775c4"
+   },
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "大唐芙蓉园音乐喷泉水舞光影秀",
@@ -5109,6 +5872,83 @@
    "seen_at": ""
   },
   {
+   "name": "大秦水舞光影秀",
+   "id": "act-4b9e070cce",
+   "source": "西安本地宝",
+   "source_id": "6",
+   "category_text": "",
+   "summary": "大秦文明园水舞光影秀，环形喷泉多角度观赏，适合夜间休闲观演。",
+   "time_text": "04.12起",
+   "address": "咸阳市渭城区兰池大道东段秦汉新城大秦文明园中心区",
+   "district": "西咸新区",
+   "price_text": "",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "7圆喷泉以纵横方式排列的水秀布局，满足观众多角度观赏的需求",
+   "link": "https://xa.bendibao.com/xiuxian/2024412/127318.shtm",
+   "cover": "https://imgbdb4.bendibao.com/xabdb/20244/12/2024412134020_93913.jpg",
+   "tags": {
+    "factors": [
+     "D",
+     "C"
+    ],
+    "time_slots": [
+     "A",
+     "B"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "themes": [
+     "水舞光影秀",
+     "秦文化",
+     "夜间喷泉"
+    ],
+    "moods": [
+     "热闹",
+     "震撼"
+    ],
+    "demand": [
+     "A"
+    ],
+    "categories": [
+     "C",
+     "H"
+    ],
+    "audience": [
+     "本地居民",
+     "亲子家庭"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "culture": 0.6,
+    "transport": 0.4,
+    "environment": 0.8,
+    "cost": 0.9,
+    "family": 0.8,
+    "quiet": 0.3,
+    "social": 0.6,
+    "learning": 0.4,
+    "quality": 0.7
+   },
+   "valid_start": "2024-04-11T16:00",
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T13:13:25+00:00",
+    "version": "2026-11-tag-v1",
+    "cached": false,
+    "hash": "3ba387d92395b9a3"
+   },
+   "seen_at": "2026-11-07T13:13:15+00:00"
+  },
+  {
    "name": "大雁塔・大慈恩寺",
    "id": "act-11622ee6ef",
    "source": "西安公共文化场馆目录",
@@ -5269,6 +6109,85 @@
    "seen_at": ""
   },
   {
+   "name": "大雁塔水舞光影秀音乐喷泉",
+   "id": "act-6bda545b22",
+   "source": "西安本地宝",
+   "source_id": "7",
+   "category_text": "",
+   "summary": "大雁塔广场音乐喷泉，水柱随音乐灯光变换，免费开放观赏。",
+   "time_text": "04.12 - 01.31",
+   "address": "大雁塔广场音乐喷泉（西安市雁塔区雁塔路南端慈恩寺内）",
+   "district": "雁塔区",
+   "price_text": "",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "拥有世界最长的光带，喷泉的水柱高达几十米，伴随着音乐和灯光的变化，给人以强烈的视觉冲击力。",
+   "link": "https://xa.bendibao.com/xiuxian/20231226/122056.shtm",
+   "cover": "https://imgbdb4.bendibao.com/xabdb/20244/12/2024412140359_39929.jpg",
+   "tags": {
+    "factors": [
+     "D",
+     "A"
+    ],
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "themes": [
+     "音乐喷泉",
+     "水舞光影",
+     "大雁塔",
+     "夜游"
+    ],
+    "moods": [
+     "热闹",
+     "浪漫"
+    ],
+    "demand": [
+     "A"
+    ],
+    "categories": [
+     "C",
+     "H"
+    ],
+    "audience": [
+     "游客",
+     "本地居民",
+     "情侣"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "culture": 0.7,
+    "transport": 0.7,
+    "environment": 0.8,
+    "cost": 1.0,
+    "family": 0.8,
+    "quiet": 0.2,
+    "social": 0.8,
+    "learning": 0.4,
+    "quality": 0.8
+   },
+   "valid_start": "2024-04-11T16:00",
+   "valid_end": "2028-01-31T15:59",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T13:13:30+00:00",
+    "version": "2026-11-tag-v1",
+    "cached": false,
+    "hash": "3fbe63588e8f4198"
+   },
+   "seen_at": "2026-11-07T13:13:15+00:00"
+  },
+  {
    "name": "天禧苑相声会馆-南门店",
    "id": "act-85fae7d583",
    "source": "豆瓣同城",
@@ -5343,7 +6262,7 @@
     "cached": true,
     "hash": "f3cfd54d259de96a"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "奥斯卡熙地港国际影城",
@@ -5724,7 +6643,7 @@
     "cached": true,
     "hash": "6ae142da84a2ccf4"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "山由之咖啡（兴庆宫店）",
@@ -6024,7 +6943,7 @@
     "cached": false,
     "hash": "353042501dd046e6"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "归来书店",
@@ -6717,7 +7636,7 @@
     "cached": false,
     "hash": "2ae21d2cd6c94fec"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "智编牛",
@@ -7182,6 +8101,85 @@
   },
   {
    "name": "汉城湖音乐喷泉",
+   "id": "act-004bf2520a",
+   "source": "西安本地宝",
+   "source_id": "8",
+   "category_text": "",
+   "summary": "汉城湖景区夜间音乐喷泉，可沿湖散步赏景，免费开放的休闲去处。",
+   "time_text": "04.12起",
+   "address": "汉城湖景区（西安市未央区北二环与朱宏路交汇处西北角）",
+   "district": "未央区",
+   "price_text": "",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "夜晚来汉城湖悠闲散步，欣赏音乐喷泉",
+   "link": "https://xa.bendibao.com/xiuxian/2024412/127321.shtm",
+   "cover": "https://imgbdb4.bendibao.com/xabdb/20244/12/2024412142302_29793.jpg",
+   "tags": {
+    "factors": [
+     "D",
+     "C"
+    ],
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "themes": [
+     "音乐喷泉",
+     "湖景夜景",
+     "城市散步"
+    ],
+    "moods": [
+     "热闹",
+     "放松"
+    ],
+    "demand": [
+     "A"
+    ],
+    "categories": [
+     "H",
+     "C"
+    ],
+    "audience": [
+     "本地居民",
+     "亲子家庭",
+     "情侣"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "culture": 0.4,
+    "transport": 0.55,
+    "environment": 0.8,
+    "cost": 1.0,
+    "family": 0.8,
+    "quiet": 0.3,
+    "social": 0.6,
+    "learning": 0.3,
+    "quality": 0.7
+   },
+   "valid_start": "2024-04-11T16:00",
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T13:13:25+00:00",
+    "version": "2026-11-tag-v1",
+    "cached": false,
+    "hash": "7c635717c500b362"
+   },
+   "seen_at": "2026-11-07T13:13:15+00:00"
+  },
+  {
+   "name": "汉城湖音乐喷泉",
    "id": "act-612702fdb3",
    "source": "西安本地宝",
    "source_id": "",
@@ -7576,7 +8574,7 @@
    "address": "新城区 西安话剧院新城剧场-MINI剧场 东新街256号新城广场西北角",
    "district": "新城区",
    "price_text": "99.0元起",
-   "price_level": "medium",
+   "price_level": "free",
    "price_from": 99.0,
    "highlights": "",
    "link": "https://www.douban.com/event/37921579/",
@@ -7640,7 +8638,7 @@
     "cached": true,
     "hash": "e9efbab0940c47b2"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "玩笑喜剧｜鲍鲍脱口秀专场秀@11月07日",
@@ -7714,7 +8712,7 @@
     "cached": true,
     "hash": "78328c8e04c8c13c"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "秦始皇帝陵博物院（兵马俑）",
@@ -7867,7 +8865,7 @@
     "cached": true,
     "hash": "0a662fde23a736cf"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "花儿朵朵向太阳——陕西省文化馆庆祝六一国际儿童节大型文艺演出",
@@ -8112,7 +9110,7 @@
    "address": "临潼区 西安长恨歌大型实景演出 华清路38号华清宫景区内",
    "district": "临潼区",
    "price_text": "199.0元起",
-   "price_level": "medium",
+   "price_level": "free",
    "price_from": 199.0,
    "highlights": "",
    "link": "https://www.douban.com/event/37713176/",
@@ -8177,7 +9175,85 @@
     "cached": true,
     "hash": "736d76e99b6628e0"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
+  },
+  {
+   "name": "西安万象城生命之树光影秀",
+   "id": "act-293ae657da",
+   "source": "西安本地宝",
+   "source_id": "407",
+   "category_text": "",
+   "summary": "万象城生命之树主题光影秀，灯光音乐结合，夜间逛街可顺路观看。",
+   "time_text": "12.09 - 03.31",
+   "address": "西安万象城（西安市雁塔区曲江新区长安南路2899号和雁展路交叉口东南侧）",
+   "district": "曲江新区",
+   "price_text": "",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "生命之树光影秀",
+   "link": "https://xa.bendibao.com/xiuxian/2024123/135581.shtm",
+   "cover": "https://imgbdb3.bendibao.com/xabdb/20258/01/2025801101422_27376.png",
+   "tags": {
+    "factors": [
+     "D",
+     "A"
+    ],
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "comfort": [
+     "D"
+    ],
+    "themes": [
+     "光影秀",
+     "生命之树",
+     "商业地标",
+     "夜游"
+    ],
+    "moods": [
+     "梦幻",
+     "热闹"
+    ],
+    "demand": [
+     "A"
+    ],
+    "categories": [
+     "C"
+    ],
+    "audience": [
+     "年轻人",
+     "情侣",
+     "亲子家庭"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "culture": 0.5,
+    "transport": 0.6,
+    "environment": 0.9,
+    "cost": 1.0,
+    "family": 0.7,
+    "quiet": 0.3,
+    "social": 0.7,
+    "learning": 0.4,
+    "quality": 0.8
+   },
+   "valid_start": "2024-12-08T16:00",
+   "valid_end": "2027-03-31T15:59",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T13:13:30+00:00",
+    "version": "2026-11-tag-v1",
+    "cached": false,
+    "hash": "9aef73d648c33298"
+   },
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "西安事变纪念馆（张学良公馆）",
@@ -8256,6 +9332,84 @@
     "hash": "992daafefe475e5f"
    },
    "seen_at": ""
+  },
+  {
+   "name": "西安交通大学校免费预约入校参观",
+   "id": "act-078ff32324",
+   "source": "西安本地宝",
+   "source_id": "22",
+   "category_text": "",
+   "summary": "西安交大免费预约入校参观，可看校园建筑与校史人文环境。",
+   "time_text": "04.12 - 08.31",
+   "address": "西安交通大学（西安市碑林区咸宁西路28号）",
+   "district": "碑林区",
+   "price_text": "",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "中国顶尖的学府之一",
+   "link": "https://xa.bendibao.com/xiuxian/2024322/126273.shtm",
+   "cover": "https://imgbdb4.bendibao.com/xabdb/20244/12/2024412182110_24651.jpg",
+   "tags": {
+    "factors": [
+     "A",
+     "C"
+    ],
+    "time_slots": [
+     "B",
+     "C",
+     "D"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "themes": [
+     "高校参观",
+     "校园文化",
+     "名校",
+     "研学"
+    ],
+    "moods": [
+     "静心",
+     "书香"
+    ],
+    "demand": [
+     "B"
+    ],
+    "categories": [
+     "F"
+    ],
+    "audience": [
+     "学生",
+     "亲子家庭",
+     "游客"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "culture": 0.9,
+    "transport": 0.65,
+    "environment": 0.8,
+    "cost": 1.0,
+    "family": 0.6,
+    "quiet": 0.7,
+    "social": 0.4,
+    "learning": 0.9,
+    "quality": 0.8
+   },
+   "valid_start": "2024-04-11T16:00",
+   "valid_end": "2027-08-31T15:59",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T13:13:30+00:00",
+    "version": "2026-11-tag-v1",
+    "cached": false,
+    "hash": "1f760feeae65e1d0"
+   },
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "西安交通大学校免费预约入校参观",
@@ -9035,7 +10189,7 @@
     "cached": true,
     "hash": "c3ab09ec1466b688"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "西安茑屋书店",
@@ -9266,6 +10420,86 @@
     "hash": "7a28ad3cbfb69cee"
    },
    "seen_at": ""
+  },
+  {
+   "name": "诗经里2026春日踏青风筝节",
+   "id": "act-d94e97f61e",
+   "source": "西安本地宝",
+   "source_id": "982",
+   "category_text": "",
+   "summary": "诗经里小镇春日风筝节，国风街区打卡，非遗打铁花与萌宠互动，营业至夜间。",
+   "time_text": "04.04起",
+   "address": "诗经里小镇（长安区沣东新城沣河东路818号）",
+   "district": "长安区",
+   "price_text": "",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "每日10:00—21:30超长待机 ｜国风打卡｜非遗打铁花｜萌宠趣玩",
+   "link": "https://xa.bendibao.com/xiuxian/202641/148904.shtm",
+   "cover": "https://imgbdb3.bendibao.com/xabdb/20264/01/2026401100020_55168.png",
+   "tags": {
+    "factors": [
+     "A",
+     "D"
+    ],
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "comfort": [
+     "D"
+    ],
+    "themes": [
+     "风筝",
+     "非遗打铁花",
+     "国风小镇",
+     "春日踏青"
+    ],
+    "moods": [
+     "热闹",
+     "浪漫"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "categories": [
+     "H",
+     "A",
+     "E"
+    ],
+    "audience": [
+     "亲子家庭",
+     "情侣",
+     "汉服爱好者"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "culture": 0.7,
+    "transport": 0.45,
+    "environment": 0.8,
+    "cost": 0.7,
+    "family": 0.8,
+    "quiet": 0.4,
+    "social": 0.7,
+    "learning": 0.5,
+    "quality": 0.72
+   },
+   "valid_start": "2026-04-03T16:00",
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T13:13:25+00:00",
+    "version": "2026-11-tag-v1",
+    "cached": false,
+    "hash": "fe86aefef74419f5"
+   },
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "贝贝国学",
@@ -9799,7 +11033,7 @@
     "cached": false,
     "hash": "79c981d949bee379"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "陕图长安路馆区",
@@ -10348,7 +11582,7 @@
     "cached": true,
     "hash": "71f2056282e58390"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "青曲社相声大会",
@@ -10425,7 +11659,7 @@
     "cached": true,
     "hash": "4532f5c3e7cfaa47"
    },
-   "seen_at": "2026-11-07T21:07:36+08:00"
+   "seen_at": "2026-11-07T13:13:15+00:00"
   },
   {
    "name": "青龙寺遗址公园（含博物馆）",
