@@ -4,7 +4,9 @@ name: Refresh activity data
 # 也可以在 Actions 页面手动触发，指定数据源和本次最多标注条数。
 on:
   schedule:
+    # 每天两次：北京时间 04:23 与 16:23
     - cron: "23 20 * * *"
+    - cron: "23 8 * * *"
   workflow_dispatch:
     inputs:
       sources:
