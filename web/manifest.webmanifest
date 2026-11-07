@@ -1,0 +1,19 @@
+{
+  "name": "文享智配 · 西安公共文化智能匹配",
+  "short_name": "文享智配",
+  "description": "问卷画像 + AI 语义标签，从西安的公共文化活动中匹配适合你的那一个。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf7f0",
+  "theme_color": "#a94a24",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

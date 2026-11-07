@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>文化画像问卷 · 文享智配</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#a94a24">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+  <header class="topbar" id="topbar"></header>
+
+  <main class="survey-shell">
+    <section class="survey-card" aria-labelledby="survey-title">
+      <div class="survey-top">
+        <p class="eyebrow" style="margin-bottom:.35rem">文化画像 · 约 90 秒</p>
+        <h1 id="survey-title" style="font-size:1.45rem;margin:0">先认识一下你</h1>
+        <div class="survey-progress">
+          <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+          <span class="progress-text" id="progress-text">1 / 11</span>
+        </div>
+      </div>
+
+      <div class="survey-body">
+        <div id="transcript" class="stack" aria-live="polite"></div>
+
+        <div id="current">
+          <div class="bubble bubble-bot" style="max-width:100%">
+            <p class="eyebrow" id="step-eyebrow" style="margin-bottom:.3rem"></p>
+            <h2 class="survey-question" id="question-text"></h2>
+            <p class="survey-why" id="question-why"></p>
+          </div>
+          <div class="options" id="options" role="group" aria-label="选项"></div>
+          <div class="survey-actions">
+            <button class="btn btn-ghost btn-sm" id="btn-back" type="button">← 上一题</button>
+            <div style="display:flex;align-items:center;gap:.8rem">
+              <span class="survey-hint" id="keyboard-hint">按 <span class="kbd">1</span>–<span class="kbd">4</span> 快速选择</span>
+              <button class="btn btn-primary" id="btn-next" type="button" hidden>下一步 →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="assets/js/pages/survey.js"></script>
+</body>
+</html>

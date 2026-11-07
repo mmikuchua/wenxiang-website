@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的推荐 · 文享智配</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#a94a24">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+  <header class="topbar" id="topbar"></header>
+
+  <main class="wrap">
+    <section class="page-head">
+      <p class="eyebrow">为你的画像排序</p>
+      <h1>这个月，适合你去的地方</h1>
+      <p class="lead" id="intro">正在读取你的文化画像…</p>
+      <div class="profile-bar" id="profile-bar"></div>
+    </section>
+
+    <section class="lookup" aria-labelledby="lookup-title">
+      <h2 id="lookup-title">换一种说法：用一句话描述你现在想要什么</h2>
+      <form class="lookup-row" id="lookup-form">
+        <label class="sr-only" for="lookup-input">描述你的需求</label>
+        <input id="lookup-input" type="search" placeholder="例如：周末带孩子去免费的博物馆" autocomplete="off" maxlength="60">
+        <button class="btn btn-primary" type="submit">重新匹配</button>
+        <button class="btn btn-ghost" type="button" id="lookup-clear" hidden>清除描述</button>
+      </form>
+      <div class="example-chips" id="example-chips"></div>
+      <p class="small muted" id="lookup-mode" style="margin:.7rem 0 0"></p>
+    </section>
+
+    <section aria-labelledby="result-title">
+      <div class="toolbar">
+        <div>
+          <h2 id="result-title" style="font-size:1.25rem;margin:0">推荐结果</h2>
+          <p class="meta" id="result-meta">—</p>
+        </div>
+        <div class="toolbar-actions">
+          <button class="btn btn-ghost btn-sm" id="btn-apply-feedback" hidden>应用反馈重新排序</button>
+          <button class="btn btn-ink btn-sm" id="btn-shuffle">换一批 ↻</button>
+        </div>
+      </div>
+      <div id="rec-list" class="rec-list" aria-live="polite">
+        <div class="loading">正在计算匹配度…</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="footer"></footer>
+
+  <script type="module" src="assets/js/pages/recommend.js"></script>
+</body>
+</html>

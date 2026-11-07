@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>管理员 · 需求统计报告 · 文享智配</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#a94a24">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+  <header class="topbar" id="topbar"></header>
+
+  <main class="wrap">
+    <section class="admin-head">
+      <p class="eyebrow">管理员端</p>
+      <h1 style="font-size:clamp(1.8rem,4vw,2.6rem)">公共文化需求统计</h1>
+      <p class="lead">问卷记录默认只在填写者浏览器本地；如果站点接入了 backend/，这里会合并展示云端汇总数据。下方「试点基线」来自 2026 年春季的 21 份问卷，仅含聚合结果。</p>
+      <div class="tabs" role="tablist" aria-label="数据来源">
+        <button role="tab" aria-selected="true" data-scope="live">本浏览器收集 <span id="live-count">(0)</span></button>
+        <button role="tab" aria-selected="false" data-scope="pilot">试点基线 <span id="pilot-count">(—)</span></button>
+      </div>
+    </section>
+
+    <section id="overview" aria-label="概览">
+      <div class="stat-grid" id="stat-grid"></div>
+      <div class="panel">
+        <h3>能读出什么</h3>
+        <p class="panel-sub">基于当前所选数据源自动生成的观察，可作为活动供给调整的依据。</p>
+        <ul class="insight-list" id="insights"></ul>
+      </div>
+    </section>
+
+    <section class="panel" aria-label="分布">
+      <h3>画像分布</h3>
+      <p class="panel-sub" id="chart-sub">样本量越少，结论越不稳定；低于 10 份时请仅作参考。</p>
+      <div class="chart-grid" id="charts"></div>
+    </section>
+
+    <section class="panel" aria-label="明细">
+      <h3>问卷记录</h3>
+      <p class="panel-sub">不展示姓名、手机号等身份信息；本地模式下这些记录从未离开过这台设备。</p>
+      <div id="records"></div>
+    </section>
+
+    <section class="panel">
+      <h3>数据管理</h3>
+      <p class="panel-sub">导出可用于论文/汇报；导入可把多台设备的数据合并到一处再分析。</p>
+      <div class="admin-actions">
+        <button class="btn btn-ink btn-sm" id="btn-print">生成可打印报告</button>
+        <button class="btn btn-ghost btn-sm" id="btn-csv">导出 CSV</button>
+        <button class="btn btn-ghost btn-sm" id="btn-json">导出 JSON</button>
+        <button class="btn btn-ghost btn-sm" id="btn-import">导入 JSON</button>
+        <input type="file" id="file-input" accept="application/json" hidden>
+        <button class="btn btn-ghost btn-sm" id="btn-refresh">刷新云端数据</button>
+        <button class="btn btn-ghost btn-sm" id="btn-clear" style="margin-left:auto;color:var(--clay-dark)">清空本机数据</button>
+      </div>
+      <p class="small muted" id="mode-note" style="margin:.9rem 0 0"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="footer"></footer>
+
+  <script type="module" src="assets/js/pages/admin.js"></script>
+</body>
+</html>

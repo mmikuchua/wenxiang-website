@@ -1,0 +1,9795 @@
+{
+ "schema_version": 2,
+ "generated_at": "2026-11-07T19:32:06+08:00",
+ "count": 129,
+ "meta": {
+  "pipeline": "xian-activities",
+  "raw": "C:\\Users\\33226\\Desktop\\项目代码\\MyXianSpiderBot\\data\\raw\\activities.json",
+  "llm": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "reasoning_tokens": 0
+  }
+ },
+ "activities": [
+  {
+   "name": "2025大型驻场观念演出 《无界·长安》",
+   "id": "act-ada9e36f6f",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "张艺谋总导演的大型驻场观念演出，以舞台观念呈现长安意象，长期驻演。",
+   "time_text": "2025.01.30起",
+   "address": "长安乐·一带一路文化艺术中心",
+   "district": "浐灞生态区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "张艺谋总导演创作，中国首部大型驻场观念演出",
+   "link": "http://xa.bendibao.com/xiuxian/2024419/127648.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "震撼",
+     "沉浸"
+    ],
+    "themes": [
+     "张艺谋",
+     "观念演出",
+     "丝路长安",
+     "驻场演出"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "游客",
+     "文艺爱好者",
+     "情侣"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.5,
+    "culture": 0.95,
+    "environment": 0.8,
+    "cost": 0.4,
+    "family": 0.4,
+    "quiet": 0.5,
+    "social": 0.6,
+    "learning": 0.75,
+    "quality": 0.9
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2025西安中亚公园水幕投影表演常态化演出",
+   "id": "act-333eb99f50",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "每晚约20分钟水幕投影，声光结合呈现沉浸式视听效果，公园内即可观演。",
+   "time_text": "2025.04.04起",
+   "address": "西安中亚公园",
+   "district": "浐灞生态区",
+   "price_text": "（详见详情）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "每日展映时长为20分钟，通过声光融合技术为观众呈现沉浸式视听盛宴。",
+   "link": "http://xa.bendibao.com/xiuxian/2025331/139769.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "沉浸",
+     "浪漫"
+    ],
+    "themes": [
+     "水幕投影",
+     "声光秀",
+     "夜间游园"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "亲子家庭",
+     "情侣",
+     "本地居民"
+    ],
+    "categories": [
+     "C",
+     "H"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "D",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.4,
+    "environment": 0.9,
+    "cost": 0.9,
+    "family": 0.8,
+    "quiet": 0.3,
+    "social": 0.6,
+    "learning": 0.3,
+    "quality": 0.9
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026丝路欢乐世界春节活动",
+   "id": "act-8089b17ddb",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "属马免票，科技光影秀、篝火夜与杂技魔术轮番上演。",
+   "time_text": "2026.02.04-2026.03.03",
+   "address": "丝路欢乐世界",
+   "district": "西咸新区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "属马免票，科技光影大秀，篝火狂欢夜，大型杂技魔术秀等",
+   "link": "http://xa.bendibao.com/xiuxian/2026121/147479.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "狂欢"
+    ],
+    "themes": [
+     "丝路文化",
+     "光影秀",
+     "篝火夜",
+     "杂技魔术",
+     "春节"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "亲子家庭",
+     "年轻人",
+     "游客"
+    ],
+    "categories": [
+     "C",
+     "H"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "D",
+     "A"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.45,
+    "culture": 0.6,
+    "environment": 0.8,
+    "cost": 0.4,
+    "family": 0.9,
+    "quiet": 0.1,
+    "social": 0.9,
+    "learning": 0.5,
+    "quality": 0.75
+   },
+   "valid_start": "2026-02-04 00:00:00.000000",
+   "valid_end": "2026-03-03 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026中国唐苑鲜花节",
+   "id": "act-74ea53760f",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "20万株郁金香冬季绽放，园林景观配合新春花展，适合赏花拍照。",
+   "time_text": "2026.02.14-2026.03.03",
+   "address": "中国唐苑",
+   "district": "雁塔区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "20万株郁金香冬季绽放，迎接新春",
+   "link": "http://xa.bendibao.com/xiuxian/202625/147861.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C",
+     "D"
+    ],
+    "moods": [
+     "浪漫",
+     "悠闲"
+    ],
+    "themes": [
+     "郁金香",
+     "新春花展",
+     "园林盆景"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "亲子家庭",
+     "情侣",
+     "本地居民"
+    ],
+    "categories": [
+     "C",
+     "H"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "D",
+     "A"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.5,
+    "culture": 0.5,
+    "environment": 0.9,
+    "cost": 0.6,
+    "family": 0.8,
+    "quiet": 0.6,
+    "social": 0.6,
+    "learning": 0.4,
+    "quality": 0.72
+   },
+   "valid_start": "2026-02-14 00:00:00.000000",
+   "valid_end": "2026-03-03 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026太白山春节文化活动",
+   "id": "act-71f751af82",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "太白山春节上演西府社火、锣鼓秧歌与舞龙舞狮巡游，晚间有非遗打铁花。",
+   "time_text": "2026.02.09-2026.03.03",
+   "address": "太白山景区",
+   "district": "周至县",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "原汁原味的西府社火、锣鼓、秧歌、舞龙、舞狮等非遗民俗巡游，连续两场非遗打铁花表演等",
+   "link": "http://xa.bendibao.com/xiuxian/202626/147883.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "喜庆"
+    ],
+    "themes": [
+     "社火",
+     "打铁花",
+     "舞龙舞狮",
+     "西府民俗"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "亲子家庭",
+     "本地居民",
+     "游客"
+    ],
+    "categories": [
+     "A",
+     "C"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.4,
+    "culture": 0.85,
+    "environment": 0.9,
+    "cost": 0.5,
+    "family": 0.6,
+    "quiet": 0.5,
+    "social": 0.65,
+    "learning": 0.6,
+    "quality": 0.9
+   },
+   "valid_start": "2026-02-09 00:00:00.000000",
+   "valid_end": "2026-03-03 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026春节西安“国韵春潮”秦腔展演活动",
+   "id": "act-631a8abe08",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "文化展览",
+   "summary": "易俗大剧院春节秦腔展演，14天20场传统剧目轮番上演。",
+   "time_text": "2026.02.18-2026.03.03",
+   "address": "西演SPACE·易俗大剧院",
+   "district": "碑林区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "西安&宝鸡双城联袂，2026年2月18日（丙午年正月初二）至3月3日（正月十五），连续14天，20场精彩好戏唱不停！",
+   "link": "http://xa.bendibao.com/xiuxian/2026113/147245.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "有年味"
+    ],
+    "themes": [
+     "秦腔",
+     "戏曲展演",
+     "春节",
+     "传统艺术"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "戏迷",
+     "银发族",
+     "本地居民"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A"
+    ],
+    "age_fit": [
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.65,
+    "culture": 0.95,
+    "environment": 0.55,
+    "cost": 0.5,
+    "family": 0.4,
+    "quiet": 0.35,
+    "social": 0.55,
+    "learning": 0.7,
+    "quality": 0.9
+   },
+   "valid_start": "2026-02-18 00:00:00.000000",
+   "valid_end": "2026-03-03 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026春节西安华清宫活动",
+   "id": "act-347a27e312",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "华清宫春节期间推出唐风演艺与互动，可背《长恨歌》赢门票，属马游客有免票福利。",
+   "time_text": "2026.02.15-2026.03.03",
+   "address": "华清宫景区",
+   "district": "临潼区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "马生肖免费福利，背诵长恨歌赢门票，唐风大片等",
+   "link": "http://xa.bendibao.com/xiuxian/2026121/147466.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "喜庆"
+    ],
+    "themes": [
+     "唐文化",
+     "长恨歌",
+     "唐风演艺",
+     "马年福利"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "亲子家庭",
+     "游客",
+     "情侣"
+    ],
+    "categories": [
+     "C",
+     "A"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.575,
+    "culture": 0.9,
+    "environment": 0.9,
+    "cost": 0.5,
+    "family": 0.6,
+    "quiet": 0.4,
+    "social": 0.6,
+    "learning": 0.7,
+    "quality": 0.85
+   },
+   "valid_start": "2026-02-15 00:00:00.000000",
+   "valid_end": "2026-03-03 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026白鹿原魔咖灯会暨百艺民俗文化嘉年华",
+   "id": "act-07ef44fa21",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "文化展览",
+   "summary": "白鹿原影视城新春灯会，全园灯组焕新，搭配英歌、社火、打铁花等民俗表演。",
+   "time_text": "2026.02.17-2026.03.03",
+   "address": "白鹿原影视城",
+   "district": "蓝田县",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "全园灯组一键焕新，潮汕英歌VS关中社火，打铁花，火壶等",
+   "link": "http://xa.bendibao.com/xiuxian/2026116/147356.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "喜庆"
+    ],
+    "themes": [
+     "花灯",
+     "潮汕英歌",
+     "关中社火",
+     "打铁花",
+     "民俗"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "亲子家庭",
+     "游客",
+     "年轻人"
+    ],
+    "categories": [
+     "C",
+     "A"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.425,
+    "culture": 0.85,
+    "environment": 0.75,
+    "cost": 0.5,
+    "family": 0.8,
+    "quiet": 0.2,
+    "social": 0.85,
+    "learning": 0.6,
+    "quality": 0.8
+   },
+   "valid_start": "2026-02-17 00:00:00.000000",
+   "valid_end": "2026-03-03 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026茯茶镇首届非遗千灯夜",
+   "id": "act-e003fad069",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "文化活动/展览",
+   "summary": "茯茶镇新春办非遗千灯夜，灯组夜游配合打铁花、火壶等表演，晚间可逛。",
+   "time_text": "2026.01.30-2026.03.05",
+   "address": "茯茶镇景区",
+   "district": "西咸新区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "非遗千灯夜，打铁花，火壶等",
+   "link": "http://xa.bendibao.com/xiuxian/2026128/147637.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "浪漫"
+    ],
+    "themes": [
+     "千灯夜",
+     "打铁花",
+     "火壶",
+     "非遗灯会"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "亲子家庭",
+     "情侣",
+     "游客"
+    ],
+    "categories": [
+     "A",
+     "C"
+    ],
+    "comfort": [
+     "D"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.45,
+    "culture": 0.8,
+    "environment": 0.85,
+    "cost": 0.7,
+    "family": 0.7,
+    "quiet": 0.35,
+    "social": 0.75,
+    "learning": 0.6,
+    "quality": 0.8
+   },
+   "valid_start": "2026-01-30 00:00:00.000000",
+   "valid_end": "2026-03-05 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026西安DT51新年庙会",
+   "id": "act-42aae496d5",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "市集文创",
+   "summary": "商业体内的新年庙会，醒狮纳福等民俗展演搭配年货文创市集。",
+   "time_text": "2026.02.01-2026.03.03",
+   "address": "西安DT51",
+   "district": "雁塔区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "西安DT51新年庙会，鸿狮纳福迎春来",
+   "link": "http://xa.bendibao.com/xiuxian/202624/147813.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "喜庆"
+    ],
+    "themes": [
+     "新年庙会",
+     "醒狮",
+     "年货市集"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "亲子家庭",
+     "年轻人",
+     "情侣"
+    ],
+    "categories": [
+     "H",
+     "C"
+    ],
+    "comfort": [
+     "D"
+    ],
+    "factors": [
+     "A",
+     "B"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.65,
+    "culture": 0.6,
+    "environment": 0.6,
+    "cost": 0.6,
+    "family": 0.8,
+    "quiet": 0.2,
+    "social": 0.8,
+    "learning": 0.4,
+    "quality": 0.72
+   },
+   "valid_start": "2026-02-01 00:00:00.000000",
+   "valid_end": "2026-03-03 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026西安丙午马年长安灯会",
+   "id": "act-8b0a7deafb",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "城墙及大唐芙蓉园等多处联动办灯会，主题灯组与光影装置集中亮相，春节至春季可赏灯。",
+   "time_text": "2026.01.01-2026.05.05",
+   "address": "西安城墙",
+   "district": "碑林区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "长安灯会包括西安城墙灯会、大唐芙蓉园灯会等",
+   "link": "http://xa.bendibao.com/xiuxian/202517/136780.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "璀璨"
+    ],
+    "themes": [
+     "城墙灯会",
+     "唐文化",
+     "新春夜游"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "亲子家庭",
+     "情侣",
+     "外地游客"
+    ],
+    "categories": [
+     "C",
+     "H"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.65,
+    "culture": 0.85,
+    "environment": 0.9,
+    "cost": 0.4,
+    "family": 0.8,
+    "quiet": 0.2,
+    "social": 0.8,
+    "learning": 0.4,
+    "quality": 0.9
+   },
+   "valid_start": "2026-01-01 00:00:00.000000",
+   "valid_end": "2026-05-05 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026西安乐华恒业欢乐世界新春大妙会",
+   "id": "act-63ef3f45c4",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "文化活动/展览",
+   "summary": "乐华欢乐世界新春庙会，打铁花、火壶等非遗表演与NPC互动。",
+   "time_text": "2026.02.17-2026.03.03",
+   "address": "乐华恒业欢乐世界",
+   "district": "西咸新区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "大型NPC互动，打铁花、火壶等九大非遗轮番登场。",
+   "link": "http://xa.bendibao.com/xiuxian/2026127/147627.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "喜庆"
+    ],
+    "themes": [
+     "打铁花",
+     "火壶",
+     "非遗",
+     "新春庙会"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "亲子家庭",
+     "年轻人"
+    ],
+    "categories": [
+     "A",
+     "C",
+     "E"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.45,
+    "culture": 0.7,
+    "environment": 0.6,
+    "cost": 0.5,
+    "family": 0.9,
+    "quiet": 0.15,
+    "social": 0.8,
+    "learning": 0.5,
+    "quality": 0.75
+   },
+   "valid_start": "2026-02-17 00:00:00.000000",
+   "valid_end": "2026-03-03 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026西安千古情景区春节活动",
+   "id": "act-7e2c66a1ad",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "景区春节活动含天灯祈福、鱼灯巡游、舞龙醒狮与光影秀。",
+   "time_text": "2026.02.17-2026.03.03",
+   "address": "西安千古情景区",
+   "district": "灞桥区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "天灯祈福仪式、盛世鱼灯巡游、舞龙翻腾、醒狮跳跃、沉浸式网红打卡点光影秀等",
+   "link": "http://xa.bendibao.com/xiuxian/202629/147922.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "喜庆"
+    ],
+    "themes": [
+     "春节",
+     "天灯祈福",
+     "鱼灯巡游",
+     "舞龙醒狮",
+     "光影秀"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "亲子家庭",
+     "游客",
+     "情侣"
+    ],
+    "categories": [
+     "C",
+     "H"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.5,
+    "culture": 0.7,
+    "environment": 0.8,
+    "cost": 0.3,
+    "family": 0.9,
+    "quiet": 0.2,
+    "social": 0.8,
+    "learning": 0.5,
+    "quality": 0.9
+   },
+   "valid_start": "2026-02-17 00:00:00.000000",
+   "valid_end": "2026-03-03 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026西安城墙灯会",
+   "id": "act-41ed7b44c7",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "西安城墙灯会扩展至含光门—建国门段，以国宝、诗韵长安、生肖马三条线索布灯。",
+   "time_text": "2026.01.01-2026.03.22",
+   "address": "西安城墙",
+   "district": "碑林区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "今年延长了灯会区域，将在含光门—建国门段及永宁门区域，从“国宝焕新颜、诗韵长安城、奔腾生肖马”三条文化线索出发打造本次灯会。",
+   "link": "http://xa.bendibao.com/xiuxian/202517/136782.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "浪漫"
+    ],
+    "themes": [
+     "城墙灯会",
+     "国宝",
+     "唐诗",
+     "生肖马"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "游客",
+     "亲子家庭",
+     "情侣"
+    ],
+    "categories": [
+     "C",
+     "A"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.675,
+    "culture": 0.9,
+    "environment": 0.85,
+    "cost": 0.4,
+    "family": 0.8,
+    "quiet": 0.25,
+    "social": 0.8,
+    "learning": 0.7,
+    "quality": 0.9
+   },
+   "valid_start": "2026-01-01 00:00:00.000000",
+   "valid_end": "2026-03-22 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026西安大唐芙蓉园灯会",
+   "id": "act-8d45097ed6",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "大唐芙蓉园万盏花灯围绕唐诗唐文化，营造上元夜景象。",
+   "time_text": "2026.01.01-2026.05.05",
+   "address": "大唐芙蓉园",
+   "district": "曲江新区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "延续了水路花灯璀璨与浪漫，围绕唐诗、唐文化等元素，通过“龙马山河”、“长安千寻”、“花朝良辰”等主题，打造了万盏花灯齐亮、灿若星河的唐朝上元夜。",
+   "link": "http://xa.bendibao.com/xiuxian/202517/136787.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "D"
+    ],
+    "moods": [
+     "浪漫",
+     "热闹"
+    ],
+    "themes": [
+     "唐文化",
+     "花灯",
+     "唐诗",
+     "上元夜"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "情侣",
+     "亲子家庭",
+     "游客"
+    ],
+    "categories": [
+     "C",
+     "H"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "D",
+     "A"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.9,
+    "environment": 0.9,
+    "cost": 0.3,
+    "family": 0.8,
+    "quiet": 0.2,
+    "social": 0.8,
+    "learning": 0.6,
+    "quality": 0.9
+   },
+   "valid_start": "2026-01-01 00:00:00.000000",
+   "valid_end": "2026-05-05 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026西安大悦城6大新年IP快闪活动",
+   "id": "act-8421886be6",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "文化活动/展览",
+   "summary": "大悦城内设麻将、综艺IP等多个新年快闪店，适合逛街打卡拍照。",
+   "time_text": "2026.01.22-2026.03.08",
+   "address": "西安大悦城",
+   "district": "雁塔区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "「旺达發」麻将快闪店、「奔跑吧」部落快闪店等",
+   "link": "http://xa.bendibao.com/xiuxian/2026127/147623.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "新潮"
+    ],
+    "themes": [
+     "新年IP快闪",
+     "麻将主题",
+     "潮流打卡"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "年轻人",
+     "情侣",
+     "亲子家庭"
+    ],
+    "categories": [
+     "C",
+     "H"
+    ],
+    "comfort": [
+     "D"
+    ],
+    "factors": [
+     "A",
+     "B"
+    ],
+    "age_fit": [
+     "A",
+     "B"
+    ]
+   },
+   "scores": {
+    "transport": 0.65,
+    "culture": 0.4,
+    "environment": 0.6,
+    "cost": 0.5,
+    "family": 0.6,
+    "quiet": 0.2,
+    "social": 0.9,
+    "learning": 0.3,
+    "quality": 0.72
+   },
+   "valid_start": "2026-01-22 00:00:00.000000",
+   "valid_end": "2026-03-08 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026西安市新春农民画展",
+   "id": "act-9dafefadcf",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "文化展览",
+   "summary": "展出新春主题农民画，呈现新农村风貌与民间艺术传统。",
+   "time_text": "2026.02.09-2026.03.08",
+   "address": "西安市群众艺术馆",
+   "district": "碑林区",
+   "price_text": "（详见详情）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "本次展览以“大地绘彩 春满长安”为主题，旨在透过这扇独特的艺术之窗，生动展现新时代中国农业农村发展的丰硕成果，讴歌人民群众砥砺奋进、昂扬向上的精神风貌，传承中华优秀传统文化中生生不息的基因与脉动。",
+   "link": "http://xa.bendibao.com/xiuxian/202629/147920.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C",
+     "D"
+    ],
+    "moods": [
+     "喜庆",
+     "热闹"
+    ],
+    "themes": [
+     "农民画",
+     "新春",
+     "民间艺术",
+     "乡村风貌"
+    ],
+    "demand": [
+     "B",
+     "A"
+    ],
+    "audience": [
+     "本地居民",
+     "亲子家庭",
+     "艺术爱好者"
+    ],
+    "categories": [
+     "C",
+     "A"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.8,
+    "environment": 0.6,
+    "cost": 1.0,
+    "family": 0.7,
+    "quiet": 0.6,
+    "social": 0.5,
+    "learning": 0.7,
+    "quality": 0.9
+   },
+   "valid_start": "2026-02-09 00:00:00.000000",
+   "valid_end": "2026-03-08 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026西安秦岭野生动物园新春嘉年华",
+   "id": "act-8dd93a3515",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "动物园新春嘉年华，设动物互动区、奇幻大马戏等演出，适合假期带孩子游玩。",
+   "time_text": "2026.02.17-2026.03.03",
+   "address": "秦岭野生动物园",
+   "district": "长安区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "动物膨胀乐园、动物萌宝互动区、奇幻上林苑国际大马戏等超多精彩。",
+   "link": "http://xa.bendibao.com/xiuxian/2026210/147972.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "欢快"
+    ],
+    "themes": [
+     "野生动物",
+     "马戏表演",
+     "萌宠互动",
+     "新春游园"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "亲子家庭",
+     "儿童"
+    ],
+    "categories": [
+     "E",
+     "C",
+     "F"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "D",
+     "A"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.45,
+    "culture": 0.4,
+    "environment": 0.75,
+    "cost": 0.5,
+    "family": 1.0,
+    "quiet": 0.3,
+    "social": 0.7,
+    "learning": 0.6,
+    "quality": 0.9
+   },
+   "valid_start": "2026-02-17 00:00:00.000000",
+   "valid_end": "2026-03-03 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026西安荟聚春节活动",
+   "id": "act-ba9d581470",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "荟聚购物中心新春民俗演出，舞狮、鼓乐、曲艺与巡游每天轮换。",
+   "time_text": "2026.01.23-2026.03.08",
+   "address": "宜家荟聚购物中心",
+   "district": "雁塔区",
+   "price_text": "（详见详情）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "新春民俗表演连连看，舞狮、鼓乐、曲艺、巡游...每天不重样，欢喜不断档!",
+   "link": "http://xa.bendibao.com/xiuxian/2026123/147544.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "喜庆"
+    ],
+    "themes": [
+     "舞狮",
+     "鼓乐",
+     "曲艺",
+     "新春巡游"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "亲子家庭",
+     "本地居民",
+     "年轻人"
+    ],
+    "categories": [
+     "C",
+     "A"
+    ],
+    "comfort": [
+     "D"
+    ],
+    "factors": [
+     "B",
+     "A"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.65,
+    "culture": 0.6,
+    "environment": 0.6,
+    "cost": 0.95,
+    "family": 0.85,
+    "quiet": 0.2,
+    "social": 0.8,
+    "learning": 0.4,
+    "quality": 0.9
+   },
+   "valid_start": "2026-01-23 00:00:00.000000",
+   "valid_end": "2026-03-08 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026西安青龙寺春节活动",
+   "id": "act-13a0638daa",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "国家级非遗扎染作品与遗址古韵相映，青蓝留白呈现东方美学与新春意趣。",
+   "time_text": "2026.02.10-2026.03.03",
+   "address": "青龙寺",
+   "district": "雁塔区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "国家级非遗扎染技艺与遗址古韵映衬，展出的作品以青蓝留白勾勒出新春意趣，尽显东方美学的雅致韵味。",
+   "link": "http://xa.bendibao.com/xiuxian/202626/147884.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C",
+     "D"
+    ],
+    "moods": [
+     "雅致",
+     "静心"
+    ],
+    "themes": [
+     "扎染",
+     "非遗技艺",
+     "青龙寺遗址",
+     "新春"
+    ],
+    "demand": [
+     "B"
+    ],
+    "audience": [
+     "文化爱好者",
+     "亲子家庭",
+     "年轻人"
+    ],
+    "categories": [
+     "A",
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.9,
+    "environment": 0.8,
+    "cost": 0.7,
+    "family": 0.7,
+    "quiet": 0.6,
+    "social": 0.5,
+    "learning": 0.8,
+    "quality": 0.9
+   },
+   "valid_start": "2026-02-10 00:00:00.000000",
+   "valid_end": "2026-03-03 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026诗经里第三届国风潮尚嘉年华",
+   "id": "act-c02881fd11",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "诗经里小镇国风嘉年华，有非遗花灯、打铁花、飞天表演与篝火晚会，互动场次密集。",
+   "time_text": "2026.02.07-2026.03.08",
+   "address": "诗经里小镇",
+   "district": "西咸新区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "非遗花灯、打铁花、梦幻飞轮、篝火晚会、飞天表演，每天上百场互动，多元非遗体验。",
+   "link": "http://xa.bendibao.com/xiuxian/20251219/146725.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "moods": [
+     "浪漫",
+     "热闹"
+    ],
+    "themes": [
+     "国风",
+     "非遗花灯",
+     "打铁花",
+     "飞天表演",
+     "诗经文化"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "年轻人",
+     "亲子家庭",
+     "情侣"
+    ],
+    "categories": [
+     "A",
+     "C"
+    ],
+    "comfort": [
+     "D"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.45,
+    "culture": 0.85,
+    "environment": 0.8,
+    "cost": 0.5,
+    "family": 0.75,
+    "quiet": 0.3,
+    "social": 0.85,
+    "learning": 0.55,
+    "quality": 0.9
+   },
+   "valid_start": "2026-02-07 00:00:00.000000",
+   "valid_end": "2026-03-08 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026长安书院春节活动",
+   "id": "act-1e60ab74b0",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "文化展览",
+   "summary": "集合非遗、科技与艺术体验，可在书院里感受文化年味。",
+   "time_text": "2026.02.09-2026.03.03",
+   "address": "长安书院",
+   "district": "长安区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "来长安书院，玩转非遗、科技、艺术超全体验，把文化年味带回家",
+   "link": "http://xa.bendibao.com/xiuxian/202629/147921.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "亲子"
+    ],
+    "themes": [
+     "非遗体验",
+     "科技互动",
+     "艺术展",
+     "新春年味"
+    ],
+    "demand": [
+     "B",
+     "A"
+    ],
+    "audience": [
+     "亲子家庭",
+     "年轻人"
+    ],
+    "categories": [
+     "A",
+     "C",
+     "F"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.85,
+    "environment": 0.7,
+    "cost": 0.7,
+    "family": 0.9,
+    "quiet": 0.4,
+    "social": 0.6,
+    "learning": 0.8,
+    "quality": 0.8
+   },
+   "valid_start": "2026-02-09 00:00:00.000000",
+   "valid_end": "2026-03-03 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "2026陕西凤翔·苏州桃花坞木版年画新春展",
+   "id": "act-7eb3325b4a",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "文化展览",
+   "summary": "凤翔与桃花坞木版年画同展，可近距离看传统年画技艺。",
+   "time_text": "2026.02.05-2026.03.15",
+   "address": "陕西省美术博物馆",
+   "district": "碑林区",
+   "price_text": "（详见详情）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "陕西凤翔·苏州桃花坞木版年画新春展",
+   "link": "http://xa.bendibao.com/xiuxian/202625/147857.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C",
+     "D"
+    ],
+    "moods": [
+     "静心",
+     "喜庆"
+    ],
+    "themes": [
+     "木版年画",
+     "凤翔",
+     "桃花坞",
+     "新春"
+    ],
+    "demand": [
+     "B",
+     "A"
+    ],
+    "audience": [
+     "艺术爱好者",
+     "亲子家庭",
+     "本地居民"
+    ],
+    "categories": [
+     "C",
+     "A"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.65,
+    "culture": 0.9,
+    "environment": 0.6,
+    "cost": 1.0,
+    "family": 0.6,
+    "quiet": 0.7,
+    "social": 0.4,
+    "learning": 0.8,
+    "quality": 0.8
+   },
+   "valid_start": "2026-02-05 00:00:00.000000",
+   "valid_end": "2026-03-15 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "24H color（叁伍壹壹店）",
+   "id": "act-24f4d01d81",
+   "source": "西安公共文化场馆目录",
+   "source_id": "78",
+   "category_text": "商业工业风 24 小时咖啡休闲与办公体验",
+   "summary": "叁伍壹壹文创园内的老厂房改造空间，咖啡酒吧一体，24小时营业，可休闲可办公。",
+   "time_text": "8:00-24:00",
+   "address": "雁塔区民洁路叁伍壹壹文创园内",
+   "district": "雁塔区",
+   "price_text": "自主消费",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "老厂房改造的工业风，咖啡+酒吧+酒店一体，24小时营业，适合熬夜党、上班族休闲放松、办公。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "随性",
+     "热闹"
+    ],
+    "themes": [
+     "工业风咖啡",
+     "文创园区",
+     "24小时营业"
+    ],
+    "demand": [
+     "A",
+     "D"
+    ],
+    "audience": [
+     "上班族",
+     "年轻人",
+     "熬夜党"
+    ],
+    "categories": [
+     "H"
+    ],
+    "comfort": [
+     "D"
+    ],
+    "factors": [
+     "A",
+     "B"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.6,
+    "environment": 0.7,
+    "cost": 0.6,
+    "family": 0.3,
+    "quiet": 0.4,
+    "social": 0.8,
+    "learning": 0.3,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "CGV星聚汇影城（万象城店）",
+   "id": "act-945162bb90",
+   "source": "西安公共文化场馆目录",
+   "source_id": "41",
+   "category_text": "商业综合型电影观影与商圈配套体验",
+   "summary": "万象城内的连锁影城，影厅类型较全，可与购物餐饮一并进行，适合家庭休闲。",
+   "time_text": "10:00-22:30",
+   "address": "西咸新区三桥新街1076号华润万象城4层",
+   "district": "西咸新区",
+   "price_text": "自主消费",
+   "price_level": "medium",
+   "price_from": 45.0,
+   "highlights": "连锁品牌影城，设施先进，影厅类型丰富，依托万象城商圈，观影、购物、餐饮一站式体验。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "放松",
+     "热闹"
+    ],
+    "themes": [
+     "连锁影城",
+     "多元影厅",
+     "商圈一站式"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "亲子家庭",
+     "本地居民"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "B"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.5,
+    "environment": 0.6,
+    "cost": 0.5,
+    "family": 0.65,
+    "quiet": 0.5,
+    "social": 0.65,
+    "learning": 0.35,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "CGV星聚汇影城（胡家庙店）",
+   "id": "act-c3269f4614",
+   "source": "西安公共文化场馆目录",
+   "source_id": "40",
+   "category_text": "商业 IMAX 电影观影体验",
+   "summary": "胡家庙商圈内的IMAX影城，座椅舒适，周边商业成熟，适合城北居民就近观影。",
+   "time_text": "10:00-22:30",
+   "address": "新城区长缨西路1号华东万和城6层（胡家庙十字西北角）",
+   "district": "新城区",
+   "price_text": "自主消费",
+   "price_level": "medium",
+   "price_from": 45.0,
+   "highlights": "配备IMAX厅与舒适观影座椅，周边商圈成熟，交通便捷，适合城北居民休闲观影。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "放松",
+     "热闹"
+    ],
+    "themes": [
+     "IMAX影厅",
+     "院线新片",
+     "商圈休闲"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "本地居民",
+     "情侣"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "B"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.625,
+    "culture": 0.5,
+    "environment": 0.55,
+    "cost": 0.5,
+    "family": 0.5,
+    "quiet": 0.5,
+    "social": 0.65,
+    "learning": 0.35,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "MRS中影国际影城（西稍门店）",
+   "id": "act-16a06a0311",
+   "source": "西安公共文化场馆目录",
+   "source_id": "52",
+   "category_text": "商业商圈型电影观影与购物配套体验",
+   "summary": "西稍门开元商场影城，交通便捷，可观影购物一站式休闲。",
+   "time_text": "10:00-22:30",
+   "address": "莲湖区西稍门开元商场五层",
+   "district": "莲湖区",
+   "price_text": "自主消费",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "西稍门商圈核心影城，交通便捷，影厅舒适，依托开元商场，观影、购物一站式体验。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "D"
+    ],
+    "moods": [
+     "便捷",
+     "热闹"
+    ],
+    "themes": [
+     "电影观影",
+     "商圈影城",
+     "购物休闲"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "上班族",
+     "情侣",
+     "购物人群"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "B",
+     "A"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.7,
+    "culture": 0.4,
+    "environment": 0.5,
+    "cost": 0.6,
+    "family": 0.5,
+    "quiet": 0.4,
+    "social": 0.6,
+    "learning": 0.3,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "SFC上影影城（大融城店）",
+   "id": "act-b4365fb8c2",
+   "source": "西安公共文化场馆目录",
+   "source_id": "48",
+   "category_text": "商业连锁电影观影与亲子文化体验",
+   "summary": "大融城连锁影城，设施较新，餐饮购物便捷，常办亲子观影活动。",
+   "time_text": "10:00-22:30",
+   "address": "经开区凤城七路51号西安大融城5楼L5-29号",
+   "district": "经开区",
+   "price_text": "自主消费",
+   "price_level": "medium",
+   "price_from": 0.0,
+   "highlights": "连锁影城，设施先进，配套大融城商圈，餐饮、购物便捷，常办亲子观影活动。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "轻松",
+     "热闹"
+    ],
+    "themes": [
+     "亲子观影",
+     "连锁影城",
+     "商圈配套"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "亲子家庭",
+     "年轻人"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "B",
+     "A"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.4,
+    "environment": 0.55,
+    "cost": 0.55,
+    "family": 0.8,
+    "quiet": 0.35,
+    "social": 0.7,
+    "learning": 0.35,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "SKP RENDEZ-VOUS",
+   "id": "act-6c210f02e3",
+   "source": "西安公共文化场馆目录",
+   "source_id": "63",
+   "category_text": "商业高端复合型图书阅读与艺术文化体验",
+   "summary": "商场内复合阅读空间，藏书万余册，含进口杂志，兼有西餐、艺术展览与文化沙龙。",
+   "time_text": "10:00-22:00",
+   "address": "碑林区仁义路SKP商场A座9F",
+   "district": "碑林区",
+   "price_text": "自主消费",
+   "price_level": "low",
+   "price_from": 0.0,
+   "highlights": "高端复合型阅读空间，藏书万余册，涵盖中外图书、进口杂志，融合西餐、艺术展览、文化沙龙。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "精致",
+     "安静"
+    ],
+    "themes": [
+     "进口图书",
+     "艺术展览",
+     "文化沙龙",
+     "西餐咖啡"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "白领",
+     "文艺青年"
+    ],
+    "categories": [
+     "D",
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.65,
+    "culture": 0.8,
+    "environment": 0.85,
+    "cost": 0.7,
+    "family": 0.4,
+    "quiet": 0.6,
+    "social": 0.6,
+    "learning": 0.7,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "UME影城（小寨店）",
+   "id": "act-80d692adbe",
+   "source": "西安公共文化场馆目录",
+   "source_id": "42",
+   "category_text": "商业核心商圈电影观影体验",
+   "summary": "小寨商圈核心影城，装修时尚、影厅视野开阔，热门影片排期密集，营业至深夜。",
+   "time_text": "10:00-23:00",
+   "address": "雁塔区小寨西路232号置地时代MOMOPARK三层、四层",
+   "district": "雁塔区",
+   "price_text": "自主消费",
+   "price_level": "medium",
+   "price_from": 45.0,
+   "highlights": "小寨核心商圈影城，装修时尚，影厅视野开阔，配套奶茶、小吃，热门影片排期密集。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "热闹",
+     "放松"
+    ],
+    "themes": [
+     "院线新片",
+     "时尚影厅",
+     "小寨商圈"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "大学生",
+     "情侣"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "B"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.7,
+    "culture": 0.5,
+    "environment": 0.6,
+    "cost": 0.5,
+    "family": 0.45,
+    "quiet": 0.4,
+    "social": 0.8,
+    "learning": 0.35,
+    "quality": 0.75
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "UME影城（浐灞店）",
+   "id": "act-2f0e050dbe",
+   "source": "西安公共文化场馆目录",
+   "source_id": "43",
+   "category_text": "商业区域型电影观影与购物配套体验",
+   "summary": "砂之船奥特莱斯内影城，环境整洁、影厅舒适，可与购物结合，服务浐灞周边居民。",
+   "time_text": "10:00-22:00",
+   "address": "浐灞生态区世博大道5001号砂之船4楼UME影城",
+   "district": "浐灞生态区",
+   "price_text": "自主消费",
+   "price_level": "medium",
+   "price_from": 40.0,
+   "highlights": "浐灞区域核心影城，环境整洁，影厅舒适，依托砂之船奥特莱斯，观影购物两不误。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "放松"
+    ],
+    "themes": [
+     "院线新片",
+     "奥特莱斯配套",
+     "区域影城"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "本地居民",
+     "亲子家庭"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "B"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.525,
+    "culture": 0.45,
+    "environment": 0.6,
+    "cost": 0.55,
+    "family": 0.6,
+    "quiet": 0.55,
+    "social": 0.6,
+    "learning": 0.3,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "“她的音乐客厅”XSO弦乐钢琴五重奏音乐会",
+   "id": "act-27d017a11a",
+   "source": "陕西大剧院",
+   "source_id": "",
+   "category_text": "音乐会",
+   "summary": "XSO弦乐与钢琴五重奏室内乐音乐会，票价较低，适合安静聆听的听众。",
+   "time_text": "2026.03.08 19:30",
+   "address": "西安音乐厅 - 交响大厅",
+   "district": "雁塔区",
+   "price_text": "￥60 - ￥180",
+   "price_level": "medium",
+   "price_from": 60.0,
+   "highlights": "古典与跨界·音乐无限",
+   "link": "https://www.snpac.com/sxtheatre/index.html#/ticket/detail/5854",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B"
+    ],
+    "moods": [
+     "静心",
+     "优雅"
+    ],
+    "themes": [
+     "弦乐五重奏",
+     "钢琴室内乐",
+     "女性主题"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "文艺青年",
+     "女性观众"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.8,
+    "environment": 0.8,
+    "cost": 0.6,
+    "family": 0.5,
+    "quiet": 0.75,
+    "social": 0.5,
+    "learning": 0.6,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "《剧强音》音乐剧明星音乐会 The Leading Voices of Musicals",
+   "id": "act-350c42682c",
+   "source": "陕西大剧院",
+   "source_id": "",
+   "category_text": "音乐会",
+   "summary": "音乐剧明星音乐会，汇集音乐剧原版选段与经典金曲，现场演唱形式。",
+   "time_text": "2026.03.21 - 03.22",
+   "address": "陕西大剧院 - 歌剧厅",
+   "district": "雁塔区",
+   "price_text": "￥70 - ￥1280",
+   "price_level": "medium",
+   "price_from": 70.0,
+   "highlights": "音乐剧盛宴·从原版到金曲",
+   "link": "https://www.snpac.com/sxtheatre/index.html#/ticket/detail/5768",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B"
+    ],
+    "moods": [
+     "热烈",
+     "华丽"
+    ],
+    "themes": [
+     "音乐剧金曲",
+     "伦敦西区",
+     "明星音乐会"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "音乐剧迷",
+     "年轻观众"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.7,
+    "environment": 0.8,
+    "cost": 0.3,
+    "family": 0.5,
+    "quiet": 0.5,
+    "social": 0.6,
+    "learning": 0.5,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "《聪明的小鸡道恩》系列第一部“道恩的最佳拍档”",
+   "id": "act-5e1f289438",
+   "source": "陕西大剧院",
+   "source_id": "",
+   "category_text": "亲子演出",
+   "summary": "小剧场儿童剧《聪明的小鸡道恩》首部，讲述道恩与伙伴的成长故事，适合亲子观看。",
+   "time_text": "2026.03.27 - 03.29",
+   "address": "西安·开元大剧院 - 小剧场",
+   "district": "雁塔区",
+   "price_text": "￥68 - ￥158",
+   "price_level": "medium",
+   "price_from": 68.0,
+   "highlights": "亲子时光·儿童剧场",
+   "link": "https://www.snpac.com/sxtheatre/index.html#/ticket/detail/5822",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "moods": [
+     "欢乐",
+     "温馨"
+    ],
+    "themes": [
+     "儿童剧",
+     "亲子",
+     "成长故事"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "亲子家庭",
+     "儿童"
+    ],
+    "categories": [
+     "E",
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.5,
+    "environment": 0.6,
+    "cost": 0.6,
+    "family": 0.9,
+    "quiet": 0.5,
+    "social": 0.5,
+    "learning": 0.5,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "《聪明的小鸡道恩》系列第二部“道恩的友情危机”",
+   "id": "act-b61631cf84",
+   "source": "陕西大剧院",
+   "source_id": "",
+   "category_text": "亲子演出",
+   "summary": "儿童剧《聪明的小鸡道恩》第二部，讲述道恩的友情危机，适合亲子共同观看。",
+   "time_text": "2026.04.24 - 04.26",
+   "address": "西安·开元大剧院 - 小剧场",
+   "district": "经开区",
+   "price_text": "￥68 - ￥158",
+   "price_level": "medium",
+   "price_from": 68.0,
+   "highlights": "亲子时光·儿童剧场",
+   "link": "https://www.snpac.com/sxtheatre/index.html#/ticket/detail/5829",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B"
+    ],
+    "moods": [
+     "欢乐",
+     "温馨"
+    ],
+    "themes": [
+     "儿童剧",
+     "友情",
+     "剧场演出",
+     "亲子"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "亲子家庭",
+     "儿童"
+    ],
+    "categories": [
+     "E",
+     "F"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "B"
+    ],
+    "age_fit": [
+     "A",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.5,
+    "environment": 0.6,
+    "cost": 0.5,
+    "family": 0.95,
+    "quiet": 0.6,
+    "social": 0.6,
+    "learning": 0.4,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "「XSO古典直通车」轻享系列音乐会（开元大剧院站）",
+   "id": "act-8bc64dc803",
+   "source": "陕西大剧院",
+   "source_id": "",
+   "category_text": "音乐会",
+   "summary": "同系列音乐会移师开元大剧院小剧场，30元票价，曲目通俗、入门友好。",
+   "time_text": "2026.04.22 - 12.02",
+   "address": "西安·开元大剧院 - 小剧场",
+   "district": "雁塔区",
+   "price_text": "￥30",
+   "price_level": "low",
+   "price_from": 30.0,
+   "highlights": "古典与跨界·音乐无限",
+   "link": "https://www.snpac.com/sxtheatre/index.html#/ticket/detail/5839",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "静心",
+     "轻松"
+    ],
+    "themes": [
+     "交响乐",
+     "古典音乐",
+     "轻享音乐会"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "上班族",
+     "学生",
+     "银发族"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.8,
+    "environment": 0.6,
+    "cost": 0.9,
+    "family": 0.4,
+    "quiet": 0.7,
+    "social": 0.4,
+    "learning": 0.6,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "「XSO古典直通车」轻享系列音乐会（西安音乐厅站）",
+   "id": "act-22ee69432f",
+   "source": "陕西大剧院",
+   "source_id": "",
+   "category_text": "音乐会",
+   "summary": "XSO轻享系列在西安音乐厅演出，30元低价听古典与跨界曲目，时长友好。",
+   "time_text": "2026.04.21 - 12.01",
+   "address": "西安音乐厅 - 交响大厅",
+   "district": "雁塔区",
+   "price_text": "￥30",
+   "price_level": "low",
+   "price_from": 30.0,
+   "highlights": "古典与跨界·音乐无限",
+   "link": "https://www.snpac.com/sxtheatre/index.html#/ticket/detail/5840",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "静心",
+     "优雅"
+    ],
+    "themes": [
+     "交响乐",
+     "古典音乐",
+     "轻享音乐会"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "上班族",
+     "学生",
+     "银发族"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.8,
+    "environment": 0.7,
+    "cost": 0.9,
+    "family": 0.4,
+    "quiet": 0.7,
+    "social": 0.4,
+    "learning": 0.6,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "【来开元 过大年】开元大剧院元宵节音乐会-钟鸣鼓乐 梦回大唐",
+   "id": "act-759305d6de",
+   "source": "陕西大剧院",
+   "source_id": "",
+   "category_text": "音乐会",
+   "summary": "开元大剧院元宵节主题音乐会，以钟鼓与唐风曲目呈现古典与跨界音乐。",
+   "time_text": "2026.03.03 19:30",
+   "address": "西安·开元大剧院 - 大剧场",
+   "district": "雁塔区",
+   "price_text": "￥70 - ￥480",
+   "price_level": "medium",
+   "price_from": 70.0,
+   "highlights": "古典与跨界·音乐无限",
+   "link": "https://www.snpac.com/sxtheatre/index.html#/ticket/detail/5768",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "D"
+    ],
+    "moods": [
+     "典雅",
+     "热闹"
+    ],
+    "themes": [
+     "元宵节",
+     "民乐",
+     "唐文化",
+     "剧场音乐会"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "音乐爱好者",
+     "家庭",
+     "本地居民"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A"
+    ],
+    "age_fit": [
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.9,
+    "environment": 0.8,
+    "cost": 0.4,
+    "family": 0.6,
+    "quiet": 0.5,
+    "social": 0.6,
+    "learning": 0.6,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "万邦书店（中大国际店）",
+   "id": "act-b4823690dc",
+   "source": "西安公共文化场馆目录",
+   "source_id": "59",
+   "category_text": "商业高端复古文创图书阅读与手作体验",
+   "summary": "南大街上的复古文艺书店，旋转楼梯醒目，兼有文创、咖啡与手作。",
+   "time_text": "10:00-22:00",
+   "address": "碑林区南大街30号中大国际A座5层",
+   "district": "碑林区",
+   "price_text": "自主消费",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "悬浮式旋转楼梯出片，融合文创、咖啡与手作，复古文艺氛围浓厚，主打人文社科类书籍。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "文艺",
+     "复古"
+    ],
+    "themes": [
+     "图书",
+     "文创",
+     "手作",
+     "旋转楼梯"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "年轻人",
+     "情侣"
+    ],
+    "categories": [
+     "D"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.675,
+    "culture": 0.8,
+    "environment": 0.85,
+    "cost": 0.9,
+    "family": 0.5,
+    "quiet": 0.65,
+    "social": 0.55,
+    "learning": 0.75,
+    "quality": 0.78
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "乐乐趣童书馆",
+   "id": "act-4e9e617453",
+   "source": "西安公共文化场馆目录",
+   "source_id": "72",
+   "category_text": "商业少儿绘本阅读与亲子互动体验",
+   "summary": "小寨商圈内的童书馆，绘本藏书丰富，设亲子阅读与互动区，常办儿童读书与手工活动。",
+   "time_text": "10:00-21:00",
+   "address": "雁塔区小寨西路MOMOPARK3层",
+   "district": "雁塔区",
+   "price_text": "自主消费",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "主打儿童绘本、少儿读物，藏书丰富，设有亲子阅读区与互动体验区，常办儿童读书、手工活动。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "温馨",
+     "活泼"
+    ],
+    "themes": [
+     "绘本",
+     "亲子阅读",
+     "儿童手工",
+     "少儿读物"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "亲子家庭",
+     "儿童"
+    ],
+    "categories": [
+     "D",
+     "E",
+     "F"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "B"
+    ],
+    "age_fit": [
+     "A",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.675,
+    "culture": 0.65,
+    "environment": 0.7,
+    "cost": 0.55,
+    "family": 0.95,
+    "quiet": 0.35,
+    "social": 0.75,
+    "learning": 0.75,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "书院门文化街",
+   "id": "act-e3fc02a523",
+   "source": "西安公共文化场馆目录",
+   "source_id": "35",
+   "category_text": "书法文化特色公益休闲观光",
+   "summary": "青石板古文化街，文房四宝与字画印章店铺林立，书法文化氛围浓厚。",
+   "time_text": "全天开放",
+   "address": "碑林区南大街至碑林博物馆",
+   "district": "碑林区",
+   "price_text": "免费",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "古文化商业街，青石板路，文房四宝、字画印章店铺林立，书法文化氛围浓厚。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "闲适",
+     "文雅"
+    ],
+    "themes": [
+     "书法",
+     "文房四宝",
+     "古街",
+     "字画印章"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "游客",
+     "文化爱好者",
+     "本地居民"
+    ],
+    "categories": [
+     "H",
+     "A"
+    ],
+    "comfort": [
+     "D"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.65,
+    "culture": 0.85,
+    "environment": 0.7,
+    "cost": 0.95,
+    "family": 0.6,
+    "quiet": 0.4,
+    "social": 0.65,
+    "learning": 0.6,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "伦敦西区原版音乐剧 《玛蒂尔达》",
+   "id": "act-27d1baed15",
+   "source": "陕西大剧院",
+   "source_id": "",
+   "category_text": "音乐剧",
+   "summary": "伦敦西区原版音乐剧《玛蒂尔达》西安驻演，改编自同名儿童文学作品。",
+   "time_text": "2026.04.03 - 04.12",
+   "address": "陕西大剧院 - 歌剧厅",
+   "district": "雁塔区",
+   "price_text": "￥70 - ￥1280",
+   "price_level": "medium",
+   "price_from": 70.0,
+   "highlights": "国际经典·原版引进",
+   "link": "https://www.snpac.com/sxtheatre/index.html#/ticket/detail/5720",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "moods": [
+     "欢乐",
+     "奇幻"
+    ],
+    "themes": [
+     "伦敦西区",
+     "音乐剧",
+     "儿童文学",
+     "原版引进"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "亲子家庭",
+     "音乐剧迷"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.85,
+    "environment": 0.8,
+    "cost": 0.3,
+    "family": 0.8,
+    "quiet": 0.5,
+    "social": 0.6,
+    "learning": 0.5,
+    "quality": 0.9
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "佟睿睿导演作品·舞剧《龟兹》",
+   "id": "act-1788990d62",
+   "source": "陕西大剧院",
+   "source_id": "",
+   "category_text": "舞蹈",
+   "summary": "佟睿睿导演原创舞剧，以龟兹乐舞与丝路文化为题材，在陕西大剧院歌剧厅上演。",
+   "time_text": "2026.04.24 - 04.25",
+   "address": "陕西大剧院 - 歌剧厅",
+   "district": "雁塔区",
+   "price_text": "￥100 - ￥880",
+   "price_level": "medium",
+   "price_from": 100.0,
+   "highlights": "舞剧佳作·国内原创",
+   "link": "https://www.snpac.com/sxtheatre/index.html#/ticket/detail/5805",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B"
+    ],
+    "moods": [
+     "震撼",
+     "沉浸"
+    ],
+    "themes": [
+     "龟兹乐舞",
+     "丝路文化",
+     "原创舞剧"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "文艺青年",
+     "情侣"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.9,
+    "environment": 0.8,
+    "cost": 0.3,
+    "family": 0.5,
+    "quiet": 0.6,
+    "social": 0.5,
+    "learning": 0.7,
+    "quality": 0.9
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "八路军西安办事处纪念馆",
+   "id": "act-4932cd258b",
+   "source": "西安公共文化场馆目录",
+   "source_id": "30",
+   "category_text": "红色革命历史公益展览与教育",
+   "summary": "抗战时期红色联络旧址，保留革命场景与文物，免费参观。",
+   "time_text": "9:00-17:00（16:30 止入），周一闭馆（节假日除外）",
+   "address": "新城区北新街七贤庄 1 号",
+   "district": "新城区",
+   "price_text": "免费",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "抗战红色联络枢纽，保留旧址场景，展革命文物，是革命传统教育重要场所。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C",
+     "D"
+    ],
+    "moods": [
+     "庄重",
+     "肃穆"
+    ],
+    "themes": [
+     "红色历史",
+     "革命文物",
+     "抗战"
+    ],
+    "demand": [
+     "B"
+    ],
+    "audience": [
+     "学生",
+     "党员团体",
+     "本地居民"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.65,
+    "culture": 0.8,
+    "environment": 0.5,
+    "cost": 1.0,
+    "family": 0.5,
+    "quiet": 0.8,
+    "social": 0.4,
+    "learning": 0.8,
+    "quality": 0.75
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "关中忙罢艺术节",
+   "id": "act-5bf83ba405",
+   "source": "西安公共文化场馆目录",
+   "source_id": "7",
+   "category_text": "乡村特色非遗与艺术融合公益展演",
+   "summary": "麦收季在蔡家坡村举办，以麦田为舞台融合交响乐、秦腔、戏剧与大地装置、非遗体验。",
+   "time_text": "每年麦收季（6 月中下旬），具体以当年公告为准",
+   "address": "西安市鄠邑区蔡家坡村及周边",
+   "district": "鄠邑区",
+   "price_text": "免费（主展区及活动，个别特展可能收费）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "以麦田为舞台，融合交响乐、秦腔、戏剧等高雅艺术与大地装置、非遗体验，打造乡村艺术盛宴，观众免费参与。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "热闹",
+     "田园",
+     "浪漫"
+    ],
+    "themes": [
+     "麦田艺术",
+     "秦腔",
+     "大地装置",
+     "非遗体验",
+     "乡村艺术"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "年轻人",
+     "亲子家庭",
+     "摄影爱好者"
+    ],
+    "categories": [
+     "C",
+     "A",
+     "H"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "D",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.4,
+    "culture": 0.8,
+    "environment": 0.9,
+    "cost": 1.0,
+    "family": 0.8,
+    "quiet": 0.4,
+    "social": 0.8,
+    "learning": 0.6,
+    "quality": 0.85
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "华清宫（唐御汤遗址）",
+   "id": "act-728ced32dd",
+   "source": "西安公共文化场馆目录",
+   "source_id": "26",
+   "category_text": "唐代皇家园林遗址观光与文化体验",
+   "summary": "唐代皇家温泉行宫遗址，可看御汤遗址与《长恨歌》演出。",
+   "time_text": "7:30-19:00（18:00 止入），全年开放",
+   "address": "临潼区华清路 38 号",
+   "district": "临潼区",
+   "price_text": "120 元",
+   "price_level": "medium",
+   "price_from": 120.0,
+   "highlights": "唐代皇家温泉行宫，有海棠汤等御汤遗址；融山水与历史，可看《长恨歌》演出。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C",
+     "D"
+    ],
+    "moods": [
+     "悠然",
+     "浪漫"
+    ],
+    "themes": [
+     "唐文化",
+     "皇家园林",
+     "御汤遗址",
+     "实景演出"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "家庭游客",
+     "情侣",
+     "外地游客"
+    ],
+    "categories": [
+     "C",
+     "H"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.95,
+    "environment": 0.9,
+    "cost": 0.45,
+    "family": 0.6,
+    "quiet": 0.5,
+    "social": 0.6,
+    "learning": 0.8,
+    "quality": 0.9
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "南美交响狂欢 · NEOJIBA巴西巴伊亚州青少年管弦乐团2026西安音乐会",
+   "id": "act-075cc9790b",
+   "source": "陕西大剧院",
+   "source_id": "",
+   "category_text": "音乐会",
+   "summary": "巴西巴伊亚州青少年管弦乐团带来南美风格交响音乐会，古典与跨界曲目同台。",
+   "time_text": "2026.05.01 19:30",
+   "address": "西安音乐厅 - 交响大厅",
+   "district": "雁塔区",
+   "price_text": "￥80 - ￥380",
+   "price_level": "medium",
+   "price_from": 80.0,
+   "highlights": "古典与跨界·音乐无限",
+   "link": "https://www.snpac.com/sxtheatre/index.html#/ticket/detail/5877",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B"
+    ],
+    "moods": [
+     "热烈",
+     "欢快"
+    ],
+    "themes": [
+     "巴西青少年乐团",
+     "古典跨界",
+     "南美风情"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "音乐爱好者",
+     "亲子家庭"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A"
+    ],
+    "age_fit": [
+     "B",
+     "C",
+     "A"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.8,
+    "environment": 0.8,
+    "cost": 0.4,
+    "family": 0.7,
+    "quiet": 0.6,
+    "social": 0.6,
+    "learning": 0.6,
+    "quality": 0.85
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "博纳国际影城（大悦城IMAX店）",
+   "id": "act-993eb889f0",
+   "source": "西安公共文化场馆目录",
+   "source_id": "46",
+   "category_text": "商业 IMAX 电影观影与景区配套体验",
+   "summary": "大悦城内IMAX影城，紧邻大雁塔与大唐不夜城，观影后可逛街看夜景。",
+   "time_text": "10:00-23:00",
+   "address": "曲江新区慈恩路777号西安曲江大悦城购物中心L3-40号商铺",
+   "district": "曲江新区",
+   "price_text": "自主消费",
+   "price_level": "medium",
+   "price_from": 0.0,
+   "highlights": "拥有IMAX巨幕，紧邻大雁塔、大唐不夜城，观影后可游览景区，夜景绝佳，网红打卡必去。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "热闹",
+     "浪漫"
+    ],
+    "themes": [
+     "IMAX巨幕",
+     "大雁塔",
+     "夜景打卡"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "情侣",
+     "游客"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "D",
+     "A"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.55,
+    "environment": 0.85,
+    "cost": 0.45,
+    "family": 0.55,
+    "quiet": 0.3,
+    "social": 0.75,
+    "learning": 0.4,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "博纳国际影城（朱雀店）",
+   "id": "act-309ee47b6c",
+   "source": "西安公共文化场馆目录",
+   "source_id": "37",
+   "category_text": "商业沉浸式电影观影体验",
+   "summary": "小寨商圈影院，配4DX动感厅与杜比全景声，热门影片排期充足。",
+   "time_text": "10:00-24:00",
+   "address": "雁塔区小寨西路26号安南城6层",
+   "district": "雁塔区",
+   "price_text": "自主消费",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "配备4DX动感厅与杜比全景声，小寨商圈核心，观影体验沉浸，热门影片排期充足。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "沉浸",
+     "热闹"
+    ],
+    "themes": [
+     "电影",
+     "4DX",
+     "杜比全景声",
+     "商圈观影"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "情侣",
+     "朋友聚会",
+     "大学生"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "B"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.7,
+    "culture": 0.4,
+    "environment": 0.6,
+    "cost": 0.5,
+    "family": 0.6,
+    "quiet": 0.2,
+    "social": 0.8,
+    "learning": 0.15,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "卢米埃IMAX影城（曲江创意谷店）",
+   "id": "act-09c0cc7d79",
+   "source": "西安公共文化场馆目录",
+   "source_id": "38",
+   "category_text": "商业高端巨幕电影观影与主题影展",
+   "summary": "曲江创意谷内的IMAX影城，配皮质座椅，常办主题影展，观影后可逛文艺街区。",
+   "time_text": "10:00-22:30",
+   "address": "雁塔区雁翔路3369号曲江创意谷G层",
+   "district": "曲江新区",
+   "price_text": "自主消费",
+   "price_level": "medium",
+   "price_from": 45.0,
+   "highlights": "拥有IMAX巨幕与皮质座椅，创意谷文艺街区配套，适合约会、休闲观影，常办主题影展。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "浪漫",
+     "放松"
+    ],
+    "themes": [
+     "IMAX巨幕",
+     "主题影展",
+     "文艺街区"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "情侣",
+     "大学生"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.6,
+    "environment": 0.75,
+    "cost": 0.45,
+    "family": 0.5,
+    "quiet": 0.55,
+    "social": 0.75,
+    "learning": 0.4,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "叁伍壹壹2026年春节活动",
+   "id": "act-f26c0e20f1",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "叁伍壹壹文创园春节有开年舞龙、非遗秦腔与互动装置，可边逛园区边看演出。",
+   "time_text": "2026.02.08-2026.03.03",
+   "address": "叁伍壹壹文创园",
+   "district": "雁塔区",
+   "price_text": "（详见详情）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "开年舞龙，威风启程，邂逅吐泡萌鱼，赠玫瑰，递春意，非遗秦腔，古调新舞，演绎地道陕味腔调。",
+   "link": "http://xa.bendibao.com/xiuxian/202629/147924.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "文艺"
+    ],
+    "themes": [
+     "秦腔",
+     "舞龙",
+     "非遗",
+     "文创园区"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "年轻人",
+     "亲子家庭",
+     "本地居民"
+    ],
+    "categories": [
+     "A",
+     "C"
+    ],
+    "comfort": [
+     "D"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.7,
+    "environment": 0.8,
+    "cost": 0.9,
+    "family": 0.6,
+    "quiet": 0.4,
+    "social": 0.8,
+    "learning": 0.5,
+    "quality": 0.9
+   },
+   "valid_start": "2026-02-08 00:00:00.000000",
+   "valid_end": "2026-03-03 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "嘉汇汉唐书城（长安中路店）",
+   "id": "act-d335347247",
+   "source": "西安公共文化场馆目录",
+   "source_id": "60",
+   "category_text": "商业老牌综合型图书阅读与文化体验",
+   "summary": "经营面积12000平方米的老牌书城，藏书18万册，设有时光长廊与老物件陈列。",
+   "time_text": "10:00-22:00",
+   "address": "雁塔区长安中路111号",
+   "district": "雁塔区",
+   "price_text": "自主消费",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "西安老牌书城，经营面积12000㎡，藏书18万册，设有时光长廊，陈列老物件，兼具休闲与文化体验。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "怀旧",
+     "安静"
+    ],
+    "themes": [
+     "图书",
+     "时光长廊",
+     "老物件"
+    ],
+    "demand": [
+     "B",
+     "A"
+    ],
+    "audience": [
+     "学生",
+     "本地居民"
+    ],
+    "categories": [
+     "D"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "B"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.7,
+    "culture": 0.75,
+    "environment": 0.6,
+    "cost": 0.9,
+    "family": 0.7,
+    "quiet": 0.6,
+    "social": 0.4,
+    "learning": 0.8,
+    "quality": 0.75
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "圣彼得堡国立模范芭蕾舞团 芭蕾舞《天鹅湖》",
+   "id": "act-280c7e7887",
+   "source": "陕西大剧院",
+   "source_id": "",
+   "category_text": "舞蹈",
+   "summary": "圣彼得堡国立模范芭蕾舞团原版引进，演绎经典《天鹅湖》全剧。",
+   "time_text": "2026.03.28 - 03.29",
+   "address": "西安·开元大剧院 - 大剧场",
+   "district": "雁塔区",
+   "price_text": "￥70 - ￥680",
+   "price_level": "high",
+   "price_from": 70.0,
+   "highlights": "国际经典·原版引进",
+   "link": "https://www.snpac.com/sxtheatre/index.html#/ticket/detail/5809",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "moods": [
+     "优雅",
+     "沉浸"
+    ],
+    "themes": [
+     "芭蕾",
+     "天鹅湖",
+     "古典名作"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "情侣",
+     "艺术爱好者",
+     "家庭"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A"
+    ],
+    "age_fit": [
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.9,
+    "environment": 0.7,
+    "cost": 0.3,
+    "family": 0.5,
+    "quiet": 0.7,
+    "social": 0.5,
+    "learning": 0.6,
+    "quality": 0.9
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "大唐不夜城",
+   "id": "act-887ecd5420",
+   "source": "西安公共文化场馆目录",
+   "source_id": "31",
+   "category_text": "盛唐沉浸式文化休闲观光体验",
+   "summary": "盛唐主题街区，有灯光秀、非遗表演与市集，夜景热闹。",
+   "time_text": "全天开放",
+   "address": "雁塔区慈恩路 46 号",
+   "district": "雁塔区",
+   "price_text": "免费",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "盛唐沉浸式街区，有灯光秀、非遗表演、文化市集，夜间文化体验与休闲胜地。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "热闹",
+     "浪漫"
+    ],
+    "themes": [
+     "盛唐",
+     "夜景灯光",
+     "非遗表演",
+     "文创市集"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "年轻人",
+     "情侣",
+     "游客"
+    ],
+    "categories": [
+     "C",
+     "H"
+    ],
+    "comfort": [
+     "D"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.675,
+    "culture": 0.8,
+    "environment": 0.85,
+    "cost": 1.0,
+    "family": 0.7,
+    "quiet": 0.15,
+    "social": 0.9,
+    "learning": 0.5,
+    "quality": 0.9
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "大唐芙蓉园音乐喷泉水舞光影秀",
+   "id": "act-c48444d808",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "大唐芙蓉园内水幕光影演出，激光、喷泉与雾森联动，夜场观感强。",
+   "time_text": "2024.08.02起",
+   "address": "大唐芙蓉园",
+   "district": "曲江新区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "有沉浸式环绕音响、大型多维水喷泉设备、雾森系统与炫目激光等新型演绎设备",
+   "link": "http://xa.bendibao.com/xiuxian/2024412/127326.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "D"
+    ],
+    "moods": [
+     "浪漫",
+     "热闹"
+    ],
+    "themes": [
+     "唐文化",
+     "水幕光影",
+     "音乐喷泉",
+     "夜游"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "亲子家庭",
+     "情侣",
+     "游客"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "D",
+     "A"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.8,
+    "environment": 0.9,
+    "cost": 0.45,
+    "family": 0.7,
+    "quiet": 0.25,
+    "social": 0.65,
+    "learning": 0.5,
+    "quality": 0.9
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "大唐西市地摊集市",
+   "id": "act-bee631086f",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "市集文创",
+   "summary": "古玩城内的地摊自由交易市场，集中摆放文玩杂项与老物件，适合闲逛淘宝。",
+   "time_text": "2023.11.02-2026.04.30",
+   "address": "大唐西市古玩城",
+   "district": "莲湖区",
+   "price_text": "（详见详情）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "安市最大的古玩地摊自由交易市场，也是古玩爱好收藏家的“淘宝圣地”",
+   "link": "http://xa.bendibao.com/xiuxian/2024515/128750.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "热闹",
+     "烟火气"
+    ],
+    "themes": [
+     "古玩",
+     "老物件",
+     "地摊淘宝"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "收藏爱好者",
+     "本地居民",
+     "中老年"
+    ],
+    "categories": [
+     "C",
+     "H"
+    ],
+    "comfort": [
+     "D"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.7,
+    "environment": 0.4,
+    "cost": 1.0,
+    "family": 0.4,
+    "quiet": 0.2,
+    "social": 0.7,
+    "learning": 0.5,
+    "quality": 0.9
+   },
+   "valid_start": "2023-11-02 00:00:00.000000",
+   "valid_end": "2026-04-30 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "大地影院（高科尚都店）",
+   "id": "act-7f157fa17e",
+   "source": "西安公共文化场馆目录",
+   "source_id": "53",
+   "category_text": "商业区域型平价电影观影体验",
+   "summary": "高新区平价影城，设施简洁实用，周边写字楼社区密集，适合日常观影。",
+   "time_text": "10:00-22:00",
+   "address": "高新区丈八五路43号高科尚都one尚城3楼",
+   "district": "高新区",
+   "price_text": "自主消费",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "高新区平价影城，设施简洁实用，票价亲民，周边写字楼、社区密集，适合日常观影。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "D"
+    ],
+    "moods": [
+     "朴实",
+     "轻松"
+    ],
+    "themes": [
+     "电影观影",
+     "平价影城",
+     "社区休闲"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "上班族",
+     "周边居民",
+     "学生"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "B",
+     "C"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.4,
+    "environment": 0.4,
+    "cost": 0.8,
+    "family": 0.4,
+    "quiet": 0.5,
+    "social": 0.4,
+    "learning": 0.3,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "大明宫国家遗址公园",
+   "id": "act-943306a79c",
+   "source": "西安公共文化场馆目录",
+   "source_id": "22",
+   "category_text": "唐宫遗址观光与考古科普体验",
+   "summary": "唐皇宫遗址公园，园区免费开放，含复原景观、遗址博物馆与考古科普内容。",
+   "time_text": "9:30-18:00（17:00 止入），全年开放",
+   "address": "新城区自强东路 585 号",
+   "district": "新城区",
+   "price_text": "园区免费，展馆另收费",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "唐皇宫遗址，复原微缩景观与博物馆，可考古科普、看非遗展演，感受盛唐恢弘。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C",
+     "D"
+    ],
+    "moods": [
+     "开阔",
+     "轻松"
+    ],
+    "themes": [
+     "唐宫遗址",
+     "考古科普",
+     "微缩景观",
+     "非遗展演"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "亲子家庭",
+     "本地居民",
+     "学生研学"
+    ],
+    "categories": [
+     "H",
+     "F",
+     "C"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "C",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.8,
+    "environment": 0.85,
+    "cost": 0.9,
+    "family": 0.8,
+    "quiet": 0.55,
+    "social": 0.6,
+    "learning": 0.7,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "大秦水舞光影秀",
+   "id": "act-4a2cc98a6a",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "大秦文明园水舞光影秀，7组喷泉纵横排布，多角度呈现水幕光影。",
+   "time_text": "2024.04.12起",
+   "address": "秦汉新城大秦文明园",
+   "district": "西咸新区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "7圆喷泉以纵横方式排列的水秀布局，满足观众多角度观赏的需求",
+   "link": "http://xa.bendibao.com/xiuxian/2024412/127318.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "浪漫"
+    ],
+    "themes": [
+     "水舞秀",
+     "光影",
+     "秦文化",
+     "喷泉"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "亲子家庭",
+     "游客",
+     "情侣"
+    ],
+    "categories": [
+     "C",
+     "H"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "D",
+     "A"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.45,
+    "culture": 0.7,
+    "environment": 0.8,
+    "cost": 0.6,
+    "family": 0.8,
+    "quiet": 0.2,
+    "social": 0.6,
+    "learning": 0.5,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "大雁塔・大慈恩寺",
+   "id": "act-11622ee6ef",
+   "source": "西安公共文化场馆目录",
+   "source_id": "23",
+   "category_text": "佛教文化地标观光与历史体验",
+   "summary": "玄奘译经之地的唐代佛教地标，登塔俯瞰，北广场夜有音乐喷泉。",
+   "time_text": "8:30-18:00（17:30 止入），全年开放",
+   "address": "雁塔区慈恩路 1 号大慈恩寺内",
+   "district": "雁塔区",
+   "price_text": "大慈恩寺 40 元，登塔 30 元",
+   "price_level": "low",
+   "price_from": 40.0,
+   "highlights": "玄奘译经之地，唐代佛教地标；北广场有亚洲最大音乐喷泉，文化与休闲兼具。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C",
+     "D"
+    ],
+    "moods": [
+     "庄严",
+     "热闹"
+    ],
+    "themes": [
+     "佛教文化",
+     "玄奘译经",
+     "唐塔建筑",
+     "音乐喷泉"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "游客",
+     "情侣",
+     "亲子家庭"
+    ],
+    "categories": [
+     "C",
+     "H"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.65,
+    "culture": 0.9,
+    "environment": 0.85,
+    "cost": 0.5,
+    "family": 0.7,
+    "quiet": 0.45,
+    "social": 0.7,
+    "learning": 0.7,
+    "quality": 0.85
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "大雁塔水舞光影秀音乐喷泉",
+   "id": "act-21caaac413",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "大雁塔广场音乐喷泉，水柱随音乐灯光变化，开放式广场可围观。",
+   "time_text": "2024.04.12起",
+   "address": "大雁塔广场音乐喷泉",
+   "district": "雁塔区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "拥有世界最长的光带，喷泉的水柱高达几十米，伴随着音乐和灯光的变化，给人以强烈的视觉冲击力。",
+   "link": "http://xa.bendibao.com/xiuxian/20231226/122056.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "浪漫"
+    ],
+    "themes": [
+     "音乐喷泉",
+     "水舞光影",
+     "地标广场",
+     "夜游"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "游客",
+     "亲子家庭",
+     "本地居民"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "D",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.7,
+    "culture": 0.6,
+    "environment": 0.85,
+    "cost": 0.7,
+    "family": 0.75,
+    "quiet": 0.2,
+    "social": 0.7,
+    "learning": 0.35,
+    "quality": 0.9
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "奥斯卡熙地港国际影城",
+   "id": "act-101d363e7f",
+   "source": "西安公共文化场馆目录",
+   "source_id": "45",
+   "category_text": "商业高端商圈电影观影体验",
+   "summary": "城北商圈高端影城，影厅类型多，与商场餐饮购物相连，适合聚餐后观影。",
+   "time_text": "10:00-22:30",
+   "address": "未央区未央大道与凤城七路交汇处熙地港购物中心6F",
+   "district": "未央区",
+   "price_text": "自主消费",
+   "price_level": "medium",
+   "price_from": 0.0,
+   "highlights": "城北高端影城，设施完善，影厅类型多样，配套高端商场，适合家庭、朋友聚餐后观影。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "舒适",
+     "热闹"
+    ],
+    "themes": [
+     "商业大片",
+     "高端影城",
+     "商圈观影"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "家庭",
+     "年轻人"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "B",
+     "A"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.625,
+    "culture": 0.45,
+    "environment": 0.6,
+    "cost": 0.5,
+    "family": 0.7,
+    "quiet": 0.35,
+    "social": 0.7,
+    "learning": 0.35,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "奥斯卡长安国际影城",
+   "id": "act-65b47351b6",
+   "source": "西安公共文化场馆目录",
+   "source_id": "51",
+   "category_text": "商业区域型综合电影观影体验",
+   "summary": "长安中央广场影城，影厅类型丰富，配套商场餐饮，方便周边居民观影。",
+   "time_text": "10:00-22:00",
+   "address": "长安区西长安街105号长安中央广场A座2楼",
+   "district": "长安区",
+   "price_text": "自主消费",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "长安区核心影城，设施完善，影厅类型丰富，方便长安区居民观影，配套商场餐饮。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "D"
+    ],
+    "moods": [
+     "舒适",
+     "热闹"
+    ],
+    "themes": [
+     "电影观影",
+     "区域影城",
+     "商场配套"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "周边居民",
+     "亲子家庭",
+     "情侣"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "B",
+     "A"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.5,
+    "environment": 0.6,
+    "cost": 0.7,
+    "family": 0.7,
+    "quiet": 0.4,
+    "social": 0.6,
+    "learning": 0.3,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "妙趣手工坊",
+   "id": "act-c2f7ff250b",
+   "source": "西安公共文化场馆目录",
+   "source_id": "2",
+   "category_text": "全龄段创意手工公益体验",
+   "summary": "陕西省图书馆的公益创意手工平台，内容丰富，覆盖各年龄段手作爱好者。",
+   "time_text": "随对应馆区开放时间",
+   "address": "陕西省图书馆（长安路馆区、高新馆区）",
+   "district": "高新区",
+   "price_text": "免费（馆内数字资源，公益开放）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "妙趣手工坊是创意手工平台，内容丰富，创意无限，资源满足各年龄段的手工爱好者需求",
+   "link": "https://www.libdiy.com/",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "轻松",
+     "温馨"
+    ],
+    "themes": [
+     "创意手工",
+     "亲子手作",
+     "全龄体验"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "亲子家庭",
+     "手作爱好者"
+    ],
+    "categories": [
+     "A",
+     "F"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "C",
+     "A"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.6,
+    "environment": 0.6,
+    "cost": 1.0,
+    "family": 0.9,
+    "quiet": 0.5,
+    "social": 0.7,
+    "learning": 0.5,
+    "quality": 0.9
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:04+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "安仁坊遗址展示馆",
+   "id": "act-108de5f1df",
+   "source": "西安公共文化场馆目录",
+   "source_id": "29",
+   "category_text": "唐代坊市遗址公益展示与文化体验",
+   "summary": "展示唐长安安仁坊遗址，玻璃栈道看夯土基址，免费预约。",
+   "time_text": "9:00-17:30（17:00 止入），周一闭馆（节假日除外）",
+   "address": "碑林区小雁塔南侧",
+   "district": "碑林区",
+   "price_text": "免费（需预约）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "展唐长安安仁坊遗址，玻璃栈道看夯土基址，模型还原唐坊生活，了解唐代城市文化。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "静心",
+     "沉浸"
+    ],
+    "themes": [
+     "唐长安",
+     "坊市遗址",
+     "考古展示"
+    ],
+    "demand": [
+     "B",
+     "A"
+    ],
+    "audience": [
+     "历史爱好者",
+     "学生",
+     "亲子家庭"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.65,
+    "culture": 0.85,
+    "environment": 0.7,
+    "cost": 1.0,
+    "family": 0.6,
+    "quiet": 0.8,
+    "social": 0.4,
+    "learning": 0.8,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "山由之咖啡（兴庆宫店）",
+   "id": "act-5e27dad23f",
+   "source": "西安公共文化场馆目录",
+   "source_id": "77",
+   "category_text": "商业园林式咖啡休闲体验",
+   "summary": "兴庆宫公园内的独栋咖啡馆，临湖观景，历史园林与现代咖啡结合，白天开放。",
+   "time_text": "10:00-18:30",
+   "address": "碑林区咸宁西路兴庆宫公园内",
+   "district": "碑林区",
+   "price_text": "自主消费",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "独栋二层建筑，临湖观景，特调开心果咖啡口碑极佳，历史园林与现代咖啡碰撞，氛围感拉满。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "惬意",
+     "浪漫"
+    ],
+    "themes": [
+     "园林咖啡",
+     "兴庆宫",
+     "临湖观景"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "情侣",
+     "年轻人",
+     "游客"
+    ],
+    "categories": [
+     "H"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "D",
+     "A"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.6,
+    "environment": 0.9,
+    "cost": 0.5,
+    "family": 0.5,
+    "quiet": 0.7,
+    "social": 0.6,
+    "learning": 0.3,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "广仁寺",
+   "id": "act-83a10921c3",
+   "source": "西安公共文化场馆目录",
+   "source_id": "33",
+   "category_text": "藏传佛教文化公益观光与体验",
+   "summary": "陕西唯一藏传佛教格鲁派寺院，康熙年间建，可参观古建筑与藏传佛教文化。",
+   "time_text": "8:30-17:30，全年开放",
+   "address": "莲湖区西北一路 152 号",
+   "district": "莲湖区",
+   "price_text": "免费",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "陕西唯一藏传佛教格鲁派寺院，康熙年间建，藏传佛教文化与古建筑融合。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "静心",
+     "庄重"
+    ],
+    "themes": [
+     "藏传佛教",
+     "古建筑",
+     "寺院文化"
+    ],
+    "demand": [
+     "B",
+     "A"
+    ],
+    "audience": [
+     "文化爱好者",
+     "游客",
+     "银发族"
+    ],
+    "categories": [
+     "C",
+     "H"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.9,
+    "environment": 0.7,
+    "cost": 1.0,
+    "family": 0.5,
+    "quiet": 0.85,
+    "social": 0.4,
+    "learning": 0.75,
+    "quality": 0.85
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "开元好时节·舞蹈《晨昏线/echo of time》",
+   "id": "act-6a0da0fe90",
+   "source": "陕西大剧院",
+   "source_id": "",
+   "category_text": "舞蹈",
+   "summary": "小剧场上演现代舞《晨昏线／echo of time》，以身体语言探讨时间与光影。",
+   "time_text": "2026.04.03 - 04.04",
+   "address": "西安·开元大剧院 - 小剧场",
+   "district": "雁塔区",
+   "price_text": "￥69 - ￥109",
+   "price_level": "medium",
+   "price_from": 69.0,
+   "highlights": "新锐实验·小众之选",
+   "link": "https://www.snpac.com/sxtheatre/index.html#/ticket/detail/5795",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B"
+    ],
+    "moods": [
+     "静谧",
+     "抽象"
+    ],
+    "themes": [
+     "现代舞",
+     "实验剧场",
+     "时间主题"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "年轻人",
+     "舞蹈爱好者"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.7,
+    "environment": 0.6,
+    "cost": 0.6,
+    "family": 0.2,
+    "quiet": 0.7,
+    "social": 0.4,
+    "learning": 0.5,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "归来书店",
+   "id": "act-7232fe4a9f",
+   "source": "西安公共文化场馆目录",
+   "source_id": "69",
+   "category_text": "商业小众人文古籍图书深度阅读体验",
+   "summary": "书院门内的小众人文书店，以古籍与地方文化类书籍为主，装修古朴，适合静读研究。",
+   "time_text": "10:00-21:00",
+   "address": "碑林区书院门文化街内",
+   "district": "碑林区",
+   "price_text": "自主消费",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "小众人文书店，主打古籍、地方文化类书籍，装修古朴，氛围安静，适合静下心来深度阅读、研究。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "安静",
+     "古朴"
+    ],
+    "themes": [
+     "古籍",
+     "地方文化",
+     "人文阅读",
+     "书院门"
+    ],
+    "demand": [
+     "B",
+     "A"
+    ],
+    "audience": [
+     "书友",
+     "研究者",
+     "文青"
+    ],
+    "categories": [
+     "D"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.575,
+    "culture": 0.85,
+    "environment": 0.75,
+    "cost": 0.65,
+    "family": 0.3,
+    "quiet": 0.85,
+    "social": 0.35,
+    "learning": 0.8,
+    "quality": 0.75
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "惘闻 同弦乐团【光】沉浸声剧院场",
+   "id": "act-6c0e20b32c",
+   "source": "陕西大剧院",
+   "source_id": "",
+   "category_text": "音乐会",
+   "summary": "惘闻与同弦乐团合作，在剧院呈现沉浸式声场实验音乐会，面向小众乐迷。",
+   "time_text": "2026.03.14 - 03.15",
+   "address": "西安大剧院 - 大剧场",
+   "district": "高新区",
+   "price_text": "￥300 - ￥480",
+   "price_level": "high",
+   "price_from": 300.0,
+   "highlights": "新锐实验·小众之选",
+   "link": "https://www.snpac.com/sxtheatre/index.html#/ticket/detail/5805",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B"
+    ],
+    "moods": [
+     "沉浸",
+     "静谧"
+    ],
+    "themes": [
+     "后摇",
+     "实验音乐",
+     "沉浸声场"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "乐迷",
+     "年轻人"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.45,
+    "culture": 0.8,
+    "environment": 0.7,
+    "cost": 0.2,
+    "family": 0.2,
+    "quiet": 0.6,
+    "social": 0.4,
+    "learning": 0.4,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "拾光书店（长安万科店）",
+   "id": "act-9f737e6e96",
+   "source": "西安公共文化场馆目录",
+   "source_id": "76",
+   "category_text": "商业社区型综合图书阅读与亲子体验",
+   "summary": "万科城商场内的社区型书店，含畅销书与少儿读物，配咖啡和亲子互动空间。",
+   "time_text": "10:00-22:00",
+   "address": "长安区西长安街万科城广场3层",
+   "district": "长安区",
+   "price_text": "自主消费",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "社区型书店，藏书丰富，涵盖各类畅销书与少儿读物，融合咖啡、亲子互动，适合家庭、居民日常阅读。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "温馨",
+     "日常"
+    ],
+    "themes": [
+     "少儿读物",
+     "亲子共读",
+     "社区书店"
+    ],
+    "demand": [
+     "A",
+     "D"
+    ],
+    "audience": [
+     "亲子家庭",
+     "本地居民",
+     "学生"
+    ],
+    "categories": [
+     "D",
+     "E"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.6,
+    "environment": 0.6,
+    "cost": 0.7,
+    "family": 0.9,
+    "quiet": 0.5,
+    "social": 0.5,
+    "learning": 0.6,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "文投国际影城（朝阳门益田店）",
+   "id": "act-02bb57624e",
+   "source": "西安公共文化场馆目录",
+   "source_id": "39",
+   "category_text": "商业超高清巨幕电影观影体验",
+   "summary": "益田假日商场内的连锁影城，4K-LED巨幕亮度高，地铁公交可达，观影后可餐饮购物。",
+   "time_text": "10:00-22:30",
+   "address": "新城区长乐西路166号益田假日7层",
+   "district": "新城区",
+   "price_text": "自主消费",
+   "price_level": "medium",
+   "price_from": 45.0,
+   "highlights": "陕西首块4K-20米LED巨幕“焕影岛”，亮度与对比度拉满，交通便利，配套商场餐饮。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "沉浸",
+     "热闹"
+    ],
+    "themes": [
+     "4K-LED巨幕",
+     "院线新片",
+     "商场配套"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "本地居民",
+     "情侣"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "B"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.675,
+    "culture": 0.55,
+    "environment": 0.6,
+    "cost": 0.5,
+    "family": 0.55,
+    "quiet": 0.5,
+    "social": 0.7,
+    "learning": 0.35,
+    "quality": 0.78
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "新华图书大厦",
+   "id": "act-43fb71c747",
+   "source": "西安公共文化场馆目录",
+   "source_id": "71",
+   "category_text": "商业综合型图书采购与阅读体验",
+   "summary": "解放路大型综合书店，教辅、社科、文学、科技等门类齐全，价格亲民，适合日常购书。",
+   "time_text": "9:30-21:00",
+   "address": "新城区解放路236号",
+   "district": "新城区",
+   "price_text": "自主消费",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "大型综合性书店，藏书种类齐全，涵盖教辅、社科、文学、科技等，价格亲民，适合各类人群采购书籍。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "热闹",
+     "实用"
+    ],
+    "themes": [
+     "综合图书",
+     "教辅",
+     "社科文学",
+     "购书"
+    ],
+    "demand": [
+     "B",
+     "D"
+    ],
+    "audience": [
+     "学生",
+     "家庭",
+     "本地居民"
+    ],
+    "categories": [
+     "D"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "B",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.675,
+    "culture": 0.65,
+    "environment": 0.55,
+    "cost": 0.8,
+    "family": 0.6,
+    "quiet": 0.35,
+    "social": 0.45,
+    "learning": 0.8,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "新华读书阁（大唐不夜城店）",
+   "id": "act-690c7b3940",
+   "source": "西安公共文化场馆目录",
+   "source_id": "74",
+   "category_text": "商业艺术文化主题图书阅读与景区配套体验",
+   "summary": "位于大唐不夜城的艺术文化主题书店，集书籍、文创与艺术展，营业至夜间。",
+   "time_text": "10:00-23:00",
+   "address": "雁塔区大唐不夜城街区内",
+   "district": "雁塔区",
+   "price_text": "自主消费",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "西安首家艺术文化主题书店，融合书籍、文创、艺术展，与大唐不夜城夜景呼应，繁华与静谧并存。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "静心",
+     "繁华"
+    ],
+    "themes": [
+     "艺术书店",
+     "文创展陈",
+     "大唐不夜城"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "游客",
+     "年轻人",
+     "文艺爱好者"
+    ],
+    "categories": [
+     "D",
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.65,
+    "culture": 0.8,
+    "environment": 0.8,
+    "cost": 0.7,
+    "family": 0.5,
+    "quiet": 0.6,
+    "social": 0.4,
+    "learning": 0.7,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "新华里coffee books",
+   "id": "act-336e6d303a",
+   "source": "西安公共文化场馆目录",
+   "source_id": "68",
+   "category_text": "商业复合型图书阅读与咖啡休闲体验",
+   "summary": "紧邻省图的复合型书店，集图书、咖啡、文创于一体，可借阅后就座阅读交流。",
+   "time_text": "10:00-22:00",
+   "address": "碑林区长安北路18号陕西省图书馆旁",
+   "district": "碑林区",
+   "price_text": "自主消费",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "融合图书、咖啡、文创，藏书丰富，紧邻省图，适合借阅书籍后休闲阅读、交流，学术氛围浓厚。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "惬意",
+     "静心"
+    ],
+    "themes": [
+     "图书咖啡",
+     "文创",
+     "省图周边",
+     "休闲阅读"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "大学生",
+     "白领",
+     "书友"
+    ],
+    "categories": [
+     "D"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "B"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.675,
+    "culture": 0.75,
+    "environment": 0.7,
+    "cost": 0.6,
+    "family": 0.5,
+    "quiet": 0.6,
+    "social": 0.65,
+    "learning": 0.7,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "方所书店（老城根店）",
+   "id": "act-9fd65195c3",
+   "source": "西安公共文化场馆目录",
+   "source_id": "58",
+   "category_text": "商业特色文创图书阅读与文化沙龙体验",
+   "summary": "以古长安瓮城为灵感的书店，通天原木书墙，藏书20万册，常办文化沙龙。",
+   "time_text": "周一至周四10:30-22:00；周五至周日10:30-22:30",
+   "address": "莲湖区星火路22号老城根Gpark1楼",
+   "district": "莲湖区",
+   "price_text": "自主消费",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "以古长安“瓮城”为灵感，通天原木书墙极具特色，藏书20万册，文艺氛围浓厚，常办文化沙龙。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "文艺",
+     "静心"
+    ],
+    "themes": [
+     "图书",
+     "文化沙龙",
+     "原木书墙"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "年轻人",
+     "文艺爱好者"
+    ],
+    "categories": [
+     "D",
+     "B"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.85,
+    "environment": 0.9,
+    "cost": 0.9,
+    "family": 0.6,
+    "quiet": 0.7,
+    "social": 0.6,
+    "learning": 0.8,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "智编牛",
+   "id": "act-0caadb30a3",
+   "source": "西安公共文化场馆目录",
+   "source_id": "1",
+   "category_text": "少儿数字编程公益体验",
+   "summary": "省图书馆面向青少年儿童的分阶段数字编程平台，提供线上线下一体化创作与赛事服务。",
+   "time_text": "随对应馆区开放时间",
+   "address": "陕西省图书馆（长安路馆区、高新馆区）",
+   "district": "高新区",
+   "price_text": "免费（馆内数字资源，公益开放）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "智编牛课程面向青少年儿童，根据不同年龄身心发展自主研发不同阶段的编程创作平台，提供线上、线下及双师的活动平台及全流程的大赛服务。",
+   "link": "https://zhibianniu.com/",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "安静",
+     "专注"
+    ],
+    "themes": [
+     "少儿编程",
+     "数字素养",
+     "阶梯课程"
+    ],
+    "demand": [
+     "B",
+     "D"
+    ],
+    "audience": [
+     "亲子家庭",
+     "中小学生"
+    ],
+    "categories": [
+     "F"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "A"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.6,
+    "environment": 0.7,
+    "cost": 1.0,
+    "family": 0.85,
+    "quiet": 0.7,
+    "social": 0.4,
+    "learning": 0.9,
+    "quality": 0.9
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:04+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "曲江书城",
+   "id": "act-7f4fdf3079",
+   "source": "西安公共文化场馆目录",
+   "source_id": "57",
+   "category_text": "商业复合型大型图书阅读与文创体验",
+   "summary": "18000平方米大型书城，藏书60万册，融合文创咖啡，常办签售与读书会。",
+   "time_text": "周一至周四10:30-22:00；周五至周日10:30-22:30",
+   "address": "曲江新区芙蓉南路1号芙蓉新天地10号楼",
+   "district": "曲江新区",
+   "price_text": "自主消费",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "18000㎡超大空间，藏书60万册，三层旋转楼梯出片，融合图书、文创、咖啡，定期举办签售会、读书会。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "文艺",
+     "安静"
+    ],
+    "themes": [
+     "图书",
+     "文创",
+     "旋转楼梯",
+     "签售会"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "年轻人",
+     "亲子家庭"
+    ],
+    "categories": [
+     "D",
+     "B"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.8,
+    "environment": 0.85,
+    "cost": 0.9,
+    "family": 0.8,
+    "quiet": 0.6,
+    "social": 0.6,
+    "learning": 0.8,
+    "quality": 0.85
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "曲江池遗址公园",
+   "id": "act-443c79fc71",
+   "source": "西安公共文化场馆目录",
+   "source_id": "32",
+   "category_text": "唐代园林遗址公益休闲观光",
+   "summary": "唐代皇家园林遗址上的开放式公园，湖光山色，适合散步休闲，感受盛唐诗意。",
+   "time_text": "全天开放",
+   "address": "雁塔区曲江新区",
+   "district": "曲江新区",
+   "price_text": "免费",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "唐代皇家园林遗址，开放式市民公园，湖光山色，可散步、休闲，感受盛唐诗意。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "惬意",
+     "浪漫"
+    ],
+    "themes": [
+     "唐文化",
+     "园林遗址",
+     "湖景",
+     "散步休闲"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "本地居民",
+     "情侣",
+     "亲子家庭"
+    ],
+    "categories": [
+     "H"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "D",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.8,
+    "environment": 0.9,
+    "cost": 1.0,
+    "family": 0.8,
+    "quiet": 0.6,
+    "social": 0.6,
+    "learning": 0.5,
+    "quality": 0.85
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "曼蒂IN空间影城",
+   "id": "act-4e2731b00b",
+   "source": "西安公共文化场馆目录",
+   "source_id": "55",
+   "category_text": "商业文艺型小众影片与艺术影展观影体验",
+   "summary": "曼蒂广场文艺风影城，主打小众影片与艺术影展，周边文创小店密集。",
+   "time_text": "10:00-22:00",
+   "address": "雁塔区雁南一路曼蒂广场负一层",
+   "district": "雁塔区",
+   "price_text": "自主消费",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "文艺风影城，装修简约有格调，主打小众影片与艺术影展，周边文创小店密集，氛围独特。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "D"
+    ],
+    "moods": [
+     "文艺",
+     "静心"
+    ],
+    "themes": [
+     "艺术影展",
+     "小众电影",
+     "文创空间"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "文艺青年",
+     "情侣",
+     "大学生"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "B"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.7,
+    "environment": 0.6,
+    "cost": 0.6,
+    "family": 0.2,
+    "quiet": 0.7,
+    "social": 0.5,
+    "learning": 0.6,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "樊登书店（高新创业咖啡街区店）",
+   "id": "act-f95c42539b",
+   "source": "西安公共文化场馆目录",
+   "source_id": "67",
+   "category_text": "商业主题图书阅读与文化分享体验",
+   "summary": "以樊登推荐书目为主，兼有社科经管书，设亲子书房，常办听书与读书分享会。",
+   "time_text": "10:00-22:00",
+   "address": "雁塔区高新一路18号创业咖啡街区海归楼102号",
+   "district": "高新区",
+   "price_text": "自主消费",
+   "price_level": "low",
+   "price_from": 0.0,
+   "highlights": "以樊登推荐书籍为主，兼顾社科、经管类，设有全景水系、旋转楼梯、亲子书房，常办听书分享会。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "轻松",
+     "学习氛围"
+    ],
+    "themes": [
+     "经管社科",
+     "听书分享会",
+     "亲子书房",
+     "创业街区"
+    ],
+    "demand": [
+     "B",
+     "C"
+    ],
+    "audience": [
+     "职场人",
+     "亲子家庭"
+    ],
+    "categories": [
+     "D",
+     "B"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.65,
+    "environment": 0.7,
+    "cost": 0.8,
+    "family": 0.65,
+    "quiet": 0.55,
+    "social": 0.7,
+    "learning": 0.75,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "横店电影城（开远店）",
+   "id": "act-6a7f3f3316",
+   "source": "西安公共文化场馆目录",
+   "source_id": "50",
+   "category_text": "商业平价电影观影与职场休闲体验",
+   "summary": "开远半岛广场连锁影城，影厅舒适票价实惠，适合下班观影放松。",
+   "time_text": "10:00-22:00",
+   "address": "莲湖区沣惠南路开远半岛广场5楼",
+   "district": "莲湖区",
+   "price_text": "自主消费",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "连锁影城，影厅舒适，票价实惠，周边写字楼密集，适合上班族下班观影、休闲放松。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "D"
+    ],
+    "moods": [
+     "轻松",
+     "热闹"
+    ],
+    "themes": [
+     "电影观影",
+     "平价影城",
+     "商圈休闲"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "上班族",
+     "情侣",
+     "周边居民"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "B",
+     "C"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.4,
+    "environment": 0.5,
+    "cost": 0.8,
+    "family": 0.5,
+    "quiet": 0.4,
+    "social": 0.5,
+    "learning": 0.3,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "汉城湖音乐喷泉",
+   "id": "act-612702fdb3",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "汉城湖景区夜间音乐喷泉，适合傍晚散步时顺路观赏。",
+   "time_text": "2024.04.12起",
+   "address": "汉城湖景区",
+   "district": "未央区",
+   "price_text": "（详见详情）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "夜晚来汉城湖悠闲散步，欣赏音乐喷泉",
+   "link": "http://xa.bendibao.com/xiuxian/2024412/127321.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "浪漫",
+     "热闹"
+    ],
+    "themes": [
+     "音乐喷泉",
+     "夜景",
+     "汉文化"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "本地居民",
+     "亲子家庭",
+     "情侣"
+    ],
+    "categories": [
+     "C",
+     "H"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "D",
+     "B"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.5,
+    "environment": 0.8,
+    "cost": 1.0,
+    "family": 0.8,
+    "quiet": 0.3,
+    "social": 0.6,
+    "learning": 0.3,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "江西文演•陆川导演作品 舞剧《天工开物》",
+   "id": "act-4d1a3e35d1",
+   "source": "陕西大剧院",
+   "source_id": "",
+   "category_text": "舞蹈",
+   "summary": "陆川导演舞剧《天工开物》，以明代科技著作为题材，用舞蹈呈现古代工艺。",
+   "time_text": "2026.05.22 - 05.23",
+   "address": "陕西大剧院 - 歌剧厅",
+   "district": "雁塔区",
+   "price_text": "￥70 - ￥880",
+   "price_level": "medium",
+   "price_from": 70.0,
+   "highlights": "舞剧佳作·国内原创",
+   "link": "https://www.snpac.com/sxtheatre/index.html#/ticket/detail/5835",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B"
+    ],
+    "moods": [
+     "震撼",
+     "唯美"
+    ],
+    "themes": [
+     "天工开物",
+     "明代科技",
+     "工匠精神",
+     "原创舞剧"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "文艺青年",
+     "学生群体"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.9,
+    "environment": 0.8,
+    "cost": 0.3,
+    "family": 0.5,
+    "quiet": 0.6,
+    "social": 0.5,
+    "learning": 0.8,
+    "quality": 0.9
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "派啦萌巨幕影城（卜蜂中心店）",
+   "id": "act-09f09b5183",
+   "source": "西安公共文化场馆目录",
+   "source_id": "54",
+   "category_text": "商业巨幕电影观影与家庭休闲配套体验",
+   "summary": "卜蜂中心巨幕影城，环境舒适，配套超市餐饮，适合家庭采购后观影。",
+   "time_text": "10:00-22:30",
+   "address": "未央区凤城八路与渭滨路十字西北角卜蜂中心4F",
+   "district": "未央区",
+   "price_text": "自主消费",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "拥有巨幕影厅，环境舒适，配套卜蜂中心超市、餐饮，适合家庭采购后观影、休闲。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "轻松"
+    ],
+    "themes": [
+     "巨幕电影",
+     "亲子观影",
+     "商场配套"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "亲子家庭",
+     "周边居民",
+     "情侣"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "B",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.4,
+    "environment": 0.6,
+    "cost": 0.7,
+    "family": 0.9,
+    "quiet": 0.3,
+    "social": 0.6,
+    "learning": 0.3,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "火药书局",
+   "id": "act-ce763d7d1c",
+   "source": "西安公共文化场馆目录",
+   "source_id": "73",
+   "category_text": "商业二手小众图书淘选与深度阅读体验",
+   "summary": "火药局巷内的二手书店，旧书与小众品类较多，装修简约，适合慢慢淘书。",
+   "time_text": "10:30-21:30",
+   "address": "碑林区火药局巷内",
+   "district": "碑林区",
+   "price_text": "自主消费",
+   "price_level": "low",
+   "price_from": 0.0,
+   "highlights": "宝藏二手书店，名字寓意“炸开思想”，藏有各类旧书、小众书籍，装修简约，氛围安静，适合淘书。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "安静",
+     "随性"
+    ],
+    "themes": [
+     "二手书",
+     "小众书籍",
+     "旧书淘选"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "书友",
+     "大学生",
+     "文青"
+    ],
+    "categories": [
+     "D"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.525,
+    "culture": 0.8,
+    "environment": 0.6,
+    "cost": 0.85,
+    "family": 0.3,
+    "quiet": 0.8,
+    "social": 0.4,
+    "learning": 0.65,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "猫的天空之城（龙首印象城店）",
+   "id": "act-1b029eefed",
+   "source": "西安公共文化场馆目录",
+   "source_id": "66",
+   "category_text": "商业文艺型特色图书阅读与文创体验",
+   "summary": "主打旅行、设计、绘本类图书，特色是“寄给未来”明信片，兼有咖啡文创。",
+   "time_text": "10:00-22:00",
+   "address": "未央区未央路33号龙首印象城F1",
+   "district": "未央区",
+   "price_text": "自主消费",
+   "price_level": "low",
+   "price_from": 0.0,
+   "highlights": "西北首店，主打旅行、设计、绘本类书籍，“寄给未来”明信片是特色，融合咖啡、文创，文艺感拉满。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "文艺",
+     "浪漫"
+    ],
+    "themes": [
+     "旅行书籍",
+     "明信片",
+     "文创",
+     "咖啡"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "学生",
+     "情侣"
+    ],
+    "categories": [
+     "D"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.6,
+    "environment": 0.7,
+    "cost": 0.8,
+    "family": 0.5,
+    "quiet": 0.55,
+    "social": 0.65,
+    "learning": 0.5,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "秦始皇帝陵博物院（兵马俑）",
+   "id": "act-c47148e054",
+   "source": "西安公共文化场馆目录",
+   "source_id": "17",
+   "category_text": "历史文物考古观光游览",
+   "summary": "看一、二、三号坑军阵与铜车马，了解秦代军事工艺，门票含丽山园。",
+   "time_text": "旺季 8:30-18:30（17:00 止入）；淡季 8:30-18:00（16:30 止入），全年无闭馆",
+   "address": "临潼区秦陵北路 1 号",
+   "district": "临潼区",
+   "price_text": "120 元（含丽山园）",
+   "price_level": "medium",
+   "price_from": 120.0,
+   "highlights": "世界第八大奇迹，看一、二、三号坑军阵与铜车马，了解秦代军事与工艺，可免费往返丽山园。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C",
+     "D"
+    ],
+    "moods": [
+     "震撼",
+     "人多"
+    ],
+    "themes": [
+     "兵马俑",
+     "秦文化",
+     "考古",
+     "铜车马"
+    ],
+    "demand": [
+     "B"
+    ],
+    "audience": [
+     "外地游客",
+     "亲子家庭",
+     "学生"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.475,
+    "culture": 1.0,
+    "environment": 0.8,
+    "cost": 0.4,
+    "family": 0.7,
+    "quiet": 0.2,
+    "social": 0.5,
+    "learning": 0.9,
+    "quality": 0.95
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "花儿朵朵向太阳——陕西省文化馆庆祝六一国际儿童节大型文艺演出",
+   "id": "act-0362fe3973",
+   "source": "西安公共文化场馆目录",
+   "source_id": "4",
+   "category_text": "少儿公益文艺演出",
+   "summary": "六一前后在省文化馆曲江馆区举办的少儿公益文艺演出，为孩子提供展示才艺的舞台。",
+   "time_text": "每年 6 月 1 日前后，具体以当年公告为准",
+   "address": "陕西省文化馆（曲江馆区）",
+   "district": "曲江新区",
+   "price_text": "免费（公益演出）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "人民的终身美育学校” 主题，旨在培养少年儿童艺术人才，提升少年儿童文艺素养，为少年儿童搭建培养能力、展示才华的舞台",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "欢快"
+    ],
+    "themes": [
+     "少儿文艺",
+     "六一儿童节",
+     "美育展演"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "亲子家庭",
+     "少年儿童"
+    ],
+    "categories": [
+     "C",
+     "F"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.7,
+    "environment": 0.7,
+    "cost": 1.0,
+    "family": 0.9,
+    "quiet": 0.2,
+    "social": 0.8,
+    "learning": 0.5,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:04+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "蓝海风·漫巷（万邦书店）",
+   "id": "act-2de77206c4",
+   "source": "西安公共文化场馆目录",
+   "source_id": "61",
+   "category_text": "商业特色巨型书墙图书阅读与亲子体验",
+   "summary": "240米长、18米高的巨型书墙，工业风空间，藏书35万册，设亲子体验区。",
+   "time_text": "10:00-22:00",
+   "address": "未央区凤城二路37号蓝海风漫巷内",
+   "district": "未央区",
+   "price_text": "自主消费",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "拥有240米、层高18米的巨型书墙，藏书35万册，工业风装修，融合文创、咖啡、亲子体验区。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "文艺",
+     "热闹"
+    ],
+    "themes": [
+     "图书",
+     "巨型书墙",
+     "亲子",
+     "文创"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "亲子家庭",
+     "年轻人"
+    ],
+    "categories": [
+     "D",
+     "E"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.8,
+    "environment": 0.85,
+    "cost": 0.9,
+    "family": 0.9,
+    "quiet": 0.5,
+    "social": 0.6,
+    "learning": 0.75,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安SKP春节活动",
+   "id": "act-9e697d80e9",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "西安SKP春节巡游，舞狮、鱼灯与新春小马巡游，商场内举办。",
+   "time_text": "2026.02.15-2026.03.03",
+   "address": "西安SKP",
+   "district": "碑林区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "舞狮彩福、新春小马巡游、 鱼灯艺术巡游等",
+   "link": "http://xa.bendibao.com/xiuxian/202624/147811.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "喜庆"
+    ],
+    "themes": [
+     "舞狮",
+     "鱼灯巡游",
+     "新春市集",
+     "商圈"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "年轻人",
+     "情侣",
+     "亲子家庭"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "D"
+    ],
+    "factors": [
+     "A"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.7,
+    "culture": 0.5,
+    "environment": 0.7,
+    "cost": 0.5,
+    "family": 0.7,
+    "quiet": 0.2,
+    "social": 0.8,
+    "learning": 0.3,
+    "quality": 0.72
+   },
+   "valid_start": "2026-02-15 00:00:00.000000",
+   "valid_end": "2026-03-03 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安“红五月”音乐会",
+   "id": "act-ebd0162fc6",
+   "source": "西安公共文化场馆目录",
+   "source_id": "5",
+   "category_text": "全民红色主题公益惠民文艺演出",
+   "summary": "每年5月举办的公益惠民音乐会，以合唱、独唱、诗朗诵与鼓乐等形式线上线下同步开展。",
+   "time_text": "每年 5 月，具体场次时间以当年排期为准",
+   "address": "西安音乐厅、各区县文化场馆",
+   "district": "雁塔区",
+   "price_text": "免费（公益惠民演出）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "该活动通过合唱、独唱、音乐诗朗诵、鼓乐表演、音乐公益课堂云授课、红色歌曲云联播、音乐作品云展播等线下线上相结合的多样活动形式，吸引全市群众广泛参与，汇聚百姓风采，讴歌城市品格，唱响美丽西安",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "moods": [
+     "庄重",
+     "热烈"
+    ],
+    "themes": [
+     "红歌合唱",
+     "管弦乐",
+     "音乐诗朗诵",
+     "鼓乐"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "本地居民",
+     "银发族",
+     "合唱爱好者"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.65,
+    "culture": 0.9,
+    "environment": 0.7,
+    "cost": 1.0,
+    "family": 0.6,
+    "quiet": 0.4,
+    "social": 0.7,
+    "learning": 0.6,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:04+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安万象城生命之树光影秀",
+   "id": "act-2cd14c11e3",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "商业体外的生命之树建筑灯光秀，夜间循环上演，逛街或休闲时顺路观赏。",
+   "time_text": "2024.12.09-2026.06.30",
+   "address": "西安万象城",
+   "district": "曲江新区",
+   "price_text": "（详见详情）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "生命之树光影秀",
+   "link": "http://xa.bendibao.com/xiuxian/2024123/135581.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "浪漫",
+     "璀璨"
+    ],
+    "themes": [
+     "光影秀",
+     "建筑艺术",
+     "夜间打卡"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "年轻人",
+     "情侣",
+     "亲子家庭"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "D"
+    ],
+    "factors": [
+     "D",
+     "A"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.5,
+    "environment": 0.85,
+    "cost": 1.0,
+    "family": 0.6,
+    "quiet": 0.2,
+    "social": 0.8,
+    "learning": 0.3,
+    "quality": 0.75
+   },
+   "valid_start": "2024-12-09 00:00:00.000000",
+   "valid_end": "2026-06-30 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安事变纪念馆（张学良公馆）",
+   "id": "act-1c957b66cd",
+   "source": "西安公共文化场馆目录",
+   "source_id": "34",
+   "category_text": "近代历史事件公益展览与红色教育",
+   "summary": "西安事变重要旧址，展出历史文物与史料，可了解近代重大历史事件。",
+   "time_text": "8:30-17:00（16:30 止入），周一闭馆",
+   "address": "碑林区建国路 69 号",
+   "district": "碑林区",
+   "price_text": "免费",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "西安事变重要旧址，展历史文物与史料，了解近代重要历史事件。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "肃穆",
+     "静心"
+    ],
+    "themes": [
+     "近代史",
+     "红色教育",
+     "张学良公馆",
+     "历史文物"
+    ],
+    "demand": [
+     "B"
+    ],
+    "audience": [
+     "学生",
+     "亲子家庭",
+     "历史爱好者"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.625,
+    "culture": 0.9,
+    "environment": 0.7,
+    "cost": 1.0,
+    "family": 0.65,
+    "quiet": 0.8,
+    "social": 0.35,
+    "learning": 0.9,
+    "quality": 0.85
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安交通大学校免费预约入校参观",
+   "id": "act-78fea4bd08",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "亲子活动",
+   "summary": "通过预约免费进入兴庆校区参观，可感受名校校园环境与人文氛围，适合亲子研学。",
+   "time_text": "2024.04.12-2027.08.31",
+   "address": "西安交通大学",
+   "district": "碑林区",
+   "price_text": "（详见详情）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "中国顶尖的学府之一",
+   "link": "http://xa.bendibao.com/xiuxian/2024322/126273.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "moods": [
+     "静心",
+     "学术"
+    ],
+    "themes": [
+     "名校校园",
+     "研学参观",
+     "校园文化"
+    ],
+    "demand": [
+     "B",
+     "A"
+    ],
+    "audience": [
+     "亲子家庭",
+     "中学生",
+     "大学生"
+    ],
+    "categories": [
+     "F"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.625,
+    "culture": 0.85,
+    "environment": 0.8,
+    "cost": 1.0,
+    "family": 0.75,
+    "quiet": 0.6,
+    "social": 0.4,
+    "learning": 0.8,
+    "quality": 0.72
+   },
+   "valid_start": "2024-04-12 00:00:00.000000",
+   "valid_end": "2027-08-31 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安半坡博物馆",
+   "id": "act-ba4b0545fe",
+   "source": "西安公共文化场馆目录",
+   "source_id": "27",
+   "category_text": "史前文化遗址考古观光与研学体验",
+   "summary": "中国首座史前遗址博物馆，展示仰韶文化，可参与制陶研学。",
+   "time_text": "8:30-18:00（17:00 止入），全年开放",
+   "address": "灞桥区半引路 155 号",
+   "district": "灞桥区",
+   "price_text": "55 元",
+   "price_level": "medium",
+   "price_from": 55.0,
+   "highlights": "中国首座史前遗址博物馆，展 6000 年前仰韶文化，可参与钻木取火、制陶等研学。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C",
+     "D"
+    ],
+    "moods": [
+     "安静",
+     "好奇"
+    ],
+    "themes": [
+     "史前文明",
+     "仰韶文化",
+     "考古研学",
+     "制陶"
+    ],
+    "demand": [
+     "B"
+    ],
+    "audience": [
+     "亲子家庭",
+     "学生",
+     "历史爱好者"
+    ],
+    "categories": [
+     "C",
+     "F"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.9,
+    "environment": 0.6,
+    "cost": 0.55,
+    "family": 0.8,
+    "quiet": 0.7,
+    "social": 0.4,
+    "learning": 0.9,
+    "quality": 0.85
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安博物院（小雁塔）",
+   "id": "act-6a4689b608",
+   "source": "西安公共文化场馆目录",
+   "source_id": "19",
+   "category_text": "馆塔寺园一体的历史文物公益展览与研学",
+   "summary": "馆塔寺园一体，藏三彩腾空马，可登小雁塔、逛荐福寺，并有数字展与研学。",
+   "time_text": "旺季 8:30-18:00（17:00 止入）；淡季 9:00-17:30（16:30 止入），周二闭馆（节假日除外）",
+   "address": "碑林区友谊西路 72 号",
+   "district": "碑林区",
+   "price_text": "免费（需预约）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "馆塔寺园一体，藏三彩腾空马；登小雁塔、逛荐福寺，有数字展与研学活动。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C",
+     "D"
+    ],
+    "moods": [
+     "静心",
+     "悠闲"
+    ],
+    "themes": [
+     "小雁塔",
+     "唐三彩腾空马",
+     "荐福寺",
+     "研学"
+    ],
+    "demand": [
+     "B",
+     "A"
+    ],
+    "audience": [
+     "亲子家庭",
+     "学生",
+     "外地游客"
+    ],
+    "categories": [
+     "C",
+     "F"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.95,
+    "environment": 0.85,
+    "cost": 0.95,
+    "family": 0.75,
+    "quiet": 0.6,
+    "social": 0.45,
+    "learning": 0.85,
+    "quality": 0.9
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安古旧书店",
+   "id": "act-ad02f871e2",
+   "source": "西安公共文化场馆目录",
+   "source_id": "70",
+   "category_text": "商业老牌古旧古籍图书收藏与阅读体验",
+   "summary": "南院门老牌古旧书店，存有大量旧书与古籍珍本，年代感浓，适宜淘书与收藏。",
+   "time_text": "9:30-18:30",
+   "address": "碑林区南院门102号",
+   "district": "碑林区",
+   "price_text": "自主消费",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "西安老牌古旧书店，藏有大量旧书、古籍、珍本，充满年代感，是古籍爱好者、收藏者的必去之地。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "怀旧",
+     "安静"
+    ],
+    "themes": [
+     "古旧书",
+     "珍本收藏",
+     "旧书淘选"
+    ],
+    "demand": [
+     "B"
+    ],
+    "audience": [
+     "收藏爱好者",
+     "书友",
+     "研究者"
+    ],
+    "categories": [
+     "D"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.85,
+    "environment": 0.55,
+    "cost": 0.7,
+    "family": 0.25,
+    "quiet": 0.8,
+    "social": 0.35,
+    "learning": 0.8,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安和平电影院",
+   "id": "act-c2b02e2f6d",
+   "source": "西安公共文化场馆目录",
+   "source_id": "56",
+   "category_text": "商业老牌亲民电影观影体验",
+   "summary": "紧邻钟鼓楼的西安老牌影院，票价亲民，商业片与艺术片兼有。",
+   "time_text": "10:00-22:00",
+   "address": "莲湖区北大街175号",
+   "district": "莲湖区",
+   "price_text": "自主消费",
+   "price_level": "low",
+   "price_from": 0.0,
+   "highlights": "西安老牌影院，地理位置优越，紧邻钟鼓楼，票价亲民，兼顾商业与艺术影片，充满烟火气。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B"
+    ],
+    "moods": [
+     "烟火气",
+     "轻松"
+    ],
+    "themes": [
+     "电影放映",
+     "老牌影院",
+     "钟楼商圈"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "本地居民",
+     "年轻人"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "B",
+     "C"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.725,
+    "culture": 0.6,
+    "environment": 0.5,
+    "cost": 0.85,
+    "family": 0.6,
+    "quiet": 0.3,
+    "social": 0.6,
+    "learning": 0.3,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安图书馆",
+   "id": "act-03eb721d12",
+   "source": "西安公共文化场馆目录",
+   "source_id": "16",
+   "category_text": "综合型公益图书阅览与文化服务",
+   "summary": "市级公益图书馆，提供图书报刊借阅，并有天禄讲坛讲座、展览与读书会。",
+   "time_text": "周二至周日 9:00–19:00，周一闭馆（法定节假日除外）",
+   "address": "西安市未央区广运潭大道 5333 号（长安书院）",
+   "district": "未央区",
+   "price_text": "免费（阅览免费，办证押金 100 元起，可退）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "西安图书馆是公益文化机构，为广大读者提供图书、报刊、电子等各类馆藏资源，提供“天禄讲坛”讲座、“天禄画卷”展览、读书会等各类文化服务信息",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "静心"
+    ],
+    "themes": [
+     "图书借阅",
+     "天禄讲坛",
+     "书画展览",
+     "读书会"
+    ],
+    "demand": [
+     "B",
+     "A"
+    ],
+    "audience": [
+     "学生",
+     "亲子家庭",
+     "银发族"
+    ],
+    "categories": [
+     "D",
+     "B",
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.85,
+    "environment": 0.7,
+    "cost": 1.0,
+    "family": 0.7,
+    "quiet": 0.8,
+    "social": 0.5,
+    "learning": 0.85,
+    "quality": 0.85
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安城墙・碑林历史文化景区",
+   "id": "act-80a4c2741f",
+   "source": "西安公共文化场馆目录",
+   "source_id": "21",
+   "category_text": "古城垣观光与历史文化体验",
+   "summary": "现存最完整古城垣，可登城骑行绕行，串联碑林与书院门文创街。",
+   "time_text": "8:00-22:00（21:00 止入），全年开放",
+   "address": "市中心（主入口：南门永宁门）",
+   "district": "碑林区",
+   "price_text": "54 元",
+   "price_level": "medium",
+   "price_from": 54.0,
+   "highlights": "中国现存最完整古城垣，可骑行绕城；串联碑林、书院门，赏书法、逛文创。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "D"
+    ],
+    "moods": [
+     "开阔",
+     "热闹"
+    ],
+    "themes": [
+     "古城墙",
+     "城墙骑行",
+     "书法文创",
+     "书院门"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "游客",
+     "情侣",
+     "亲子家庭"
+    ],
+    "categories": [
+     "C",
+     "H"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.7,
+    "culture": 0.85,
+    "environment": 0.8,
+    "cost": 0.45,
+    "family": 0.7,
+    "quiet": 0.35,
+    "social": 0.7,
+    "learning": 0.6,
+    "quality": 0.85
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安市青少年活动中心新春系列活动",
+   "id": "act-caebdb70ae",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "亲子活动",
+   "summary": "青少年活动中心春节推出五十余项活动，含航空科普与儿童剧展演，适合带孩子参与。",
+   "time_text": "2026.02.11-2026.03.04",
+   "address": "西安市青少年活动中心",
+   "district": "未央区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "航空科普×儿童剧展演...50+精彩活动，承包您的春节假期欢乐。",
+   "link": "http://xa.bendibao.com/xiuxian/2026212/148024.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "轻松"
+    ],
+    "themes": [
+     "航空科普",
+     "儿童剧",
+     "春节亲子"
+    ],
+    "demand": [
+     "B",
+     "A"
+    ],
+    "audience": [
+     "亲子家庭",
+     "少年儿童"
+    ],
+    "categories": [
+     "E",
+     "F",
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.6,
+    "environment": 0.6,
+    "cost": 0.8,
+    "family": 0.95,
+    "quiet": 0.45,
+    "social": 0.6,
+    "learning": 0.85,
+    "quality": 0.9
+   },
+   "valid_start": "2026-02-11 00:00:00.000000",
+   "valid_end": "2026-03-04 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安市高家大院古典服饰博物馆中國傳统民俗文化專题展",
+   "id": "act-f6bacfaba5",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "文化展览",
+   "summary": "高家大院推出以马为主题的民俗展，展出近百件相关传统展品。",
+   "time_text": "2026.01.25-2026.05.25",
+   "address": "高家民俗大院",
+   "district": "莲湖区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "时值丙午马年新春之际，我馆特推出“瑞馬祥雲——中國傳统民俗文化專题展”。展览以“马”为主题，精选近百件与马相关的展品。",
+   "link": "http://xa.bendibao.com/xiuxian/2026122/147503.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "静心",
+     "古朴"
+    ],
+    "themes": [
+     "马年民俗",
+     "传统服饰",
+     "古院建筑"
+    ],
+    "demand": [
+     "B"
+    ],
+    "audience": [
+     "文化爱好者",
+     "亲子家庭",
+     "游客"
+    ],
+    "categories": [
+     "C",
+     "A"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "B"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.65,
+    "culture": 0.9,
+    "environment": 0.7,
+    "cost": 0.6,
+    "family": 0.6,
+    "quiet": 0.7,
+    "social": 0.3,
+    "learning": 0.8,
+    "quality": 0.9
+   },
+   "valid_start": "2026-01-25 00:00:00.000000",
+   "valid_end": "2026-05-25 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:06+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安汉城湖景区2026年元宵活动",
+   "id": "act-bafca6b372",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "文化活动/展览",
+   "summary": "汉城湖景区在春节至元宵期间集中举办锣鼓演出、夜游、市集与非遗体验。",
+   "time_text": "2026.02.17-2026.03.03",
+   "address": "汉城湖景区",
+   "district": "未央区",
+   "price_text": "（详见详情）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "从大年初一到正月十五为期15天元宵新春锣鼓演出、元宵夜游活动，新春市集、非遗文化体验",
+   "link": "http://xa.bendibao.com/xiuxian/2026210/147973.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "喜庆"
+    ],
+    "themes": [
+     "元宵灯会",
+     "锣鼓演出",
+     "非遗体验",
+     "新春市集"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "亲子家庭",
+     "本地居民",
+     "银发族"
+    ],
+    "categories": [
+     "C",
+     "H",
+     "A"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.75,
+    "environment": 0.8,
+    "cost": 1.0,
+    "family": 0.8,
+    "quiet": 0.3,
+    "social": 0.8,
+    "learning": 0.5,
+    "quality": 0.9
+   },
+   "valid_start": "2026-02-17 00:00:00.000000",
+   "valid_end": "2026-03-03 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安熙地港元宵活动",
+   "id": "act-996164f205",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "文化活动/展览",
+   "summary": "熙地港元宵档期设鱼灯巡游与灯景布置，边逛商场边看巡游，适合晚间休闲。",
+   "time_text": "2026.02.14-2026.03.03",
+   "address": "CityOn熙地港西安购物中心",
+   "district": "经开区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "看巡游、赏鱼灯、买新衣...天天有惊喜！",
+   "link": "http://xa.bendibao.com/xiuxian/202629/147928.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "浪漫"
+    ],
+    "themes": [
+     "元宵灯会",
+     "鱼灯巡游",
+     "国潮市集"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "亲子家庭",
+     "年轻人",
+     "情侣"
+    ],
+    "categories": [
+     "C",
+     "A"
+    ],
+    "comfort": [
+     "D"
+    ],
+    "factors": [
+     "A",
+     "B"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.65,
+    "culture": 0.5,
+    "environment": 0.7,
+    "cost": 0.85,
+    "family": 0.7,
+    "quiet": 0.3,
+    "social": 0.75,
+    "learning": 0.4,
+    "quality": 0.72
+   },
+   "valid_start": "2026-02-14 00:00:00.000000",
+   "valid_end": "2026-03-03 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安碑林博物馆",
+   "id": "act-a688fa33ad",
+   "source": "西安公共文化场馆目录",
+   "source_id": "20",
+   "category_text": "碑刻书法文物观光与文化体验",
+   "summary": "中国最大石质书库，藏四千余方碑刻，可近观名碑书法与原石文献。",
+   "time_text": "8:00-18:00（17:15 止入），全年开放",
+   "address": "碑林区三学街 15 号",
+   "district": "碑林区",
+   "price_text": "65 元",
+   "price_level": "medium",
+   "price_from": 65.0,
+   "highlights": "中国最大石质书库，藏《石台孝经》《开成石经》等 4000 余碑刻，书法与文献价值极高。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C",
+     "D"
+    ],
+    "moods": [
+     "静心",
+     "肃穆"
+    ],
+    "themes": [
+     "碑刻书法",
+     "石台孝经",
+     "开成石经",
+     "文献史料"
+    ],
+    "demand": [
+     "B"
+    ],
+    "audience": [
+     "书法爱好者",
+     "学生研学",
+     "游客"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.625,
+    "culture": 0.95,
+    "environment": 0.6,
+    "cost": 0.4,
+    "family": 0.5,
+    "quiet": 0.75,
+    "social": 0.3,
+    "learning": 0.9,
+    "quality": 0.9
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安考古博物馆",
+   "id": "act-b279ec6110",
+   "source": "西安公共文化场馆目录",
+   "source_id": "36",
+   "category_text": "考古成果公益展览与公共考古教育",
+   "summary": "展示西安考古出土文物与发掘保护成果，是公共考古教育场所，需预约。",
+   "time_text": "9:00-17:00（16:30 止入），周一闭馆",
+   "address": "长安区郭杜街道周家庄村南",
+   "district": "长安区",
+   "price_text": "免费（需预约）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "展考古出土文物，呈现西安考古成果，了解文物发掘与保护，公共考古教育场所。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "静心",
+     "求知"
+    ],
+    "themes": [
+     "考古",
+     "出土文物",
+     "文物保护",
+     "研学"
+    ],
+    "demand": [
+     "B"
+    ],
+    "audience": [
+     "学生",
+     "亲子家庭",
+     "历史爱好者"
+    ],
+    "categories": [
+     "C",
+     "F"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.5,
+    "culture": 0.95,
+    "environment": 0.75,
+    "cost": 1.0,
+    "family": 0.7,
+    "quiet": 0.8,
+    "social": 0.35,
+    "learning": 0.95,
+    "quality": 0.9
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安茑屋书店",
+   "id": "act-fc0d988fe6",
+   "source": "西安公共文化场馆目录",
+   "source_id": "62",
+   "category_text": "商业高端高颜值图书阅读与文创体验",
+   "summary": "4500平方米书店空间，藏书13万册，兼售文创文具，环境设计感强，适合阅读与拍照。",
+   "time_text": "10:00-22:00",
+   "address": "雁塔区迈科中心B座1层102~103室",
+   "district": "雁塔区",
+   "price_text": "自主消费",
+   "price_level": "low",
+   "price_from": 0.0,
+   "highlights": "全国第三家茑屋书店，4500㎡超大空间，藏书13万册，颜值超高，融合文创、文具杂货，适合打卡阅读。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "静心",
+     "文艺"
+    ],
+    "themes": [
+     "茑屋书店",
+     "文创杂货",
+     "建筑美学",
+     "阅读打卡"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "年轻人",
+     "亲子家庭",
+     "打卡族"
+    ],
+    "categories": [
+     "D"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.75,
+    "environment": 0.9,
+    "cost": 0.8,
+    "family": 0.6,
+    "quiet": 0.6,
+    "social": 0.5,
+    "learning": 0.65,
+    "quality": 0.85
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安蓝海风漫巷元宵活动",
+   "id": "act-cca3cc866e",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "文化活动/展览",
+   "summary": "蓝海风漫巷元宵主题活动，可猜灯谜、逛市集，感受节日氛围。",
+   "time_text": "2026.02.17-2026.03.03",
+   "address": "西安蓝海风漫巷",
+   "district": "雁塔区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "西安蓝海风漫巷元宵活动",
+   "link": "http://xa.bendibao.com/xiuxian/2026213/148057.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "温馨"
+    ],
+    "themes": [
+     "元宵节",
+     "灯谜",
+     "民俗手作"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "亲子家庭",
+     "年轻人",
+     "本地居民"
+    ],
+    "categories": [
+     "C",
+     "A"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.6,
+    "environment": 0.7,
+    "cost": 0.6,
+    "family": 0.7,
+    "quiet": 0.3,
+    "social": 0.8,
+    "learning": 0.4,
+    "quality": 0.72
+   },
+   "valid_start": "2026-02-17 00:00:00.000000",
+   "valid_end": "2026-03-03 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:06+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安西咸万象城唐风骐骥妙市",
+   "id": "act-f89cee77cd",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "市集文创",
+   "summary": "唐风主题市集，国潮布景与文创摊位聚集，适合逛街与拍照。",
+   "time_text": "2026.01.23-2026.03.05",
+   "address": "西咸万象城",
+   "district": "西咸新区",
+   "price_text": "（详见详情）",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "唐风骐骥妙市",
+   "link": "http://xa.bendibao.com/xiuxian/2026121/147472.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "国风"
+    ],
+    "themes": [
+     "唐风市集",
+     "国潮",
+     "新春"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "年轻人",
+     "亲子家庭",
+     "情侣"
+    ],
+    "categories": [
+     "H",
+     "C"
+    ],
+    "comfort": [
+     "D"
+    ],
+    "factors": [
+     "A",
+     "B"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.6,
+    "environment": 0.7,
+    "cost": 0.6,
+    "family": 0.7,
+    "quiet": 0.2,
+    "social": 0.8,
+    "learning": 0.4,
+    "quality": 0.72
+   },
+   "valid_start": "2026-01-23 00:00:00.000000",
+   "valid_end": "2026-03-05 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西安阿房宫艺术电影院",
+   "id": "act-73fa0740c7",
+   "source": "西安公共文化场馆目录",
+   "source_id": "44",
+   "category_text": "商业老牌艺术与经典影片观影体验",
+   "summary": "钟楼商圈老牌影院，主打艺术影片与经典重映，兼放商业片，票价亲民。",
+   "time_text": "10:00-22:00",
+   "address": "碑林区竹笆市街55号",
+   "district": "碑林区",
+   "price_text": "自主消费",
+   "price_level": "low",
+   "price_from": 0.0,
+   "highlights": "西安老牌影院，充满年代感，主打艺术影片与经典重映，兼顾商业影片，性价比高。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "怀旧",
+     "静心"
+    ],
+    "themes": [
+     "艺术影片",
+     "经典重映",
+     "老牌影院"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "影迷",
+     "年轻人"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.675,
+    "culture": 0.75,
+    "environment": 0.4,
+    "cost": 0.85,
+    "family": 0.4,
+    "quiet": 0.6,
+    "social": 0.45,
+    "learning": 0.55,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "西西弗书店（益田假日店）",
+   "id": "act-f86cf326b9",
+   "source": "西安公共文化场馆目录",
+   "source_id": "64",
+   "category_text": "商业连锁型精选图书阅读与休闲体验",
+   "summary": "连锁书店，主打畅销书与新书展台，附咖啡文创，适合日常阅读和自习。",
+   "time_text": "10:00-22:00",
+   "address": "新城区长乐西路166号益田假日世界购物中心F4",
+   "district": "新城区",
+   "price_text": "自主消费",
+   "price_level": "low",
+   "price_from": 0.0,
+   "highlights": "连锁书店，精选各类畅销书，设有新书展台与畅销排行榜，融合咖啡、文创，适合日常阅读、自习。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "安静",
+     "日常"
+    ],
+    "themes": [
+     "畅销书",
+     "咖啡自习",
+     "文创"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "学生",
+     "上班族"
+    ],
+    "categories": [
+     "D"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "B"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.65,
+    "culture": 0.6,
+    "environment": 0.6,
+    "cost": 0.8,
+    "family": 0.5,
+    "quiet": 0.6,
+    "social": 0.4,
+    "learning": 0.6,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "贝贝国学",
+   "id": "act-9f5b1cc497",
+   "source": "西安公共文化场馆目录",
+   "source_id": "3",
+   "category_text": "少儿国学数字文化公益体验",
+   "summary": "以数字技术呈现中华优秀传统文化的少儿国学资源库，结合图、声、视多媒介。",
+   "time_text": "随对应馆区开放时间",
+   "address": "陕西省图书馆（长安路馆区、高新馆区）",
+   "district": "高新区",
+   "price_text": "免费（馆内数字资源，公益开放）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "贝贝国学教育数据库以中华优秀传统文化为基础、以数字技术为手段、以遵循儿童身心发展规律为原则，将国学知识与图、声、视等多种媒介有机结合。",
+   "link": "www.bbguoxue.com",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "静心",
+     "求知"
+    ],
+    "themes": [
+     "国学启蒙",
+     "传统文化",
+     "少儿教育"
+    ],
+    "demand": [
+     "B"
+    ],
+    "audience": [
+     "亲子家庭",
+     "小学生"
+    ],
+    "categories": [
+     "F"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "A"
+    ]
+   },
+   "scores": {
+    "transport": 0.6,
+    "culture": 0.9,
+    "environment": 0.6,
+    "cost": 1.0,
+    "family": 0.8,
+    "quiet": 0.7,
+    "social": 0.3,
+    "learning": 0.9,
+    "quality": 0.9
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:04+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "钟书阁（旭弘西北广场店）",
+   "id": "act-eff84e46ef",
+   "source": "西安公共文化场馆目录",
+   "source_id": "65",
+   "category_text": "商业特色主题图书阅读与家庭休闲体验",
+   "summary": "2400平方米书店分动静两区，藏书10万册，设亲子阅读区，兼营咖啡简餐。",
+   "time_text": "10:00-22:00",
+   "address": "未央区明光路72号旭弘西北广场5楼",
+   "district": "未央区",
+   "price_text": "自主消费",
+   "price_level": "low",
+   "price_from": 0.0,
+   "highlights": "被誉为“云中天堂”，2400㎡超大空间，藏书10万册，分动静两区，融合咖啡、简餐，亲子阅读区完善。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "温馨",
+     "热闹"
+    ],
+    "themes": [
+     "亲子阅读",
+     "绘本",
+     "空间设计",
+     "咖啡简餐"
+    ],
+    "demand": [
+     "A",
+     "C"
+    ],
+    "audience": [
+     "亲子家庭",
+     "年轻人"
+    ],
+    "categories": [
+     "D",
+     "E"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.575,
+    "culture": 0.7,
+    "environment": 0.85,
+    "cost": 0.75,
+    "family": 0.85,
+    "quiet": 0.45,
+    "social": 0.6,
+    "learning": 0.6,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "钟鼓楼",
+   "id": "act-1ade7d0482",
+   "source": "西安公共文化场馆目录",
+   "source_id": "24",
+   "category_text": "古城地标建筑观光与历史文化体验",
+   "summary": "明代钟鼓楼地标，登楼可俯瞰古城街区，展陈报时文化与城市变迁。",
+   "time_text": "旺季 8:30-21:30（21:00 止入）；淡季 8:30-21:00（20:30 止入）",
+   "address": "莲湖区北院门街道西大街",
+   "district": "莲湖区",
+   "price_text": "钟楼 30 元，鼓楼 30 元，套票 50 元",
+   "price_level": "low",
+   "price_from": 30.0,
+   "highlights": "西安城市中心地标，明代建筑；登楼俯瞰古城，了解报时文化与历史变迁。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "怀旧"
+    ],
+    "themes": [
+     "明代建筑",
+     "报时文化",
+     "古城地标",
+     "钟鼓楼"
+    ],
+    "demand": [
+     "B",
+     "A"
+    ],
+    "audience": [
+     "游客",
+     "学生",
+     "本地居民"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "B"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.725,
+    "culture": 0.85,
+    "environment": 0.65,
+    "cost": 0.5,
+    "family": 0.6,
+    "quiet": 0.4,
+    "social": 0.65,
+    "learning": 0.7,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "长安国际影城（馥桂坊店）",
+   "id": "act-e599b43b31",
+   "source": "西安公共文化场馆目录",
+   "source_id": "47",
+   "category_text": "商业社区型平价电影观影体验",
+   "summary": "莲湖区社区型影城，影厅视野好，票价亲民，周边居民日常观影方便。",
+   "time_text": "10:00-22:00",
+   "address": "莲湖区丰盛路与丰隆路十字东北角馥桂坊7号楼商业裙房4层",
+   "district": "莲湖区",
+   "price_text": "自主消费",
+   "price_level": "low",
+   "price_from": 0.0,
+   "highlights": "莲湖区核心影城，环境舒适，票价亲民，影厅视野好，周边社区密集，适合居民日常观影。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "轻松"
+    ],
+    "themes": [
+     "社区观影",
+     "平价电影",
+     "日常休闲"
+    ],
+    "demand": [
+     "A",
+     "D"
+    ],
+    "audience": [
+     "本地居民",
+     "家庭"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "C",
+     "B"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.575,
+    "culture": 0.35,
+    "environment": 0.5,
+    "cost": 0.85,
+    "family": 0.65,
+    "quiet": 0.4,
+    "social": 0.5,
+    "learning": 0.3,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "长江银兴IMAX影城",
+   "id": "act-75aa025b85",
+   "source": "西安公共文化场馆目录",
+   "source_id": "49",
+   "category_text": "商业 IMAX 电影观影与社区配套体验",
+   "summary": "浐灞凯德广场内IMAX影城，环境整洁，周边居民区集中，性价比较好。",
+   "time_text": "10:00-22:00",
+   "address": "浐灞生态区凯德广场御锦城三楼",
+   "district": "浐灞生态区",
+   "price_text": "自主消费",
+   "price_level": "medium",
+   "price_from": 0.0,
+   "highlights": "配备IMAX厅，环境整洁，周边居民区集中，交通便利，性价比高，适合家庭观影。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "轻松"
+    ],
+    "themes": [
+     "IMAX巨幕",
+     "社区观影",
+     "家庭休闲"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "本地居民",
+     "亲子家庭"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "C",
+     "B"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.4,
+    "environment": 0.55,
+    "cost": 0.7,
+    "family": 0.7,
+    "quiet": 0.35,
+    "social": 0.6,
+    "learning": 0.3,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "阅己书店（曲江店）",
+   "id": "act-348fae4d7f",
+   "source": "西安公共文化场馆目录",
+   "source_id": "75",
+   "category_text": "商业高端小众图书阅读与休闲冥想体验",
+   "summary": "曲江池东路的高端小众书店，藏书精选，配咖啡文创，视野开阔，适合安静阅读。",
+   "time_text": "10:00-22:00",
+   "address": "曲江新区曲江池东路万众国际A座1层",
+   "district": "曲江新区",
+   "price_text": "自主消费",
+   "price_level": "unknown",
+   "price_from": 0.0,
+   "highlights": "高端小众书店，藏书精选，装修简约高级，融合咖啡、文创，视野开阔，适合安静阅读、冥想。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "静心",
+     "高级感"
+    ],
+    "themes": [
+     "精品书店",
+     "咖啡阅读",
+     "冥想休憩"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "文艺青年",
+     "独处人群",
+     "白领"
+    ],
+    "categories": [
+     "D"
+    ],
+    "comfort": [
+     "C"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.8,
+    "environment": 0.8,
+    "cost": 0.6,
+    "family": 0.3,
+    "quiet": 0.9,
+    "social": 0.3,
+    "learning": 0.7,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "陕图长安路馆区",
+   "id": "act-22d0543c1c",
+   "source": "西安公共文化场馆目录",
+   "source_id": "12",
+   "category_text": "综合型公益图书阅览与文化活动",
+   "summary": "省级综合图书馆，可查阅古籍、听陕图讲坛、参与读书会，并提供借阅自习与数字资源。",
+   "time_text": "周一至周日 8:30–19:00，法定节假日另行通知",
+   "address": "西安市碑林区长安北路 18 号",
+   "district": "碑林区",
+   "price_text": "免费（阅览免费，办证押金 100 元起，可退）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "可查阅宋元刻本等珍贵古籍，聆听 “陕图讲坛”，参与读书会，办理借阅、自习及数字资源检索，体验传统与现代融合的阅读氛围，感受三秦文脉厚重，参与公益讲座与文化分享。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "静心",
+     "书香"
+    ],
+    "themes": [
+     "古籍阅览",
+     "陕图讲坛",
+     "读书会",
+     "自习"
+    ],
+    "demand": [
+     "B",
+     "A"
+    ],
+    "audience": [
+     "学生",
+     "本地居民",
+     "研究者"
+    ],
+    "categories": [
+     "D",
+     "B"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.675,
+    "culture": 0.9,
+    "environment": 0.7,
+    "cost": 1.0,
+    "family": 0.7,
+    "quiet": 0.9,
+    "social": 0.4,
+    "learning": 0.95,
+    "quality": 0.9
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "陕图长安路馆区城市书房",
+   "id": "act-9eecba7048",
+   "source": "西安公共文化场馆目录",
+   "source_id": "13",
+   "category_text": "公益智慧自助阅读服务",
+   "summary": "省图一楼的自助阅读空间，可通过智能书架找书，自助借还近八千册热门图书。",
+   "time_text": "周一至周日 8:30–19:00",
+   "address": "陕西省图书馆长安路馆区一楼南侧",
+   "district": "碑林区",
+   "price_text": "免费（阅览、借还免费，需读者证）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "可 24 小时自助借还近 8000 册热门图书，通过智能书架快速找书，随时阅读自习，体验无人值守的智慧阅读服务，享受便捷高效的全天候公共阅读空间。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "便捷",
+     "静心"
+    ],
+    "themes": [
+     "自助借还",
+     "智慧书架",
+     "自习阅读"
+    ],
+    "demand": [
+     "D",
+     "B"
+    ],
+    "audience": [
+     "学生",
+     "上班族",
+     "本地居民"
+    ],
+    "categories": [
+     "D"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "B",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.675,
+    "culture": 0.7,
+    "environment": 0.6,
+    "cost": 1.0,
+    "family": 0.6,
+    "quiet": 0.9,
+    "social": 0.2,
+    "learning": 0.7,
+    "quality": 0.75
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "陕图高新馆区",
+   "id": "act-61eab141c7",
+   "source": "西安公共文化场馆目录",
+   "source_id": "14",
+   "category_text": "科技赋能型公益图书阅览与文化体验",
+   "summary": "高新馆区集合阅览、自习与非遗、AI互动体验，可体验裸眼3D沉浸式阅读。",
+   "time_text": "周一至周日 9:00–19:00，法定节假日另行通知",
+   "address": "西安市雁塔区天谷七路 899 号",
+   "district": "雁塔区",
+   "price_text": "免费（阅览免费，办证押金 100 元起，可退）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "可体验裸眼 3D 沉浸式阅读、有声阅读，参与非遗体验、AI 互动与文创创作，办理借阅、自习及公益课堂，感受科技赋能的多元阅读场景，体验 “图书馆 + 科技 + 文化” 的复合型空间。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "静心",
+     "现代"
+    ],
+    "themes": [
+     "裸眼3D阅读",
+     "有声阅读",
+     "非遗体验",
+     "AI互动"
+    ],
+    "demand": [
+     "B",
+     "A"
+    ],
+    "audience": [
+     "学生",
+     "亲子家庭",
+     "本地居民"
+    ],
+    "categories": [
+     "D",
+     "A",
+     "F"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.8,
+    "environment": 0.8,
+    "cost": 1.0,
+    "family": 0.8,
+    "quiet": 0.7,
+    "social": 0.5,
+    "learning": 0.75,
+    "quality": 0.85
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "陕图高新馆区城市书房",
+   "id": "act-d158cf0df2",
+   "source": "西安公共文化场馆目录",
+   "source_id": "15",
+   "category_text": "社区型公益自助阅读服务",
+   "summary": "社区型自助书房，可借还1.5万余册图书并自习，参与小型读书分享会。",
+   "time_text": "周一至周日 9:00–19:00",
+   "address": "陕西省图书馆高新馆区内",
+   "district": "高新区",
+   "price_text": "免费（阅览、借还免费，需读者证）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "可自助借还 1.5 万余册图书，在家门口阅读自习，参与小型读书分享会，体验 “15 分钟阅读圈” 的便利，感受书香融入日常的社区文化温度。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "静心",
+     "安静"
+    ],
+    "themes": [
+     "自助借还",
+     "社区阅读",
+     "自习空间",
+     "读书分享"
+    ],
+    "demand": [
+     "B",
+     "D"
+    ],
+    "audience": [
+     "学生",
+     "上班族",
+     "本地居民"
+    ],
+    "categories": [
+     "D"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "C",
+     "B"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.6,
+    "environment": 0.6,
+    "cost": 1.0,
+    "family": 0.6,
+    "quiet": 0.9,
+    "social": 0.4,
+    "learning": 0.6,
+    "quality": 0.72
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "陕西历史博物馆",
+   "id": "act-1c7cad301e",
+   "source": "西安公共文化场馆目录",
+   "source_id": "18",
+   "category_text": "历史文物收藏与公益展览",
+   "summary": "馆藏37万余件文物，商周青铜器与唐金银器精品荟萃，需预约参观。",
+   "time_text": "9:00-17:30（16:00 止入），周一闭馆（节假日除外）",
+   "address": "雁塔区小寨东路 91 号",
+   "district": "雁塔区",
+   "price_text": "免费（需预约），专题展另收费",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "馆藏 37 万 + 文物，商周青铜器、唐金银器等精品荟萃，系统展现华夏文明脉络。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C",
+     "D"
+    ],
+    "moods": [
+     "静心",
+     "人多"
+    ],
+    "themes": [
+     "商周青铜器",
+     "唐金银器",
+     "周秦汉唐",
+     "文物"
+    ],
+    "demand": [
+     "B"
+    ],
+    "audience": [
+     "学生",
+     "外地游客",
+     "亲子家庭"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.65,
+    "culture": 1.0,
+    "environment": 0.7,
+    "cost": 0.95,
+    "family": 0.6,
+    "quiet": 0.3,
+    "social": 0.4,
+    "learning": 0.95,
+    "quality": 0.95
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "陕西少华山春节活动",
+   "id": "act-156462ea5e",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "演出演艺",
+   "summary": "少华山春节免门票活动，非遗、国潮巡游与抽奖结合，登山赏景。",
+   "time_text": "2026.02.15-2026.03.03",
+   "address": "未获取",
+   "district": "临潼区",
+   "price_text": "（详见详情）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "免门票，非遗+国潮+巡游+抽奖+怀旧buff叠满！解锁满格年味！",
+   "link": "http://xa.bendibao.com/xiuxian/202624/147812.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "moods": [
+     "热闹",
+     "自然"
+    ],
+    "themes": [
+     "非遗",
+     "国潮巡游",
+     "登山",
+     "新春庙会"
+    ],
+    "demand": [
+     "A"
+    ],
+    "audience": [
+     "亲子家庭",
+     "年轻人",
+     "游客"
+    ],
+    "categories": [
+     "A",
+     "C",
+     "H"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "C",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.4,
+    "culture": 0.6,
+    "environment": 0.8,
+    "cost": 0.9,
+    "family": 0.7,
+    "quiet": 0.4,
+    "social": 0.6,
+    "learning": 0.4,
+    "quality": 0.72
+   },
+   "valid_start": "2026-02-15 00:00:00.000000",
+   "valid_end": "2026-03-03 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "陕西省图书馆春节惠民系列活动",
+   "id": "act-47bc4f9f24",
+   "source": "西安本地宝",
+   "source_id": "",
+   "category_text": "文化展览",
+   "summary": "陕西省图书馆高新馆区春节期间推出阅读推广与民俗体验公益活动。",
+   "time_text": "2026.02.07-2026.03.03",
+   "address": "陕西省图书馆高新馆区",
+   "district": "高新区",
+   "price_text": "（详见详情）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "“欢欢喜喜过大年”春节惠民系列活动，体验感十足！",
+   "link": "http://xa.bendibao.com/xiuxian/202629/147926.shtm",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "D"
+    ],
+    "moods": [
+     "温馨",
+     "安静"
+    ],
+    "themes": [
+     "春节民俗",
+     "阅读推广",
+     "公益惠民"
+    ],
+    "demand": [
+     "B",
+     "A"
+    ],
+    "audience": [
+     "亲子家庭",
+     "学生",
+     "本地居民"
+    ],
+    "categories": [
+     "D",
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "C",
+     "A"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.8,
+    "environment": 0.7,
+    "cost": 1.0,
+    "family": 0.7,
+    "quiet": 0.8,
+    "social": 0.4,
+    "learning": 0.9,
+    "quality": 0.8
+   },
+   "valid_start": "2026-02-07 00:00:00.000000",
+   "valid_end": "2026-03-03 00:00:00.000000",
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:06+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "陕西省美术博物馆",
+   "id": "act-42fb2bd081",
+   "source": "西安公共文化场馆目录",
+   "source_id": "11",
+   "category_text": "美术专业展览与公共文化服务",
+   "summary": "西部地区唯一的专业美术博物馆，承担陈列展览、公共教育与学术研究，免费开放。",
+   "time_text": "周二至周日 9:00–17:00，周一闭馆（法定节假日除外）",
+   "address": "西安市碑林区长安北路 18 号",
+   "district": "碑林区",
+   "price_text": "免费（全年开放，周一闭馆）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "陕西省美术博物馆具有收藏保护、学术研究、陈列展览、公共教育、推广服务、文化交流等六大功能，是目前中国西部地区唯一一座专业美术博物馆，2010年底被国家文化部命名为首批“国家重点美馆”。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "静心",
+     "雅致"
+    ],
+    "themes": [
+     "美术展览",
+     "西部美术",
+     "公共教育",
+     "艺术品收藏"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "艺术爱好者",
+     "学生",
+     "游客"
+    ],
+    "categories": [
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.675,
+    "culture": 0.95,
+    "environment": 0.8,
+    "cost": 1.0,
+    "family": 0.6,
+    "quiet": 0.8,
+    "social": 0.4,
+    "learning": 0.8,
+    "quality": 0.9
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "青龙寺遗址公园（含博物馆）",
+   "id": "act-5df15f5abb",
+   "source": "西安公共文化场馆目录",
+   "source_id": "25",
+   "category_text": "唐代文化遗址公益观光与非遗体验",
+   "summary": "唐代密宗祖庭遗址公园免费开放，春赏樱花，园内博物馆展隋唐文物并可体验茶道。",
+   "time_text": "景区 8:30-18:00（17:00 止入）；博物馆 9:00-17:00（16:30 止入），周一闭馆",
+   "address": "雁塔区西影路铁炉庙村北 1 号",
+   "district": "雁塔区",
+   "price_text": "免费",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "唐代密宗祖庭，中日文化交流遗址；春日樱花绝美，展隋唐文物，可体验茶道。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C",
+     "D"
+    ],
+    "moods": [
+     "静心",
+     "浪漫"
+    ],
+    "themes": [
+     "唐密宗祖庭",
+     "樱花",
+     "隋唐文物",
+     "茶道体验"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "本地居民",
+     "情侣",
+     "亲子家庭"
+    ],
+    "categories": [
+     "H",
+     "C",
+     "A"
+    ],
+    "comfort": [
+     "B"
+    ],
+    "factors": [
+     "C",
+     "D"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "scores": {
+    "transport": 0.575,
+    "culture": 0.75,
+    "environment": 0.9,
+    "cost": 1.0,
+    "family": 0.75,
+    "quiet": 0.65,
+    "social": 0.55,
+    "learning": 0.65,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "非遗体验",
+   "id": "act-559f5a469a",
+   "source": "西安公共文化场馆目录",
+   "source_id": "6",
+   "category_text": "非遗文化展示与公益体验",
+   "summary": "陕西省文化馆非遗体验中心常设展，分秦蕴、秦艺、秦工、秦风四部分，展出近两千件非遗展品。",
+   "time_text": "周二至周日 9:00–17:00，周一闭馆",
+   "address": "陕西省文化馆（曲江馆区二楼非遗体验中心）",
+   "district": "曲江新区",
+   "price_text": "免费（体验中心及公益活动）",
+   "price_level": "free",
+   "price_from": 0.0,
+   "highlights": "陕西省非遗体验中心主题展览分为“秦蕴、秦艺、秦工、秦风”四大部分和“秦创区”“精品区”“文创区”“研学区”“临展区”五个功能版块，近2000件展品精彩呈现了陕西非遗的厚重底蕴与时代风华，生动展现了陕西非遗保护传承发展的创新成果。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "B",
+     "C"
+    ],
+    "moods": [
+     "静心",
+     "人文"
+    ],
+    "themes": [
+     "陕西非遗",
+     "秦蕴秦艺",
+     "传统手工艺",
+     "研学文创"
+    ],
+    "demand": [
+     "B",
+     "A"
+    ],
+    "audience": [
+     "亲子家庭",
+     "文化爱好者",
+     "学生"
+    ],
+    "categories": [
+     "A",
+     "C"
+    ],
+    "comfort": [
+     "A"
+    ],
+    "factors": [
+     "A",
+     "C"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.55,
+    "culture": 0.95,
+    "environment": 0.8,
+    "cost": 1.0,
+    "family": 0.8,
+    "quiet": 0.7,
+    "social": 0.5,
+    "learning": 0.85,
+    "quality": 0.85
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:04+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  },
+  {
+   "name": "高家大院",
+   "id": "act-8eaf1ff2e6",
+   "source": "西安公共文化场馆目录",
+   "source_id": "28",
+   "category_text": "明清民居观光与关中民俗非遗体验",
+   "summary": "明清民居院落，可听秦腔看皮影，体验关中民俗非遗。",
+   "time_text": "8:30-21:30，全年开放",
+   "address": "莲湖区北院门 125 号",
+   "district": "莲湖区",
+   "price_text": "15 元",
+   "price_level": "low",
+   "price_from": 15.0,
+   "highlights": "明清民居典范，藏匾额、皮影、古家具；可听秦腔、看皮影，体验关中民俗非遗。",
+   "link": "",
+   "cover": "",
+   "tags": {
+    "time_slots": [
+     "A",
+     "B",
+     "C"
+    ],
+    "moods": [
+     "热闹",
+     "古朴"
+    ],
+    "themes": [
+     "明清民居",
+     "秦腔",
+     "皮影",
+     "关中民俗"
+    ],
+    "demand": [
+     "A",
+     "B"
+    ],
+    "audience": [
+     "游客",
+     "本地居民",
+     "亲子家庭"
+    ],
+    "categories": [
+     "A",
+     "C"
+    ],
+    "comfort": [
+     "D",
+     "A"
+    ],
+    "factors": [
+     "A"
+    ],
+    "age_fit": [
+     "A",
+     "B",
+     "C"
+    ]
+   },
+   "scores": {
+    "transport": 0.65,
+    "culture": 0.85,
+    "environment": 0.6,
+    "cost": 0.9,
+    "family": 0.6,
+    "quiet": 0.4,
+    "social": 0.7,
+    "learning": 0.7,
+    "quality": 0.8
+   },
+   "valid_start": null,
+   "valid_end": null,
+   "enriched": {
+    "model": "deepseek-flash",
+    "at": "2026-11-07T19:32:05+08:00",
+    "version": "2026-11-tag-v1",
+    "cached": true
+   }
+  }
+ ]
+}

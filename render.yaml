@@ -1,0 +1,14 @@
+# 可选：一键部署到 Render（含免费实例）。GitHub Pages 不需要这个文件。
+services:
+  - type: web
+    name: wenxiang
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: DEEPSEEK_API_KEY
+        sync: false
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: WENXIANG_DB
+        value: /app/data/responses.db

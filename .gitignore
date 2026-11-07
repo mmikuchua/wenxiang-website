@@ -9,12 +9,14 @@ backend/venv/
 
 # 本地数据与密钥（不入库）
 *.db
+*.db-*
 *.db-journal
 *.sqlite3
 .env
 .env.*
 !.env.example
-data/private/
+data/*
+!data/README.md
 web/data/local-*.json
 
 # 大文件 / 可执行文件
@@ -23,6 +25,7 @@ chromedriver.exe
 *.exe
 *.zip
 *.log
+.shots/
 
 # 编辑器 / 系统
 .DS_Store

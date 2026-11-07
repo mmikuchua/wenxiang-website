@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>文享智配 · 西安公共文化智能匹配</title>
+  <meta name="description" content="用 11 道题生成你的文化画像，从西安 129 个公共文化活动与场馆中，匹配此刻最适合你的那一个。">
+  <meta property="og:title" content="文享智配 · 西安公共文化智能匹配">
+  <meta property="og:description" content="问卷画像 + AI 语义标签 + 可解释推荐，帮你决定这个周末去哪儿。">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#a94a24">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+  <header class="topbar" id="topbar"></header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="wrap hero-inner">
+        <p class="hero-kicker">西安 · 公共文化服务</p>
+        <h1>文享<span class="accent">智配</span></h1>
+        <p class="hero-sub">11 道题，把你的「我想去」变成具体的<strong>去哪、什么时候去、值不值得去</strong>。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="survey.html">开始匹配 <span aria-hidden="true">→</span></a>
+          <a class="btn btn-ghost" href="recommend.html" id="cta-recommend">查看我的推荐</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong id="stat-activities">—</strong><span>文化活动 / 场馆</span></div>
+          <div><strong id="stat-sources">—</strong><span>数据来源</span></div>
+          <div><strong>11</strong><span>画像维度</span></div>
+          <div><strong>0</strong><span>广告与推广位</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">它和普通"活动列表"有什么不同</p>
+            <h2>不是把活动堆给你，是先弄懂你是谁</h2>
+          </div>
+          <p class="muted small" id="dataset-note">正在加载活动数据…</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature" data-step="01">
+            <h3>画像先行</h3>
+            <p>年龄、可支配时间、预算、兴趣、出行方式——11 个维度构成一张可计算的画像，而不是几个标签。</p>
+          </article>
+          <article class="feature" data-step="02">
+            <h3>AI 语义标签</h3>
+            <p>每个活动都由大模型补全「适合谁、什么氛围、文化含量多少」，让"遛娃""出片""静一静"这类模糊需求也能被理解。</p>
+          </article>
+          <article class="feature" data-step="03">
+            <h3>可解释排序</h3>
+            <p>每条推荐都告诉你为什么：是契合兴趣，还是时间刚好、票价合适。点「不太合适」，下一次就少推这类。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-tight">
+      <div class="wrap">
+        <div class="flow">
+          <div class="flow-step"><h4>回答 11 道题</h4><p>选项按钮，不用打字，约 90 秒。</p></div>
+          <div class="flow-step"><h4>生成文化画像</h4><p>算出你的兴趣、时间、预算权重。</p></div>
+          <div class="flow-step"><h4>匹配活动</h4><p>软约束打分 + 多样性重排，给出 8 个候选。</p></div>
+          <div class="flow-step"><h4>反馈学习</h4><p>点赞/否掉会累积成标签偏好，越用越准。</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="panel">
+          <h3>这个站点是怎么跑起来的</h3>
+          <p class="panel-sub">全部静态托管，不需要服务器常开，手机随时可以打开。</p>
+          <div class="chart-grid">
+            <div>
+              <p><strong>数据侧</strong>：爬虫从西安本地宝、陕西大剧院、陕西省图书馆与公共文化场馆目录采集活动，经 DeepSeek 语义标注（兴趣类型、需求、时段、人群、氛围、质量分）后生成 <span class="mono">activities.json</span>。</p>
+              <p style="margin-bottom:0"><strong>计算侧</strong>：浏览器本地运行推荐引擎，画像与问卷记录默认只存在你自己的设备上，不上传、不追踪。</p>
+            </div>
+            <div class="note">
+              如果你在手机上打开，推荐会按"步行/公交可达"重新加权；用电脑打开则更倾向完整信息与长时段活动。同一份画像，不同场景。
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="footer"></footer>
+
+  <script type="module" src="assets/js/pages/index.js"></script>
+</body>
+</html>
