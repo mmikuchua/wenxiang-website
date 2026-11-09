@@ -9,8 +9,6 @@ import { toast } from './ui.js';
 const STORE_PREFIX = 'wenxiang.page-edits.v1:';
 const TEXT_SELECTOR =
   'p, h1, h2, h3, h4, h5, h6, li, a, button, figcaption, label, dt, dd, td, th, blockquote, .btn';
-const MOVE_SELECTOR =
-  'h1, h2, h3, h4, p, a, button, img, .btn, .feature, .flow-step, .hero-stats, .hero-actions, .panel, .rec-card, .badge';
 const SKIP_SELECTOR = '.title-tune, .pe-panel, .sr-only, h1.wordmark';
 const BLOCK_SELECTOR = 'p, li, h1, h2, h3, h4, h5, h6, blockquote, td, th, figcaption, .btn';
 const TEXT_TAGS = new Set(['H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'P', 'A', 'BUTTON', 'LI', 'LABEL', 'TD', 'TH', 'FIGCAPTION', 'BLOCKQUOTE']);
@@ -22,6 +20,7 @@ function start() {
   const store = { text: {}, offset: {}, size: {} };
   let mode = 'text';
   let selected = null;
+  let applying = false;
 
   Object.assign(store, load());
   applySaved();
@@ -35,9 +34,19 @@ function start() {
   const list = panel.querySelector('.pe-list');
 
   document.addEventListener('click', (event) => {
-    if (event.target.closest('.pe-panel')) return;
-    event.preventDefault();
-    event.stopPropagation();
+    const target = event.target;
+    if (target.closest('.pe-panel') || target.closest('.pe-handle')) return;
+    // 链接一律不跳转，免得调一半跑掉
+    if (target.closest('a[href]')) {
+      event.preventDefault();
+      event.stopPropagation();
+      return;
+    }
+    // 文字模式下禁掉点击，方便把光标点进可编辑区域
+    if (mode === 'text') {
+      event.preventDefault();
+      event.stopPropagation();
+    }
   }, true);
 
   // 顶栏/页脚/统计是异步渲染的，等它们落定再挂编辑能力
@@ -54,24 +63,50 @@ function start() {
     document.body.classList.toggle('pe-sizing', next === 'size');
     handle.hidden = next !== 'size' || !selected;
     if (next === 'text') {
-      textTargets().forEach((el) => {
-        el.setAttribute('contenteditable', 'true');
-        el.setAttribute('spellcheck', 'false');
-        el.classList.add('pe-editable');
-        el.addEventListener('focusout', onTextChange);
-      });
+      attachTextTargets();
       setHint('点任意文字直接改，改完点别处就保存。');
     } else {
-      textTargets().forEach((el) => {
-        el.removeAttribute('contenteditable');
-        el.classList.remove('pe-editable');
-        el.removeEventListener('focusout', onTextChange);
-      });
+      detachTextTargets();
       setHint(next === 'move'
-        ? '拖动文字块、按钮或卡片移动位置；方向键微移，Shift 加速。'
-        : '先点一下要改的元素，再拖它右下角的圆点缩放；+ / - 微调，Shift 加速。');
+        ? '页面上任何元素都能拖；按住 Alt 直接抓上一层，方向键微移。'
+        : '点谁选谁，拖右下角圆点放大缩小；Alt 选上一层，+ / - 微调。');
     }
     syncHandle();
+  }
+
+  // 点击位置对应的元素：默认抓最里面那个，按住 Alt 抓它的上一层
+  function pickTarget(node, climb = 0) {
+    let el = node instanceof Element ? node : node?.parentElement;
+    if (!el || el.closest(SKIP_SELECTOR)) return null;
+    while (el && el !== document.body) {
+      const rect = el.getBoundingClientRect();
+      if (rect.width > 0 && rect.height > 0) break;
+      el = el.parentElement;
+    }
+    if (!el || el === document.body || el === document.documentElement) return null;
+    for (let i = 0; i < climb; i += 1) {
+      const parent = el.parentElement;
+      if (!parent || parent === document.body || parent.closest(SKIP_SELECTOR)) break;
+      el = parent;
+    }
+    return el;
+  }
+
+  function attachTextTargets() {
+    textTargets().forEach((el) => {
+      el.setAttribute('contenteditable', 'true');
+      el.setAttribute('spellcheck', 'false');
+      el.classList.add('pe-editable');
+      el.addEventListener('focusout', onTextChange);
+    });
+  }
+
+  function detachTextTargets() {
+    textTargets().forEach((el) => {
+      el.removeAttribute('contenteditable');
+      el.classList.remove('pe-editable');
+      el.removeEventListener('focusout', onTextChange);
+    });
   }
 
   function textTargets() {
@@ -111,8 +146,8 @@ function start() {
   document.addEventListener('pointerdown', (event) => {
     if (event.target.closest('.pe-panel') || event.target.closest('.pe-handle')) return;
     if (mode !== 'move' && mode !== 'size') return;
-    const el = event.target.closest(MOVE_SELECTOR);
-    if (!el || el === document.body || el.closest(SKIP_SELECTOR)) return;
+    const el = pickTarget(event.target, event.altKey ? 1 : 0);
+    if (!el) return;
     select(el);
     if (mode === 'size') {
       event.preventDefault();
@@ -158,17 +193,25 @@ function start() {
   });
 
   document.addEventListener('pointermove', (event) => {
-    if (!resizing) return;
-    const dist = Math.hypot(event.clientX - resizing.center.x, event.clientY - resizing.center.y);
-    const factor = Math.min(2.6, Math.max(0.35, dist / resizing.startDist));
-    const target = resizing.base * factor;
-    if (resizing.kind === 'font') {
-      setFontSize(selected, target / resizing.parentFont);
-    } else {
-      setScale(selected, Math.min(2.6, Math.max(0.35, target)));
+    if (!resizing && (!moving || !start)) return;
+    if (resizing) {
+      const dist = Math.hypot(event.clientX - resizing.center.x, event.clientY - resizing.center.y);
+      const factor = Math.min(2.6, Math.max(0.35, dist / resizing.startDist));
+      const target = resizing.base * factor;
+      if (resizing.kind === 'font') {
+        setFontSize(selected, target / resizing.parentFont);
+      } else {
+        setScale(selected, Math.min(2.6, Math.max(0.35, target)));
+      }
+      syncHandle();
+      renderList();
+      return;
     }
+    const em = parseFloat(getComputedStyle(moving).fontSize) || 16;
+    const dx = (event.clientX - start.x) / em;
+    const dy = (event.clientY - start.y) / em;
+    setOffset(moving, start.base.x + dx, start.base.y + dy);
     syncHandle();
-    renderList();
   }, true);
 
   document.addEventListener('pointerup', () => {
@@ -188,7 +231,7 @@ function start() {
   document.addEventListener('pointerover', (event) => {
     if (mode !== 'move' || moving) return;
     if (event.target.closest('.pe-panel')) return;
-    const el = event.target.closest(MOVE_SELECTOR);
+    const el = pickTarget(event.target, event.altKey ? 1 : 0);
     document.querySelectorAll('.pe-hover').forEach((node) => {
       if (node !== el) node.classList.remove('pe-hover');
     });
@@ -239,6 +282,18 @@ function start() {
   window.addEventListener('scroll', syncHandle, { passive: true });
   window.addEventListener('resize', syncHandle);
 
+  // 问卷、推荐这类页面会不断重渲染，节点换掉后把改动重新贴上去
+  let reapplyTimer = 0;
+  const observer = new MutationObserver(() => {
+    if (applying) return;
+    clearTimeout(reapplyTimer);
+    reapplyTimer = setTimeout(() => {
+      applySaved();
+      if (mode === 'text') attachTextTargets();
+    }, 120);
+  });
+  observer.observe(document.body, { childList: true, subtree: true });
+
   function select(el) {
     if (selected === el) {
       syncHandle();
@@ -250,6 +305,13 @@ function start() {
     handle.hidden = mode !== 'size';
     syncHandle();
     renderList();
+  }
+
+  function selectParent() {
+    if (!selected) return;
+    const parent = selected.parentElement;
+    if (!parent || parent === document.body || parent.closest(SKIP_SELECTOR)) return;
+    select(parent);
   }
 
   function offsetOf(el) {
@@ -318,6 +380,7 @@ function start() {
         <button type="button" data-mode="size">大小</button>
       </div>
       <p class="pe-hint"></p>
+      <button type="button" class="pe-up" data-act="parent">↑ 选上一层</button>
       <ul class="pe-list"></ul>
       <div class="pe-actions">
         <button type="button" data-act="export">导出 JSON</button>
@@ -335,6 +398,7 @@ function start() {
       }
       const action = event.target.closest('[data-act]')?.dataset.act;
       if (action === 'export') exportJson();
+      if (action === 'parent') selectParent();
       if (action === 'reset') resetAll();
       if (action === 'exit') {
         const url = new URL(location.href);
@@ -408,28 +472,33 @@ function start() {
   }
 
   function applySaved() {
-    Object.entries(store.text || {}).forEach(([selector, html]) => {
-      const el = document.querySelector(selector);
-      if (el) el.innerHTML = html;
-    });
-    const merged = new Set([
-      ...Object.keys(store.offset || {}),
-      ...Object.keys(store.size || {}),
-    ]);
-    merged.forEach((selector) => {
-      const el = document.querySelector(selector);
-      if (!el) return;
-      const size = store.size?.[selector];
-      if (size && size.kind === 'font') {
-        el.style.fontSize = `${size.value.toFixed(3)}em`;
+    applying = true;
+    try {
+      Object.entries(store.text || {}).forEach(([selector, html]) => {
+        const el = document.querySelector(selector);
+        if (el && el.innerHTML !== html) el.innerHTML = html;
+      });
+      const merged = new Set([
+        ...Object.keys(store.offset || {}),
+        ...Object.keys(store.size || {}),
+      ]);
+      merged.forEach((selector) => {
+        const el = document.querySelector(selector);
+        if (!el) return;
+        const size = store.size?.[selector];
+        if (size && size.kind === 'font') {
+          el.style.fontSize = `${size.value.toFixed(3)}em`;
+          el.dataset.peEdited = '1';
+          return;
+        }
+        const offset = store.offset?.[selector] || { x: 0, y: 0 };
+        const scale = size && size.kind === 'scale' ? size.value : 1;
+        el.style.transform = `translate(${offset.x.toFixed(3)}em, ${offset.y.toFixed(3)}em) scale(${scale.toFixed(3)})`;
         el.dataset.peEdited = '1';
-        return;
-      }
-      const offset = store.offset?.[selector] || { x: 0, y: 0 };
-      const scale = size && size.kind === 'scale' ? size.value : 1;
-      el.style.transform = `translate(${offset.x.toFixed(3)}em, ${offset.y.toFixed(3)}em) scale(${scale.toFixed(3)})`;
-      el.dataset.peEdited = '1';
-    });
+      });
+    } finally {
+      applying = false;
+    }
   }
 
   function save() {
@@ -491,6 +560,11 @@ function start() {
       }
       .pe-modes button.is-on { background: #a94a24; border-color: #a94a24; color: #fff; }
       .pe-hint { margin: 0 0 8px; color: #7d746a; font-size: 11px; }
+      .pe-up {
+        display: inline-block; margin: 0 0 8px; padding: 3px 9px; border-radius: 6px;
+        border: 1px solid #d9d0c0; background: #fff; color: #7d746a; font-size: 11px; cursor: pointer;
+      }
+      .pe-up:hover { border-color: #a94a24; color: #a94a24; }
       .pe-list { list-style: none; margin: 0 0 8px; padding: 0; display: grid; gap: 3px; max-height: 74px; overflow: auto; }
       .pe-list li { color: #4a423a; font-size: 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
       .pe-list li.pe-empty { color: #9a9188; }
