@@ -159,6 +159,12 @@ button { font: inherit; }
 .hero-inner { position: relative; z-index: 1; padding: 5.5rem 0 4rem; max-width: 640px; }
 .hero h1 { font-size: clamp(2.8rem, 7vw, 4.6rem); letter-spacing: 0.06em; margin-bottom: 0.35rem; }
 .hero h1 .accent { color: var(--clay); }
+/* 书法字标：四个字的图片按 1em 高度并排，底部对齐，间距交给字形自身的留白 */
+.hero h1.wordmark {
+  display: flex; align-items: flex-end; gap: 0.11em;
+  line-height: 0; margin-bottom: 0.9rem;
+}
+.hero h1.wordmark img { height: 1em; width: auto; display: block; }
 .hero-kicker { display: inline-flex; align-items: center; gap: 0.6rem; font-size: 0.82rem; letter-spacing: 0.24em; color: var(--clay); text-transform: uppercase; margin-bottom: 1.4rem; }
 .hero-kicker::before { content: ""; width: 42px; height: 1px; background: var(--clay); display: inline-block; }
 .hero-sub { font-size: 1.18rem; color: var(--ink-2); max-width: 36ch; margin-bottom: 2.2rem; }

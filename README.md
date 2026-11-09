@@ -173,6 +173,7 @@ web/                     # 线上部署的静态站点
   assets/js/intent.js    # 一句话需求解析
   assets/js/cloud.js     # 可选后端探测与调用
   assets/css/app.css     # 设计系统（无外部字体/CDN）
+  assets/images/title/   # 首页书法字标（四个字各一张 webp，由 tools/ink-wordmark.py 生成）
   data/activities.json   # 活动数据（按需刷新）
   data/pilot.json        # 试点问卷聚合基线
   tests/                 # Node 单元测试
