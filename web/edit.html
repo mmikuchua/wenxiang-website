@@ -9,14 +9,14 @@
   <meta name="theme-color" content="#a94a24">
   <link rel="stylesheet" href="assets/css/app.css">
 </head>
-<body>
+<body data-no-editor>
   <header class="topbar" id="topbar"></header>
 
   <main class="wrap">
     <section class="page-head">
       <p class="eyebrow">调试入口</p>
       <h1>选择要编辑的页面</h1>
-      <p class="lead">点下面的卡片，会带着 <span class="mono">?edit=1</span> 打开对应页面，左下角出现编辑面板：<strong>文字</strong>直接改、<strong>移动</strong>拖动位置、<strong>大小</strong>拖圆点缩放。改动只存在这台电脑的浏览器里，调完点「导出 JSON」发我，我落进源码。</p>
+      <p class="lead">点下面的卡片会带着 <span class="mono">?edit=1</span> 打开页面；如果开了下面的「本机编辑态」，以后直接打开任何页面就能改。左下角是编辑面板：<strong>文字</strong>直接改、<strong>移动</strong>拖动位置、<strong>大小</strong>拖圆点缩放。改动只存在这台电脑的浏览器里，调完点「导出 JSON」发我，我落进源码。</p>
     </section>
 
     <section class="section-tight">
@@ -45,6 +45,15 @@
     </section>
 
     <section class="panel">
+      <h3>本机编辑态</h3>
+      <p class="panel-sub" id="edit-mode-note">开启后，这个浏览器里打开站内任何页面都会直接进入可编辑状态；访客不受影响，改动仍然只存在本机。</p>
+      <div class="admin-actions">
+        <button class="btn btn-ink btn-sm" id="btn-edit-on" type="button">开启编辑态</button>
+        <button class="btn btn-ghost btn-sm" id="btn-edit-off" type="button">关闭编辑态</button>
+      </div>
+    </section>
+
+    <section class="panel">
       <h3>三个提醒</h3>
       <div class="chart-grid">
         <div>
@@ -62,6 +71,31 @@
   <script type="module">
     import { renderTopbar } from './assets/js/ui.js';
     renderTopbar('');
+
+    const KEY = 'wenxiang.editor';
+    const note = document.getElementById('edit-mode-note');
+    const sync = () => {
+      let on = false;
+      try {
+        on = localStorage.getItem(KEY) === '1';
+      } catch {
+        on = false;
+      }
+      note.textContent = on
+        ? '编辑态已开启：现在打开任何页面都能直接改，左下角会出现面板。点「关闭编辑态」可以恢复成普通浏览。'
+        : '开启后，这个浏览器里打开站内任何页面都会直接进入可编辑状态；访客不受影响，改动仍然只存在本机。';
+      note.style.color = on ? 'var(--clay-dark)' : '';
+      document.getElementById('btn-edit-on').disabled = on;
+    };
+    document.getElementById('btn-edit-on').addEventListener('click', () => {
+      try { localStorage.setItem(KEY, '1'); } catch { /* 忽略 */ }
+      sync();
+    });
+    document.getElementById('btn-edit-off').addEventListener('click', () => {
+      try { localStorage.removeItem(KEY); } catch { /* 忽略 */ }
+      sync();
+    });
+    sync();
   </script>
 </body>
 </html>

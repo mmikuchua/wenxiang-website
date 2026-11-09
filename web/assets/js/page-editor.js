@@ -32,6 +32,10 @@ function start() {
 
   const hint = panel.querySelector('.pe-hint');
   const list = panel.querySelector('.pe-list');
+  const sticky = !new URLSearchParams(location.search).has('edit');
+  panel.querySelector('.pe-title span').textContent = sticky
+    ? '本机常开 · 点退出关闭'
+    : '只在 ?edit=1 下生效';
 
   document.addEventListener('click', (event) => {
     const target = event.target;
@@ -373,7 +377,7 @@ function start() {
     const el = document.createElement('div');
     el.className = 'pe-panel';
     el.innerHTML = `
-      <p class="pe-title">页面编辑<span>只在 ?edit=1 下生效</span></p>
+      <p class="pe-title">页面编辑<span></span></p>
       <div class="pe-modes">
         <button type="button" data-mode="text">文字</button>
         <button type="button" data-mode="move">移动</button>
@@ -401,6 +405,11 @@ function start() {
       if (action === 'parent') selectParent();
       if (action === 'reset') resetAll();
       if (action === 'exit') {
+        try {
+          localStorage.removeItem('wenxiang.editor');
+        } catch {
+          /* 忽略 */
+        }
         const url = new URL(location.href);
         url.searchParams.delete('edit');
         location.href = url.toString();

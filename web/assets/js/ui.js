@@ -194,7 +194,14 @@ export function statCard(label, value, hint = '') {
   return `<div class="stat-card"><span class="stat-label">${escapeHtml(label)}</span><strong class="stat-value">${escapeHtml(String(value))}</strong>${hint ? `<span class="stat-hint">${escapeHtml(hint)}</span>` : ''}</div>`;
 }
 
-// 可视化编辑模式：地址带 ?edit=1 时才加载，正常访问不下载
-if (new URLSearchParams(location.search).has('edit')) {
+// 可视化编辑模式：?edit=1 临时开，或在本机把「编辑态」常开（edit.html 里切换）
+const editorForcedByUrl = new URLSearchParams(location.search).has('edit');
+let editorAlwaysOn = false;
+try {
+  editorAlwaysOn = localStorage.getItem('wenxiang.editor') === '1';
+} catch {
+  editorAlwaysOn = false;
+}
+if (!document.body.hasAttribute('data-no-editor') && (editorForcedByUrl || editorAlwaysOn)) {
   import('./page-editor.js');
 }
