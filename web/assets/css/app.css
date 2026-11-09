@@ -216,15 +216,17 @@ button { font: inherit; }
   grid-template-columns: minmax(0, 780px) 250px; gap: 0 2.5rem;
   padding: 2.5rem 1.25rem 3.5rem; background: linear-gradient(180deg, #f7f2e8 0%, var(--paper) 60%);
 }
-/* 配图在卡片下层：拖到卡片附近会被卡片挡住，而不是盖在上面 */
-.survey-art { position: relative; z-index: 1; margin: 0; display: flex; flex-direction: column; align-items: center; gap: 0.9rem; }
+/* 配图在卡片上层，但左侧渐隐：压在卡片上的部分会淡成卡片的底色 */
+.survey-art { position: relative; z-index: 2; margin: 0; display: flex; flex-direction: column; align-items: center; gap: 0.9rem; }
 .survey-art img {
   width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 50%;
   border: 1px solid var(--line); mix-blend-mode: multiply;
   filter: saturate(0.82) contrast(1.03);
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.35) 18%, rgba(0, 0, 0, 0.85) 40%, #000 58%);
+  mask-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.35) 18%, rgba(0, 0, 0, 0.85) 40%, #000 58%);
 }
 .survey-art figcaption { font-family: var(--serif); font-size: 0.78rem; letter-spacing: 0.16em; color: var(--muted); }
-.survey-card { position: relative; z-index: 2; width: min(100%, 780px); background: var(--white); border: 1px solid var(--line); border-radius: 24px; box-shadow: var(--shadow-md); overflow: hidden; }
+.survey-card { position: relative; z-index: 1; width: min(100%, 780px); background: var(--white); border: 1px solid var(--line); border-radius: 24px; box-shadow: var(--shadow-md); overflow: hidden; }
 .survey-top { padding: 1.4rem 1.8rem 1.1rem; border-bottom: 1px solid var(--line); background: linear-gradient(180deg, #fffdf8, #fbf6ec); }
 .survey-progress { display: flex; align-items: center; gap: 1rem; margin-top: 0.9rem; }
 .progress-track { flex: 1; height: 6px; border-radius: 999px; background: var(--paper-3); overflow: hidden; }
