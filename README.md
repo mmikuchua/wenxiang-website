@@ -140,6 +140,20 @@ uvicorn backend.main:app --reload --port 8000
 
 换图：把新的四个字按 `wen/xiang/zhi/pei` 命名放进 `web/assets/images/title/source/`，跑 `python tools/ink-wordmark.py`。
 
+### 拖动改文字和按钮
+
+任意页面地址后加 `?edit=1`（例如 `/index.html?edit=1`），左下角出现编辑面板：
+
+- **文字**：点任意文字直接改，点到别处自动保存；
+- **移动**：拖动文字块、按钮、卡片微调位置，方向键微移（Shift 一次 10px）；
+- **导出 JSON**：把这一页的改动复制出来，交给开发者写进源码；
+- 改动只存在本机浏览器（`localStorage`，按页面分开），访客看不到，也不会影响线上。
+
+### 字体
+
+标题走 `--serif`：优先「方正公文小标宋」，机器上没装时退到「华文中宋」→ 思源宋体 / 宋体。
+字体是商业授权，仓库里不含字体文件；要全站统一成方正，需要自己放字体到 `web/assets/fonts/` 并加 `@font-face`。
+
 ## 测试
 
 ```bash

@@ -28,7 +28,7 @@
   --radius-pill: 999px;
   --ring-track: #e8ddcb;
   --ring-fill: var(--clay);
-  --serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", Georgia, serif;
+  --serif: "方正公文小标宋", "FZ Gongwen Xiaobiaosong", "方正小标宋简体", "FZXiaoBiaoSong-B05S", "华文中宋", "STZhongsong", "Source Han Serif SC", "Noto Serif SC", "Songti SC", "STSong", "SimSun", Georgia, serif;
   --sans: system-ui, -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", sans-serif;
   --mono: "SF Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
   --maxw: 1120px;

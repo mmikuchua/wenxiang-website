@@ -193,3 +193,8 @@ export function emptyState(title, description, actionHtml = '') {
 export function statCard(label, value, hint = '') {
   return `<div class="stat-card"><span class="stat-label">${escapeHtml(label)}</span><strong class="stat-value">${escapeHtml(String(value))}</strong>${hint ? `<span class="stat-hint">${escapeHtml(hint)}</span>` : ''}</div>`;
 }
+
+// 可视化编辑模式：地址带 ?edit=1 时才加载，正常访问不下载
+if (new URLSearchParams(location.search).has('edit')) {
+  import('./page-editor.js');
+}
