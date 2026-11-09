@@ -78,6 +78,22 @@ await send('Emulation.setDeviceMetricsOverride', {
 await send('Page.navigate', { url });
 await sleep(1800);
 
+// --js=... 可以在截图前先跑一段页面脚本，用来摆出某个状态
+const script = flags.find((flag) => flag.startsWith('--js='));
+if (script) {
+  const result = await send('Runtime.evaluate', {
+    expression: script.slice('--js='.length),
+    awaitPromise: true,
+    returnByValue: true,
+  });
+  if (result.exceptionDetails) {
+    console.error('页面脚本异常:', result.exceptionDetails.text);
+  } else if (result.result?.value !== undefined) {
+    console.log('js ->', JSON.stringify(result.result.value));
+  }
+  await sleep(400);
+}
+
 let clip;
 if (FULL) {
   const metrics = await send('Page.getLayoutMetrics');

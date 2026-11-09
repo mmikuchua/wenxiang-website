@@ -130,6 +130,16 @@ uvicorn backend.main:app --reload --port 8000
 # 打开 http://localhost:8000
 ```
 
+### 调首页那四个书法字
+
+打开 `http://localhost:8080/index.html?tune=1`（线上地址也支持），右下角会出现微调面板：
+
+- 拖动某个字 = 移动；滚轮 = 缩放；方向键 = 微移（按住 Shift 一次 0.05em）；`+` / `-` = 缩放；`R` = 复位这一个字；
+- 调完点「复制 CSS」，把四行粘回 `web/assets/css/app.css` 里 `nth-of-type` 那几行；
+- 只有带 `?tune=1` 才加载这段脚本（`assets/js/title-tune.js`），正常访问不下载、不影响页面。
+
+换图：把新的四个字按 `wen/xiang/zhi/pei` 命名放进 `web/assets/images/title/source/`，跑 `python tools/ink-wordmark.py`。
+
 ## 测试
 
 ```bash

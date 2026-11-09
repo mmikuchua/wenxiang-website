@@ -27,3 +27,8 @@ loadDataset()
     toast('活动数据加载失败，请检查 data/activities.json', 'error');
     console.error(error);
   });
+
+// 字标微调器只在 ?tune=1 时下载，正常访问不加载
+if (new URLSearchParams(location.search).has('tune')) {
+  import('../title-tune.js');
+}
