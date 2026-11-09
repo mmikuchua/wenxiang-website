@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>编辑入口 · 文享智配</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#a94a24">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+  <header class="topbar" id="topbar"></header>
+
+  <main class="wrap">
+    <section class="page-head">
+      <p class="eyebrow">调试入口</p>
+      <h1>选择要编辑的页面</h1>
+      <p class="lead">点下面的卡片，会带着 <span class="mono">?edit=1</span> 打开对应页面，左下角出现编辑面板：<strong>文字</strong>直接改、<strong>移动</strong>拖动位置、<strong>大小</strong>拖圆点缩放。改动只存在这台电脑的浏览器里，调完点「导出 JSON」发我，我落进源码。</p>
+    </section>
+
+    <section class="section-tight">
+      <div class="feature-grid is-pair">
+        <article class="feature" data-step="01">
+          <h3>首页</h3>
+          <p>大标题、副标题、按钮、三张卡片、流程说明、底部面板。</p>
+          <p style="margin-top:1rem"><a class="btn btn-primary btn-sm" href="index.html?edit=1">打开编辑 →</a></p>
+        </article>
+        <article class="feature" data-step="02">
+          <h3>问卷</h3>
+          <p>页头、提问框、提示语和按钮可以改；选项文字来自 <span class="mono">questions.js</span>，要改得动代码。</p>
+          <p style="margin-top:1rem"><a class="btn btn-primary btn-sm" href="survey.html?edit=1">打开编辑 →</a></p>
+        </article>
+        <article class="feature" data-step="03">
+          <h3>推荐</h3>
+          <p>页头、一句话搜索框、工具栏和空状态可以改；推荐卡片是动态渲染的，改文案要落到 <span class="mono">ui.js</span>。</p>
+          <p style="margin-top:1rem"><a class="btn btn-primary btn-sm" href="recommend.html?edit=1">打开编辑 →</a></p>
+        </article>
+        <article class="feature" data-step="04">
+          <h3>管理端</h3>
+          <p>标题、说明、图表面板标题和操作按钮可以改。</p>
+          <p style="margin-top:1rem"><a class="btn btn-primary btn-sm" href="admin.html?edit=1">打开编辑 →</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h3>三个提醒</h3>
+      <div class="chart-grid">
+        <div>
+          <p><strong>必须用网址打开</strong>：<span class="mono">http://127.0.0.1:8010/edit.html</span> 或线上地址；直接双击 html 文件（<span class="mono">file://</span>）浏览器会拦住模块脚本，面板不会出现。</p>
+          <p style="margin-bottom:0"><strong>改动只在本机</strong>：存在这个浏览器的 localStorage，按页面分开；换浏览器、换电脑就没了，访客也看不到。</p>
+        </div>
+        <div class="note">
+          调完在面板里点「导出 JSON」，把内容发我——我按 <span class="mono">text</span>（文案）、<span class="mono">offset</span>（位移）、<span class="mono">size</span>（字号/缩放）写进 HTML 和 CSS。<br><br>
+          想撤销某个页面的所有改动：面板里点「重置全部」。
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script type="module">
+    import { renderTopbar } from './assets/js/ui.js';
+    renderTopbar('');
+  </script>
+</body>
+</html>

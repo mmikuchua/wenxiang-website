@@ -195,6 +195,7 @@ button { font: inherit; }
 .flow-step:nth-of-type(4) p { transform: translate(-0.05em, 0.91em); }
 
 .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
+.feature-grid.is-pair { grid-template-columns: repeat(2, 1fr); }
 .feature {
   background: var(--white); border: 1px solid var(--line); border-radius: var(--radius);
   padding: 1.9rem 1.7rem; box-shadow: var(--shadow-sm); position: relative; overflow: hidden;
@@ -451,6 +452,7 @@ body.no-profile .toolbar-actions { display: none; }
   .rec-actions { justify-content: space-between; }
   .lookup { padding: 1.1rem; }
   .admin-banner img { height: 150px; }
+  .feature-grid.is-pair { grid-template-columns: 1fr; }
 }
 
 /* ---------------------------------------------------------------- 打印 */
