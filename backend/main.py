@@ -42,6 +42,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# 本地改前端时用 DEV_NO_CACHE=1 启动，避免浏览器缓存旧的 JS/CSS
+if os.getenv("DEV_NO_CACHE") == "1":
+
+    @app.middleware("http")
+    async def _no_cache(request, call_next):
+        response = await call_next(request)
+        if request.url.path.startswith(("/assets/", "/data/")):
+            response.headers["Cache-Control"] = "no-store"
+        return response
+
 _db_lock = threading.Lock()
 _dataset_cache: Dict[str, Any] = {"mtime": 0.0, "payload": None}
 
