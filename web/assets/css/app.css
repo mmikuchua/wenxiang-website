@@ -170,10 +170,10 @@ button { font: inherit; }
   transform: translate(var(--x, 0em), var(--y, 0em)) scale(var(--s, 1));
   transform-origin: 50% 100%;
 }
-.hero h1.wordmark img:nth-of-type(1) { --s: 1; --x: 0em; --y: 0em; } /* 文 */
-.hero h1.wordmark img:nth-of-type(2) { --s: 1; --x: 0em; --y: 0em; } /* 享 */
-.hero h1.wordmark img:nth-of-type(3) { --s: 1; --x: 0em; --y: 0em; } /* 智 */
-.hero h1.wordmark img:nth-of-type(4) { --s: 1; --x: 0em; --y: 0em; } /* 配 */
+.hero h1.wordmark img:nth-of-type(1) { --s: 1.000; --x: 0.000em; --y: 0.000em; } /* 文 */
+.hero h1.wordmark img:nth-of-type(2) { --s: 1.350; --x: 0.015em; --y: 0.000em; } /* 享 */
+.hero h1.wordmark img:nth-of-type(3) { --s: 1.000; --x: 0.164em; --y: -0.030em; } /* 智 */
+.hero h1.wordmark img:nth-of-type(4) { --s: 1.162; --x: 0.387em; --y: -0.045em; } /* 配 */
 .hero-kicker { display: inline-flex; align-items: center; gap: 0.6rem; font-size: 0.82rem; letter-spacing: 0.24em; color: var(--clay); text-transform: uppercase; margin-bottom: 1.4rem; }
 .hero-kicker::before { content: ""; width: 42px; height: 1px; background: var(--clay); display: inline-block; }
 .hero-sub { font-size: 1.18rem; color: var(--ink-2); max-width: 36ch; margin-bottom: 2.2rem; }
