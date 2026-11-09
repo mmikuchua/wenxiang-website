@@ -183,6 +183,17 @@ button { font: inherit; }
 .hero-stats strong { font-family: var(--serif); font-size: 1.6rem; color: var(--ink); }
 .hero-stats span { font-size: 0.8rem; color: var(--muted); letter-spacing: 0.08em; }
 
+/* 首页手工微调：来自 ?edit=1 的拖动结果；不想要就把这一段整块删掉 */
+.hero-kicker { transform: translate(0.51em, -1.42em); }
+.hero-sub { transform: translate(-0.04em, 0.76em); }
+.hero-actions .btn-primary { transform: translate(-0.33em, 0.46em); }
+#cta-recommend { transform: translate(0.46em, 0.39em); }
+#dataset-note { transform: translateY(0.07em); }
+.flow-step:nth-of-type(1) p { transform: translate(-0.29em, 0.96em); }
+.flow-step:nth-of-type(2) p { transform: translate(-0.1em, 0.91em); }
+.flow-step:nth-of-type(3) p { transform: translateY(0.91em); }
+.flow-step:nth-of-type(4) p { transform: translate(-0.05em, 0.91em); }
+
 .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
 .feature {
   background: var(--white); border: 1px solid var(--line); border-radius: var(--radius);
@@ -199,7 +210,18 @@ button { font: inherit; }
 .flow-step::before { counter-increment: step; content: "0" counter(step); display: block; font-family: var(--mono); color: var(--clay); font-size: 0.78rem; margin-bottom: 0.6rem; letter-spacing: 0.1em; }
 
 /* ---------------------------------------------------------------- 问卷 */
-.survey-shell { min-height: calc(100vh - 68px); display: grid; place-items: center; padding: 2.5rem 1.25rem 3.5rem; background: linear-gradient(180deg, #f7f2e8 0%, var(--paper) 60%); }
+.survey-shell {
+  min-height: calc(100vh - 68px); display: grid; place-items: center;
+  grid-template-columns: minmax(0, 780px) 250px; gap: 0 2.5rem;
+  padding: 2.5rem 1.25rem 3.5rem; background: linear-gradient(180deg, #f7f2e8 0%, var(--paper) 60%);
+}
+.survey-art { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 0.9rem; }
+.survey-art img {
+  width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 50%;
+  border: 1px solid var(--line); mix-blend-mode: multiply;
+  filter: saturate(0.82) contrast(1.03);
+}
+.survey-art figcaption { font-family: var(--serif); font-size: 0.78rem; letter-spacing: 0.16em; color: var(--muted); }
 .survey-card { width: min(100%, 780px); background: var(--white); border: 1px solid var(--line); border-radius: 24px; box-shadow: var(--shadow-md); overflow: hidden; }
 .survey-top { padding: 1.4rem 1.8rem 1.1rem; border-bottom: 1px solid var(--line); background: linear-gradient(180deg, #fffdf8, #fbf6ec); }
 .survey-progress { display: flex; align-items: center; gap: 1rem; margin-top: 0.9rem; }
@@ -237,6 +259,16 @@ button { font: inherit; }
 /* ---------------------------------------------------------------- 推荐 */
 .page-head { padding: 3rem 0 1.5rem; }
 .page-head h1 { font-size: clamp(2rem, 4.6vw, 3rem); }
+.page-head--art { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 2.4rem; align-items: center; }
+.page-head--art > div { min-width: 0; }
+.page-art { margin: 0; display: flex; flex-direction: column; gap: 0.55rem; }
+.page-art img {
+  width: 100%; height: 190px; object-fit: cover; object-position: center 45%;
+  border-radius: var(--radius); border: 1px solid var(--line);
+  mix-blend-mode: multiply; opacity: 0.95;
+  filter: sepia(0.5) saturate(0.55) brightness(1.2) contrast(0.9);
+}
+.page-art figcaption { font-family: var(--serif); font-size: 0.76rem; letter-spacing: 0.12em; color: var(--muted); text-align: right; }
 .profile-bar { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1.1rem 0 0; }
 .profile-chip { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius-pill); padding: 0.35rem 0.85rem; font-size: 0.82rem; color: var(--ink-2); }
 .profile-chip b { color: var(--muted); font-weight: 500; margin-right: 0.3rem; }
@@ -319,6 +351,13 @@ body.no-profile .toolbar-actions { display: none; }
 
 /* ---------------------------------------------------------------- 管理端 */
 .admin-head { padding: 2.8rem 0 1rem; }
+.admin-banner { position: relative; margin: 0 0 1.6rem; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); }
+.admin-banner img { display: block; width: 100%; height: 220px; object-fit: cover; object-position: center 42%; filter: saturate(0.82) contrast(1.02); }
+.admin-banner figcaption {
+  position: absolute; left: 1.1rem; bottom: 1rem; padding: 0.28rem 0.75rem;
+  border-radius: var(--radius-pill); background: rgba(250, 247, 240, 0.9);
+  font-size: 0.76rem; letter-spacing: 0.08em; color: var(--ink-2);
+}
 .tabs { display: inline-flex; gap: 0.25rem; background: var(--paper-2); border-radius: var(--radius-pill); padding: 0.25rem; margin: 1rem 0 1.75rem; }
 .tabs button { border: none; background: transparent; padding: 0.45rem 1rem; border-radius: var(--radius-pill); cursor: pointer; font-size: 0.88rem; color: var(--ink-2); }
 .tabs button[aria-selected="true"] { background: var(--ink); color: var(--paper); }
@@ -375,6 +414,13 @@ body.no-profile .toolbar-actions { display: none; }
 }
 
 /* ---------------------------------------------------------------- 响应式 */
+@media (max-width: 1080px) {
+  .survey-shell { grid-template-columns: minmax(0, 780px); }
+  .survey-art { display: none; }
+  .page-head--art { grid-template-columns: 1fr; }
+  .page-art { display: none; }
+}
+
 @media (max-width: 960px) {
   .feature-grid { grid-template-columns: 1fr; }
   .flow { grid-template-columns: repeat(2, 1fr); }
@@ -404,12 +450,13 @@ body.no-profile .toolbar-actions { display: none; }
   .rec-foot { flex-direction: column; align-items: stretch; }
   .rec-actions { justify-content: space-between; }
   .lookup { padding: 1.1rem; }
+  .admin-banner img { height: 150px; }
 }
 
 /* ---------------------------------------------------------------- 打印 */
 @media print {
   body { background: #fff; }
-  .topbar, .site-footer, .admin-actions, .tabs, .lookup, #toast-host, .rec-actions, .btn { display: none !important; }
+  .topbar, .site-footer, .admin-actions, .tabs, .lookup, #toast-host, .rec-actions, .btn, .admin-banner { display: none !important; }
   .panel, .stat-card, .rec-card { box-shadow: none; border-color: #ccc; break-inside: avoid; }
   .wrap { width: 100%; }
   a { color: inherit; text-decoration: none; }
