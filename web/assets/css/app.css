@@ -212,17 +212,18 @@ button { font: inherit; }
 
 /* ---------------------------------------------------------------- 问卷 */
 .survey-shell {
-  min-height: calc(100vh - 68px); display: grid; place-items: center;
-  grid-template-columns: minmax(0, 780px) 250px; gap: 0 2.5rem;
-  padding: 2.5rem 1.25rem 3.5rem; background: linear-gradient(180deg, #f7f2e8 0%, var(--paper) 60%);
+  min-height: calc(100vh - 68px);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 1.4rem; padding: 2.5rem 1.25rem 3rem;
+  background: linear-gradient(180deg, #f7f2e8 0%, var(--paper) 60%);
 }
-.survey-art { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 0.9rem; }
+.survey-art { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 0.55rem; }
 .survey-art img {
-  width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 50%;
+  width: min(180px, 44vw); aspect-ratio: 1; object-fit: cover; border-radius: 50%;
   border: 1px solid var(--line); mix-blend-mode: multiply;
   filter: saturate(0.82) contrast(1.03);
 }
-.survey-art figcaption { font-family: var(--serif); font-size: 0.78rem; letter-spacing: 0.16em; color: var(--muted); }
+.survey-art figcaption { font-family: var(--serif); font-size: 0.76rem; letter-spacing: 0.16em; color: var(--muted); }
 .survey-card { width: min(100%, 780px); background: var(--white); border: 1px solid var(--line); border-radius: 24px; box-shadow: var(--shadow-md); overflow: hidden; }
 .survey-top { padding: 1.4rem 1.8rem 1.1rem; border-bottom: 1px solid var(--line); background: linear-gradient(180deg, #fffdf8, #fbf6ec); }
 .survey-progress { display: flex; align-items: center; gap: 1rem; margin-top: 0.9rem; }
@@ -416,8 +417,6 @@ body.no-profile .toolbar-actions { display: none; }
 
 /* ---------------------------------------------------------------- 响应式 */
 @media (max-width: 1080px) {
-  .survey-shell { grid-template-columns: minmax(0, 780px); }
-  .survey-art { display: none; }
   .page-head--art { grid-template-columns: 1fr; }
   .page-art { display: none; }
 }
