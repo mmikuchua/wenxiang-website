@@ -37,11 +37,30 @@ def load_glyph(name: str) -> Image.Image:
             break
     else:
         raise SystemExit(f"缺少原图：{SRC / (name + '.png')}")
+    image = key_out_paper(image)
     alpha = image.getchannel("A")
     box = alpha.getbbox()
     if box is None:
         raise SystemExit(f"原图是全透明的：{path}")
     return image.crop(box)
+
+
+def key_out_paper(image: Image.Image) -> Image.Image:
+    """已经是透明背景就原样返回；白底不透明的图按明度抠成透明（越黑越实）。"""
+    if image.getchannel("A").getextrema()[0] < 250:
+        return image
+    gray = image.convert("L")
+
+    def to_alpha(value: int) -> int:
+        if value <= 90:
+            return 255
+        if value >= 205:
+            return 0
+        return round((205 - value) / 115 * 255)
+
+    keyed = image.copy()
+    keyed.putalpha(gray.point(to_alpha))
+    return keyed
 
 
 def fit(glyph: Image.Image, height: int) -> Image.Image:
